@@ -1,0 +1,6 @@
+2015-06-11 13:30:17,817 [main] INFO org.room.manager.utils.ReportNGListener - Start Of Execution(TEST)-> RoomManager
+2015-06-11 13:30:26,769 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> registerEmailService
+2015-06-11 13:30:29,950 [main] INFO test01CreateResource - Begin the Test: Email Server
+2015-06-11 13:30:29,951 [main] INFO test01CreateResource - Open the page
+2015-06-11 13:30:52,139 [main] ERROR org.room.manager.utils.ReportNGListener - Test Failed-> registerEmailService
+2015-06-11 13:30:53,465 [main] INFO org.room.manager.utils.ReportNGListener - END Of Execution(TEST)-> RoomManager

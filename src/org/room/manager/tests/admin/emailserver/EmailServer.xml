@@ -1,13 +1,13 @@
-<suite name = "Resources_Test_Suite">
+<suite name = "EmailServer_Test_Suite">
 	<listeners>
-         <listener class-name = "org.uncommons.reportng.HTMLReporter"/>
+	     <listener class-name = "org.uncommons.reportng.HTMLReporter"/>
          <listener class-name = "org.uncommons.reportng.JUnitXMLReporter"/>
-         <listener class-name = "framework.utils.ReportNGListener"/>
+         <listener class-name = "org.room.manager.utils.ReportNGListener"/>
+
     </listeners>
 	
     <test name = "RoomManager">
         <classes>
-        	<class name = "tests.admin.resources.StartTestSuiteResources" />
         		<!--TC1-->
         		<class name = "org.room.manager.tests.admin.emailserver.AddEmailServerToRoomManager" />
 		</classes>

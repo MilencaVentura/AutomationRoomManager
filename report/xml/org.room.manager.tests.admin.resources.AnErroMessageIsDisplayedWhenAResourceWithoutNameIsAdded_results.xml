@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RoomManager"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.092">
+  <properties />
+  
+  
+            <testcase name="registerEmailService" time="8.092" classname="org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded" />
+      
+</testsuite>

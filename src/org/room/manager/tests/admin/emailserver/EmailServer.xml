@@ -10,6 +10,8 @@
         <classes>
         		<!--TC1-->
         		<class name = "org.room.manager.tests.admin.emailserver.AddEmailServerToRoomManager" />
+        		<!--TC2-->
+        		<class name = "org.room.manager.tests.admin.emailserver.RemoveEmailServerToRoomManager" />
 		</classes>
     </test>
 </suite>

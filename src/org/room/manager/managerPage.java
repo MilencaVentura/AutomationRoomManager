@@ -4,6 +4,7 @@ import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.room.manager.utils.configReader;
 
 public class managerPage {
 	private static managerPage manager = null;
@@ -17,43 +18,23 @@ public class managerPage {
 	
 	public WebDriver openBrowser(){
 		if(Chrome==null){
-	    log.info("Initialization of Chrome Explorer driver.");
-		driver=new ChromeDriver();
-		Chrome = driver;
+		    log.info("Initialization of Chrome Explorer driver.");
+		    System.setProperty("webdriver.chrome.driver", configReader.getChromeDriver());
+			driver=new ChromeDriver();
+			Chrome = driver;
 		}/*else if (Mozilla==null) {
 			log.info("Initialization of Mozilla Explorer driver.");
 			driver=new FirefoxDriver();*/
-		else if(Chrome!=null){
+		/*else if(Chrome!=null){
 			driver=Chrome;
-		}
+		}*/
 		driver.manage().window().maximize();
 		return driver;
 	}
 	public static managerPage getManager() {
-		if (manager == null || manager.driver.toString().contains("null")) {
+		if (manager == null) {
 			manager = new managerPage();
 		}
 		return manager;
-	}
-	/**
-	 * Get the Web driver
-	 * 
-	 * @return
-	 */
-	public WebDriver getDriver() {
-		return driver;
-	}
-
-	/**
-	 * Set to null the webdriver
-	 */
-	public void quitDriver() {
-		try {
-			log.info("Set null the webdriver.");
-			driver.quit();
-		} catch (Exception e) {
-			log.error("Unable to quit the webdriver.", e);
-		}
-		driver = null;
 	}
 }

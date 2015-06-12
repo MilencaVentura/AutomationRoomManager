@@ -9,7 +9,8 @@ public enum EmailServerEnum {
 	TXTUSERNAME (By.id("add-mailserver-username")),
 	TXTPASSWORD (By.id("add-mailserver-password")),
 	BTNOK (By.cssSelector("div.modal-footer.ng-scope > button.btn.btn-primary")),
-	BTNSERVER (By.xpath("//div/div/a"));
+	BTNSERVER (By.xpath("//div/div/a")),
+	BTNDELETE (By.cssSelector("div.pull-right > button.btn-clear.info"));
 	
     public final By value;  
     

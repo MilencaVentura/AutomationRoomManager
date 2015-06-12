@@ -24,9 +24,7 @@ public class AddEmailServerToRoomManager {
     Logger logger=Logger.getLogger("test01AddEmailServer");
 	@BeforeTest
 	public void setUp() throws Exception {
-		System.setProperty("webdriver.chrome.driver", configReader.getChromeDriver());
         driver = automation.openBrowser();
-        driver.manage().window().maximize();
 	}
 	@Test (priority = 0)
 	public void registerEmailService() throws Exception {
@@ -39,15 +37,17 @@ public class AddEmailServerToRoomManager {
 		logger.info("Begin the Test: Email Server");
 		logger.info("Open the page");
 		HomeAdminPage.Execute(driver);
-		EmailServerAddPage.Execute(driver);
-		EmailServerAddPage.btn_Add(driver);		
-		logger.info("set the Hostname, username and password for email Exchange Server");
-		EmailServerAddPage.txt_Hostname(driver, hostname);
-		EmailServerAddPage.txt_Username(driver, username);
-		EmailServerAddPage.txt_Password(driver, password);
-		EmailServerAddPage.btn_Save(driver);
-		logger.info("verification the datas enter.");
-		EmailServerAddPage.Assert(driver,expectedResult);
+		EmailServerAddPage emailServer = new EmailServerAddPage(driver);
+		emailServer.Execute().
+		btn_Add().
+		txt_Hostname(hostname).
+		txt_Username(username).
+		txt_Password(password).
+		btn_Save().Assert(expectedResult).btn_Remove();
+		/*emailServer.txt_Hostname( hostname);
+		emailServer.txt_Username( username);
+		emailServer.txt_Password( password);
+		emailServer.btn_Save();*/
 		logger.info("Close the Test: Email Server");
 	}
 	

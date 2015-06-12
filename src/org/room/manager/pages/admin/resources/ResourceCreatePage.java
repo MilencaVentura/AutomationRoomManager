@@ -19,36 +19,40 @@ import org.room.manager.modules.admin.resources.ResourcesEnum;
 
 public class ResourceCreatePage {
 	private WebDriver driver;
+	By btnAdd = ResourcesEnum.BTNADD.value;
+    By txtName = ResourcesEnum.TXTNAME.value;
+    By txtDisplayName = ResourcesEnum.TXTDISPLAYNAME.value;
+    By btnSave = ResourcesEnum.BTNSAVE.value;
+    
 	public ResourceCreatePage(WebDriver driver){
 		this.driver = driver;
 	}
-
 	 
     public  ResourceCreatePage btn_Add(){
     	(new WebDriverWait(driver,30)).until(ExpectedConditions.elementToBeClickable(By.xpath("//div/div/button")));
-    	WebElement element = driver.findElement(ResourcesEnum.BTNADD.value);
+    	WebElement element = driver.findElement(btnAdd);
 	    element.click();
 	    return this;
     }
 
     public  ResourceCreatePage txt_name(){
     	(new WebDriverWait(driver,30)).until(ExpectedConditions.visibilityOfElementLocated(ResourcesEnum.TXTNAME.value));
-    	WebElement element =driver.findElement(ResourcesEnum.TXTNAME.value);
+    	WebElement element =driver.findElement(txtName);
         element.clear();
-        element.sendKeys("");
+        element.sendKeys("Resource1");
 	    return this;
     }
     
     public ResourceCreatePage txt_displayName(){
     	(new WebDriverWait(driver,30)).until(ExpectedConditions.visibilityOfElementLocated(ResourcesEnum.TXTDISPLAYNAME.value));
-    	WebElement element = driver.findElement(ResourcesEnum.TXTDISPLAYNAME.value);
+    	WebElement element = driver.findElement(txtDisplayName);
 	    element.clear();
 	    element.sendKeys("Calidad");
 	    return this;
     }
     
     public ResourceCreatePage btn_Save(){
-    	WebElement element = driver.findElement(ResourcesEnum.BTNSAVE.value);
+    	WebElement element = driver.findElement(btnSave);
 	    element.click();
 	    return this;
     }
@@ -57,13 +61,11 @@ public class ResourceCreatePage {
     	(new WebDriverWait(driver,30)).until(ExpectedConditions.elementToBeClickable(By.linkText("Resources")));
 		HomeAdminPage.lnk_Resources(driver).click();
 		return this;
-		//assertEquals("Resources", driver.findElement(By.linkText("Resources")).getText());
-	}
-    public void Assert( String expectedResult){
-		assertEquals("The Resource is created",expectedResult, 
-				EmailServerAddPage.btn_Server(driver).getText());
 	}
     public void AssertWithouName(String expectedResult){
     	assertEquals("Name must not be empty", driver.findElement(By.cssSelector("small.inline-error.ng-binding")).getText()); 
 	}
+    public void AssertCreateResource(String expectedResult){
+    	 assertEquals("Resource1", driver.findElement(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[2]/div[3]/div[2]/div/span")).getText());
+    }
 }

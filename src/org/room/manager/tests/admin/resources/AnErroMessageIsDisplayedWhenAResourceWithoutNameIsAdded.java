@@ -9,7 +9,9 @@ import org.room.manager.managerPage;
 import org.room.manager.pages.admin.HomeAdminPage;
 import org.room.manager.pages.admin.emailserver.EmailServerAddPage;
 import org.room.manager.utils.configReader;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.room.manager.pages.admin.resources.ResourceCreatePage;
@@ -27,12 +29,12 @@ public class AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded {
 	private managerPage automation=managerPage.getManager();
     Logger logger=Logger.getLogger("test02CreateResource");
     
-    @BeforeTest
+    @BeforeSuite
 	public void setUp() throws Exception {
 		
         driver = automation.openBrowser();
 	}
-    @Test //(groups = {"ACCEPTANCE"})
+    @Test (priority = 0)
 	public void ResourceWithoutNameIsAdded() throws Exception {
 		PropertyConfigurator.configure("Log4j.properties");
 		String expectedResult = "Name must not be empty";
@@ -40,30 +42,17 @@ public class AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded {
 		logger.info("Begin the Test: Resource");
 		HomeAdminPage.Execute(driver);
 		ResourceCreatePage resourcePage = new ResourceCreatePage(driver);
-		/*resourcePage.Execute();
-		logger.info("Resources: press button add");
-		resourcePage.btn_Add();		*/
-		//resourcePage.txt_name();
-		/*resourcePage.txt_displayName();
-		logger.info("press the button save");
-		resourcePage.btn_Save();
-		logger.info("verification the datas enter.");
-		resourcePage.AssertWithouName(expectedResult);
-		*/
 		resourcePage.Execute().
 		btn_Add().
 		txt_displayName().
-		btn_Save().
-		AssertWithouName(expectedResult);
-		logger.info("Close the Test: Resource");
+		btn_Save().AssertWithouName(expectedResult);
+		//post condition
+		resourcePage.btn_Close();
 	}
 	
-	@AfterTest //(groups = {"ACCEPTANCE"})
+    @AfterSuite //(groups = {"ACCEPTANCE"})
 	public void tearDown() throws Exception {
-	   driver.quit();
-	   String verificationErrorString = verificationErrors.toString();
-	   if (!"".equals(verificationErrorString)) {
-		   fail(verificationErrorString);
-	   }
+    	
+	   driver.quit();	  
 	}
 }

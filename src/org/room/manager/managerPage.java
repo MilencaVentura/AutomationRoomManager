@@ -15,20 +15,17 @@ public class managerPage {
 	protected managerPage() {
 		PropertyConfigurator.configure("log4j.properties");
 	}
-	
 	public WebDriver openBrowser(){
 		if(Chrome==null){
 		    log.info("Initialization of Chrome Explorer driver.");
 		    System.setProperty("webdriver.chrome.driver", configReader.getChromeDriver());
 			driver=new ChromeDriver();
 			Chrome = driver;
-		}/*else if (Mozilla==null) {
-			log.info("Initialization of Mozilla Explorer driver.");
-			driver=new FirefoxDriver();*/
-		/*else if(Chrome!=null){
-			driver=Chrome;
-		}*/
+		}
 		driver.manage().window().maximize();
+		return driver;
+	}
+	public WebDriver getDriver() {
 		return driver;
 	}
 	public static managerPage getManager() {

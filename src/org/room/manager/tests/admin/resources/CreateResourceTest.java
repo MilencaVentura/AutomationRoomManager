@@ -9,7 +9,9 @@ import org.room.manager.managerPage;
 import org.room.manager.pages.admin.HomeAdminPage;
 import org.room.manager.pages.admin.resources.ResourceCreatePage;
 import org.room.manager.utils.configReader;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -21,11 +23,11 @@ public class CreateResourceTest {
 	private managerPage automation=managerPage.getManager();
   Logger logger=Logger.getLogger("test02CreateResource");
   
-  @BeforeTest
+  @BeforeSuite
 	public void setUp() throws Exception {
       driver = automation.openBrowser();
 	}
-  @Test //(groups = {"ACCEPTANCE"})
+  @Test (priority = 1) //(priority = 1)(groups = {"ACCEPTANCE"})
 	public void CreateResource() throws Exception {
 		PropertyConfigurator.configure("Log4j.properties");
 		String expectedResult = "Resource1";
@@ -33,6 +35,7 @@ public class CreateResourceTest {
 		logger.info("Begin the Test: Resource");
 		HomeAdminPage.Execute(driver);
 		ResourceCreatePage resourcePage = new ResourceCreatePage(driver);
+		driver.navigate().refresh();
 		resourcePage.Execute();
 		logger.info("Resources: press button add");
 		resourcePage.btn_Add();		
@@ -42,16 +45,15 @@ public class CreateResourceTest {
 		resourcePage.btn_Save();
 		logger.info("verification the datas enter.");
 		resourcePage.AssertCreateResource(expectedResult);
-		logger.info("Close the Test: Resource");
 		//resourcePage.Execute().btn_Add().txt_name().txt_displayName().btn_Save().AssertWithouName(expectedResult);;
 	}
 	
-	@AfterTest //(groups = {"ACCEPTANCE"})
+  @AfterSuite //(groups = {"ACCEPTANCE"})
 	public void tearDown() throws Exception {
 	   driver.quit();
-	   String verificationErrorString = verificationErrors.toString();
+	   /*String verificationErrorString = verificationErrors.toString();
 	   if (!"".equals(verificationErrorString)) {
 		   fail(verificationErrorString);
-	   }
+	   }*/
 	}
 }

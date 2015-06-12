@@ -7,7 +7,8 @@ public enum ResourcesEnum {
 	TXTNAME (By.xpath("(//input[@type='text'])[3]")),
 	TXTDISPLAYNAME (By.xpath("(//input[@type='text'])[4]")),
 	BTNSAVE (By.cssSelector("button.info")),
-	TXTASSERT (By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[2]/div[3]/div[2]/div/span"));
+	TXTASSERT (By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[2]/div[3]/div[2]/div/span")),
+	BTNCLOSE (By.cssSelector("i.fa.fa-times"));
 	
     public final By value;  
     

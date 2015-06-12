@@ -9,6 +9,7 @@ import org.room.manager.managerPage;
 import org.room.manager.pages.admin.HomeAdminPage;
 import org.room.manager.pages.admin.emailserver.EmailServerAddPage;
 import org.room.manager.utils.configReader;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -25,30 +26,32 @@ public class RemoveEmailServerToRoomManager {
 	    Logger logger=Logger.getLogger("test01AddEmailServer");
 		@BeforeTest
 		public void setUp() throws Exception {
-			System.setProperty("webdriver.chrome.driver", configReader.getChromeDriver());
-	        driver = automation.openBrowser();
-	        driver.manage().window().maximize();
+		     driver = automation.openBrowser();
 		}
-		@Test (priority = 0)
+		@Test (priority = 1)
 		public void registerEmailService() throws Exception {
 			PropertyConfigurator.configure("Log4j.properties");
-			String hostname = configReader.getHostName();
-			String username = configReader.getUsername();
-			String password = configReader.getPassword();
-			String expectedResult = hostname + "\nMicrosoft Exchange Server 2010 SP2";
-			String expectedResultDelete = hostname + "\nMicrosoft Exchange Server 2010 SP2";
+			//String expectedResult = configReader.getHostName()+ "\nMicrosoft Exchange Server 2010 SP2";
 			driver.get(configReader.getUrl() + "/admin/#/login");
 			logger.info("Begin the Test: Email Server");
 			logger.info("Open the page");
 			EmailServerAddPage emailServer = new EmailServerAddPage(driver);
 			HomeAdminPage.Execute(driver);
-			emailServer.Execute().
-			btn_Add().
-			txt_Hostname(hostname).
-			txt_Username(username).
-			txt_Password(password).
-			btn_Save().
-			Assert(expectedResult).btn_Remove().AssertDelete(expectedResultDelete);
+			emailServer.Execute();
+			
+			/*
+			emailServer.btn_Add();
+			emailServer.txt_Hostname( configReader.getHostName());
+			emailServer.txt_Username( configReader.getUsername());
+			emailServer.txt_Password( configReader.getPassword());
+			emailServer.btn_Save();
+			driver.navigate().refresh();*/
+			driver.navigate().refresh();
+			emailServer.btn_Remove();
+			emailServer.btn_Delete();
+			//
+			//Assert.assertEquals(emailServer.getButtonServer(), expectedResult, "The email server is not registered");
+			Assert.assertEquals(emailServer.AssertDeleteEmailServer(), "The email server is not deleted.");
 			logger.info("Close the Test: Email Server");
 		}
 		

@@ -23,6 +23,7 @@ public class ResourceCreatePage {
     By txtName = ResourcesEnum.TXTNAME.value;
     By txtDisplayName = ResourcesEnum.TXTDISPLAYNAME.value;
     By btnSave = ResourcesEnum.BTNSAVE.value;
+    By btnClose = ResourcesEnum.BTNCLOSE.value;
     
 	public ResourceCreatePage(WebDriver driver){
 		this.driver = driver;
@@ -34,7 +35,11 @@ public class ResourceCreatePage {
 	    element.click();
 	    return this;
     }
-
+    public  ResourceCreatePage btn_Close(){
+    	WebElement element = driver.findElement(btnClose);
+	    element.click();
+	    return this;
+    }
     public  ResourceCreatePage txt_name(){
     	(new WebDriverWait(driver,30)).until(ExpectedConditions.visibilityOfElementLocated(ResourcesEnum.TXTNAME.value));
     	WebElement element =driver.findElement(txtName);

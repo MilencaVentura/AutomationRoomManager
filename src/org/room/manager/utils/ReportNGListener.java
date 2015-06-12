@@ -1,6 +1,7 @@
 package org.room.manager.utils;
 
 import org.apache.commons.io.FileUtils;
+import org.room.manager.managerPage;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
@@ -15,7 +16,7 @@ import java.io.IOException;
 import org.room.manager.utils.configReader;;
 public class ReportNGListener implements ITestListener{
 	Logger log = Logger.getLogger(getClass());
-	private static WebDriver driver= null;
+	private static WebDriver driver= managerPage.getManager().getDriver();;
 	//String filePath = "D:\\MOnitor\\Monitor4\\RoomManagerAutomation\\RoomManagerAutomation\\screenshots";
 	@Override
 	public void onStart(ITestContext result) {
@@ -38,8 +39,7 @@ public class ReportNGListener implements ITestListener{
 		try {
 			System.setProperty("org.uncommons.reportng.escape-output", "false");
 			//Folder where the screenshots for the report would be saved
-			String filePath = System.getProperty("user.dir") + "/test-output/html/screenshots/";
-			System.out.print("filepath:::::::"+filePath);
+			String filePath = System.getProperty("user.dir") + "/screenshots/";
 			String failureImageFileName;
 			//If the test case has a data provider
 			if(result.getMethod().toString().contains("java.lang")) {	
@@ -81,13 +81,12 @@ public class ReportNGListener implements ITestListener{
 	 * @throws IOException 
 	 */ 
 	public static void takeScreenShot(String filePath, String fileName) throws IOException {
-		driver.get(configReader.getChromeDriver());
 		try { 
-			File scrFile = ((TakesScreenshot)driver)
+			File scrFile = ((TakesScreenshot)managerPage.getManager().getDriver())
 					.getScreenshotAs(OutputType.FILE); 
 			FileUtils.copyFile(scrFile, new File(filePath + fileName)); 
 		} catch (Exception e) { 
 			e.printStackTrace(); 
-		} 
+		}  
 	} 
 }

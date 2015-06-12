@@ -22,25 +22,30 @@ public class EmailServerAddPage {
     By txtPassword = EmailServerEnum.TXTPASSWORD.value;
     By btnOk = EmailServerEnum.BTNOK.value;
     By btnServer = EmailServerEnum.BTNSERVER.value;
-    
+    By btnDelete = EmailServerEnum.BTNDELETE.value;
 	public EmailServerAddPage (WebDriver driver){
 		this.driver = driver;
 	}
 	
 	 /*aumentar variables globales*/
     public EmailServerAddPage btn_Add(){
-        (new WebDriverWait(driver,20)).until(ExpectedConditions.presenceOfElementLocated(EmailServerEnum.BTNADD.value));
+        (new WebDriverWait(driver,20)).until(ExpectedConditions.presenceOfElementLocated(btnAdd));
         WebElement element = driver.findElement(btnAdd);
 	    element.click();
 	    return this;
     }
     
     public EmailServerAddPage btn_Remove(){
-        (new WebDriverWait(driver,20)).until(ExpectedConditions.presenceOfElementLocated(EmailServerEnum.BTNREMOVE.value));
+        (new WebDriverWait(driver,20)).until(ExpectedConditions.presenceOfElementLocated(btnRemove));
         WebElement element = driver.findElement(btnRemove);
 	    return this;
     }
-
+    
+    public EmailServerAddPage btn_Delete(){
+        (new WebDriverWait(driver,20)).until(ExpectedConditions.presenceOfElementLocated(btnDelete));
+        WebElement element = driver.findElement(btnDelete);
+	    return this;
+    }
     public EmailServerAddPage txt_Hostname(String hostname){
     	WebElement element = driver.findElement(txtHostname);
 	    element.clear();
@@ -67,33 +72,26 @@ public class EmailServerAddPage {
 	    return this;
     }
     
-    public EmailServerAddPage btn_Server(){
-        (new WebDriverWait(driver,60)).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div/div/a")));
+    public String getButtonServer(){
+        (new WebDriverWait(driver,60)).until(ExpectedConditions.presenceOfElementLocated(btnServer));
         WebElement element = driver.findElement(btnServer);
-        return this;
+        return element.getText();
     }
     public EmailServerAddPage Execute(){
 		HomeAdminPage.lnk_EmailServer(driver).click();
 		return this;
 	}
-    /*
-     *   
-     * */
-    public EmailServerAddPage btn_Delete(){
-    	(new WebDriverWait(driver,30)).until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.pull-right > button.btn-clear.info")));
-    	WebElement element =driver.findElement(btnRemove);
-    	element.click();
-    	return this;
-    }
+ 
     public  EmailServerAddPage Assert(String expectedResult){
 		assertEquals("The email server was not registered",expectedResult, btnServer);
-		/*
-		 * EmailServerAddPage.btn_Server().getText()
-		 * */
 		return this;
 	}
-    public void AssertDelete(String string){
-    	(new WebDriverWait(driver,30)).until(ExpectedConditions.presenceOfElementLocated(EmailServerEnum.BTNADD.value));
-	    assertEquals("Add", driver.findElement(btnAdd));
-    }
+    public boolean AssertDeleteEmailServer(){
+		try{
+			(new WebDriverWait(driver,20)).until(ExpectedConditions.textToBePresentInElement(btnAdd,"Add"));
+			return true;
+		}catch(Exception e){
+			return false;
+		}
+	}
 }

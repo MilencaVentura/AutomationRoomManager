@@ -322,3 +322,377 @@
 2015-06-12 11:30:44 INFO  ReportNGListener: Test Started-> CreateResource
 2015-06-12 11:30:44 INFO  test02CreateResource: Begin the Test: Resource
 2015-06-12 11:30:46 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 11:40:12 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 11:40:16 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 11:40:16 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-12 11:40:19 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 11:40:23 INFO  test02CreateResource: Close the Test: Resource
+2015-06-12 11:40:23 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-12 11:40:23 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-12 11:40:23 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 11:40:23 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 11:41:44 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 11:41:51 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 11:41:51 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-12 11:41:57 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 11:42:01 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-12 11:42:01 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-12 11:42:01 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 11:42:01 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 11:44:14 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 11:44:25 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 11:44:25 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-12 11:44:28 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 11:44:28 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 11:45:43 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 11:45:47 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 11:45:48 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-12 11:45:51 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 11:45:56 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-12 11:45:56 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-12 11:45:56 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 11:45:56 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 11:48:39 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 11:48:46 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 11:48:46 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-12 11:48:49 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 11:48:52 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-12 11:48:52 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-12 11:48:52 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 11:48:52 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 12:02:09 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:02:16 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 12:02:16 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-12 12:02:22 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 12:02:25 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-12 12:02:25 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-12 12:02:25 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 12:02:26 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 12:03:16 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:03:25 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 12:03:40 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:03:50 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 12:04:21 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:04:28 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 12:04:30 INFO  test02CreateResource: Resources: press button add
+2015-06-12 12:04:32 INFO  test02CreateResource: press the button save
+2015-06-12 12:04:32 INFO  test02CreateResource: verification the datas enter.
+2015-06-12 12:05:26 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:05:30 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 12:05:30 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-12 12:05:33 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 12:05:38 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-12 12:05:38 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-12 12:05:38 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 12:05:39 INFO  test02CreateResource: Resources: press button add
+2015-06-12 12:06:09 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 12:12:39 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:12:45 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 12:12:45 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-12 12:12:50 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 12:12:50 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 12:13:12 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:13:19 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 12:13:19 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-12 12:13:22 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 12:13:26 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-12 12:13:26 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-12 12:13:27 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 12:13:28 INFO  test02CreateResource: Resources: press button add
+2015-06-12 12:13:30 INFO  test02CreateResource: press the button save
+2015-06-12 12:13:31 INFO  test02CreateResource: verification the datas enter.
+2015-06-12 12:13:31 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 12:14:13 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:14:23 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 12:14:36 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:14:42 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-12 12:15:44 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:15:50 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 12:15:50 INFO  test01AddEmailServer: Open the page
+2015-06-12 12:16:02 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:16:09 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 12:16:09 INFO  test01AddEmailServer: Open the page
+2015-06-12 12:18:55 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:19:01 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 12:19:01 INFO  test01AddEmailServer: Open the page
+2015-06-12 12:27:18 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:27:32 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 12:27:32 INFO  test01AddEmailServer: Open the page
+2015-06-12 12:36:08 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:36:15 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 12:36:15 INFO  test01AddEmailServer: Open the page
+2015-06-12 12:38:37 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:38:46 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 12:38:46 INFO  test01AddEmailServer: Open the page
+2015-06-12 12:41:12 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:41:22 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 12:41:22 INFO  test01AddEmailServer: Open the page
+2015-06-12 12:41:31 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:41:37 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 12:41:37 INFO  test01AddEmailServer: Open the page
+2015-06-12 12:41:59 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:42:05 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 12:42:05 INFO  test01AddEmailServer: Open the page
+2015-06-12 12:51:20 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:51:29 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 12:51:29 INFO  test01AddEmailServer: Open the page
+2015-06-12 12:51:39 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-12 12:56:17 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:56:26 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 12:56:26 INFO  test01AddEmailServer: Open the page
+2015-06-12 12:56:35 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-12 12:56:58 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:57:07 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 12:57:07 INFO  test01AddEmailServer: Open the page
+2015-06-12 12:57:36 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:57:43 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 12:57:43 INFO  test01AddEmailServer: Open the page
+2015-06-12 12:57:54 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:58:02 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 12:58:02 INFO  test01AddEmailServer: Open the page
+2015-06-12 12:58:05 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-12 12:58:54 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 12:59:02 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 12:59:02 INFO  test01AddEmailServer: Open the page
+2015-06-12 12:59:05 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-12 12:59:51 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:00:00 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:00:00 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:00:03 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-12 13:04:42 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:04:50 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:04:50 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:05:34 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:05:40 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:05:40 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:11:59 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:12:04 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:12:04 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:12:17 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:12:22 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:12:22 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:13:01 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:13:07 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:13:07 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:13:30 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-12 13:15:13 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:15:21 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:15:21 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:17:03 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:17:03 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:17:07 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:17:11 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:17:11 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:17:14 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:17:49 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:17:49 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:17:52 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:17:55 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:17:55 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:18:05 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-12 13:18:05 INFO  ReportNGListener: Test Passed-> registerEmailService
+2015-06-12 13:18:05 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:18:05 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:18:05 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:18:27 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:19:11 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:19:11 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:19:17 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:19:21 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:19:21 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:19:24 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:19:31 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:19:31 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:19:34 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:19:37 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:19:37 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:19:40 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:21:02 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:21:05 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:21:05 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:21:08 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:21:08 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:21:08 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:23:58 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:24:01 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:24:01 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:24:05 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:24:05 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:24:06 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:24:16 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:24:19 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:24:19 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:24:23 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:24:23 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:24:33 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-12 13:24:33 INFO  ReportNGListener: Test Passed-> registerEmailService
+2015-06-12 13:24:33 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:24:33 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:24:33 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:24:48 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:25:23 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:25:28 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:25:28 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:25:32 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:25:32 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:25:33 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:25:38 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:25:42 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:25:42 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:25:45 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:25:45 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:25:46 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:26:29 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:26:32 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:26:32 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:26:34 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:26:34 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:26:45 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-12 13:26:45 INFO  ReportNGListener: Test Passed-> registerEmailService
+2015-06-12 13:26:45 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:26:45 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:26:45 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:26:58 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:27:50 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:27:56 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:27:56 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:27:59 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:27:59 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:28:20 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:28:29 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:28:32 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:28:32 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:28:36 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:28:36 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:28:59 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:29:49 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:29:53 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:29:53 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:29:56 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:29:56 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:30:07 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-12 13:30:07 INFO  ReportNGListener: Test Passed-> registerEmailService
+2015-06-12 13:30:07 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:30:07 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:30:07 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:30:11 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:30:47 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:30:50 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:30:50 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:30:53 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:30:53 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:31:03 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-12 13:31:03 INFO  ReportNGListener: Test Passed-> registerEmailService
+2015-06-12 13:31:03 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:31:03 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:31:03 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:31:16 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:31:38 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:31:44 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:31:44 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:31:48 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:31:48 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:31:58 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-12 13:31:58 INFO  ReportNGListener: Test Passed-> registerEmailService
+2015-06-12 13:31:58 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:31:58 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:31:58 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:32:06 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:32:34 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:32:40 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:32:40 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:32:43 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:32:43 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:32:54 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-12 13:32:54 INFO  ReportNGListener: Test Passed-> registerEmailService
+2015-06-12 13:32:54 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:32:54 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:32:54 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:33:06 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:33:36 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:33:43 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:33:43 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:33:46 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:33:46 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:33:49 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:33:58 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:34:02 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:34:02 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:34:06 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:34:06 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:34:07 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:34:20 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:34:23 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:34:23 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:34:26 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:34:26 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:34:36 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-12 13:34:36 INFO  ReportNGListener: Test Passed-> registerEmailService
+2015-06-12 13:34:36 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:34:36 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:34:36 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:34:49 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:37:24 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:37:30 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:37:30 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:37:33 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:37:33 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:37:34 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:37:39 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:37:43 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:37:43 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:37:48 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:37:48 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:37:49 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:37:57 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:38:01 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:38:01 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:38:04 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:38:04 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:38:05 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 13:38:12 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 13:38:15 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 13:38:15 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 13:38:19 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 13:38:19 INFO  test01AddEmailServer: Open the page
+2015-06-12 13:38:20 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 14:03:09 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 14:03:15 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 14:03:15 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 14:03:20 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 14:03:20 INFO  test01AddEmailServer: Open the page
+2015-06-12 14:04:27 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 14:05:33 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 14:05:39 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 14:05:39 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 14:05:43 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 14:05:43 INFO  test01AddEmailServer: Open the page
+2015-06-12 14:06:48 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 14:09:03 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 14:09:07 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 14:09:07 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 14:09:10 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 14:09:10 INFO  test01AddEmailServer: Open the page
+2015-06-12 14:10:16 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 14:15:45 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 14:15:48 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 14:15:48 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 14:15:51 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 14:15:51 INFO  test01AddEmailServer: Open the page
+2015-06-12 14:16:55 ERROR ReportNGListener: Test Failed-> registerEmailService
+2015-06-12 14:16:55 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 14:16:55 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 14:16:55 INFO  test01AddEmailServer: Open the page
+2015-06-12 14:16:55 ERROR ReportNGListener: Test Failed-> registerEmailService
+2015-06-12 14:16:56 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-12 14:18:14 INFO  managerPage: Initialization of Chrome Explorer driver.
+2015-06-12 14:18:18 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-12 14:18:18 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 14:18:21 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 14:18:21 INFO  test01AddEmailServer: Open the page
+2015-06-12 14:18:23 ERROR ReportNGListener: Test Failed-> registerEmailService
+2015-06-12 14:18:23 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-12 14:18:23 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-12 14:18:23 INFO  test01AddEmailServer: Open the page
+2015-06-12 14:18:24 ERROR ReportNGListener: Test Failed-> registerEmailService
+2015-06-12 14:18:25 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager

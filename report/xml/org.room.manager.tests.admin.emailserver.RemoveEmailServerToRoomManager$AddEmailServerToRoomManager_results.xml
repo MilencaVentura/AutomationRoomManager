@@ -4,30 +4,26 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="4.738">
+           time="0.291">
   <properties />
-            <testcase name="registerEmailService" time="4.738" classname="org.room.manager.tests.admin.emailserver.AddEmailServerToRoomManager">
-                <failure type="org.openqa.selenium.NoSuchElementException"
-                  message="no such element
+            <testcase name="registerEmailService" time="0.291" classname="org.room.manager.tests.admin.emailserver.RemoveEmailServerToRoomManager$AddEmailServerToRoomManager">
+                <failure type="org.openqa.selenium.WebDriverException"
+                  message="unknown error: Element is not clickable at point (821, 401). Other element would receive the click: &lt;textarea id=&quot;add-mailserver-description&quot; rows=&quot;3&quot; ng-model=&quot;request.description&quot; class=&quot;form-control ng-pristine ng-untouched ng-valid&quot;&gt;&lt;/textarea&gt;
   (Session info: chrome=40.0.2214.111)
   (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 29 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 74 milliseconds
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
 System info: host: &apos;VDQADEV01-NNDUU&apos;, ip: &apos;172.20.200.215&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_80-ea&apos;
-*** Element info: {Using=id, value=add-mailserver-hostname}
 Session ID: be18d9c66ec546e0c435a9b104e8defb
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\MILENC~1\AppData\Local\Temp\2\scoped_dir12664_11170}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]"
               >
-<![CDATA[org.openqa.selenium.NoSuchElementException: no such element
+<![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (821, 401). Other element would receive the click: <textarea id="add-mailserver-description" rows="3" ng-model="request.description" class="form-control ng-pristine ng-untouched ng-valid"></textarea>
   (Session info: chrome=40.0.2214.111)
   (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 29 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 74 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'VDQADEV01-NNDUU', ip: '172.20.200.215', os.name: 'Windows Server 2012 R2', os.arch: 'x86', os.version: '6.3', java.version: '1.7.0_80-ea'
-*** Element info: {Using=id, value=add-mailserver-hostname}
 Session ID: be18d9c66ec546e0c435a9b104e8defb
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\MILENC~1\AppData\Local\Temp\2\scoped_dir12664_11170}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
@@ -38,12 +34,10 @@ Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, bro
   org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
   org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
   org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-  org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
-  org.openqa.selenium.By$ById.findElement(By.java:214)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-  org.room.manager.pages.admin.emailserver.EmailServerAddPage.txt_Hostname(EmailServerAddPage.java:50)
-  org.room.manager.tests.admin.emailserver.AddEmailServerToRoomManager.registerEmailService(AddEmailServerToRoomManager.java:48)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+  org.room.manager.pages.admin.HomeAdminPage.Execute(HomeAdminPage.java:16)
+  org.room.manager.tests.admin.emailserver.RemoveEmailServerToRoomManager$AddEmailServerToRoomManager.registerEmailService(RemoveEmailServerToRoomManager.java:39)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)

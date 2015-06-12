@@ -24,7 +24,6 @@ import org.room.manager.pages.admin.resources.ResourceCreatePage;
 public class AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded {
 	/*Test Case:
 	   * Verify that is possible create a resource without name*/
-	private StringBuffer verificationErrors = new StringBuffer();
 	private static WebDriver driver = null;
 	private managerPage automation=managerPage.getManager();
     Logger logger=Logger.getLogger("test02CreateResource");

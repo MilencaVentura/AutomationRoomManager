@@ -24,7 +24,6 @@ import org.room.manager.managerPage;
  * @author Milenca Ventura
  */
 public class AddEmailServerToRoomManager {
-	private StringBuffer verificationErrors = new StringBuffer();
 	private static WebDriver driver = null;
 	private managerPage automation=managerPage.getManager();
     Logger logger=Logger.getLogger("test01AddEmailServer");
@@ -56,9 +55,5 @@ public class AddEmailServerToRoomManager {
 	@AfterSuite
 	public void tearDown() throws Exception {
 	   driver.quit();
-	   String verificationErrorString = verificationErrors.toString();
-	   if (!"".equals(verificationErrorString)) {
-		   fail(verificationErrorString);
-	   }
 	}
 }

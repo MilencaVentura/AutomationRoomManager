@@ -20,7 +20,6 @@ public class RemoveEmailServerToRoomManager {
 	 * @author Milenca Ventura
 	 */
 	public class AddEmailServerToRoomManager {
-		private StringBuffer verificationErrors = new StringBuffer();
 		private WebDriver driver = null;
 		private managerPage automation=managerPage.getManager();
 	    Logger logger=Logger.getLogger("test01AddEmailServer");
@@ -38,7 +37,6 @@ public class RemoveEmailServerToRoomManager {
 			EmailServerAddPage emailServer = new EmailServerAddPage(driver);
 			HomeAdminPage.Execute(driver);
 			emailServer.Execute();
-			
 			/*
 			emailServer.btn_Add();
 			emailServer.txt_Hostname( configReader.getHostName());
@@ -58,10 +56,10 @@ public class RemoveEmailServerToRoomManager {
 		@AfterTest
 		public void tearDown() throws Exception {
 		   driver.quit();
-		   String verificationErrorString = verificationErrors.toString();
+		   /*String verificationErrorString = verificationErrors.toString();
 		   if (!"".equals(verificationErrorString)) {
 			   fail(verificationErrorString);
-		   }
+		   }*/
 		}
 	}
 }

@@ -15,6 +15,13 @@
           <include name="CreateResource"/>
         </methods>
       </class> <!-- org.room.manager.tests.admin.resources.CreateResourceTest -->
+      <class name="org.room.manager.tests.admin.resources.VerifyUpdateResource">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="UpdateResource"/>
+        </methods>
+      </class> <!-- org.room.manager.tests.admin.resources.VerifyUpdateResource -->
       <class name="org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded">
         <methods>
           <include name="tearDown"/>

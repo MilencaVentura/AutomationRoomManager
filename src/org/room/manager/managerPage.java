@@ -8,7 +8,7 @@ import org.room.manager.utils.configReader;
 
 public class managerPage {
 	private static managerPage manager = null;
-	private static WebDriver driver;
+	private static WebDriver driver = null;
 	private static WebDriver Chrome=null;
 	private WebDriver Mozilla;
 	Logger log = Logger.getLogger(getClass());
@@ -17,10 +17,10 @@ public class managerPage {
 	}
 
 	public static WebDriver getBrowserChrome(){
-		if(Chrome==null){
+		if(driver==null){
 		    System.setProperty("webdriver.chrome.driver", configReader.getChromeDriver());
 			driver=new ChromeDriver();
-			Chrome = driver;
+			//Chrome = driver;
 		}
 		driver.manage().window().maximize();
 		return driver;

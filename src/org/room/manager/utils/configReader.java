@@ -12,6 +12,7 @@ public class configReader {
 	static Properties url = new Properties();
 	static Properties resources = new Properties();
     static InputStream input = null;
+    static Properties resourceValue = new Properties();
     
 	/**
 	 * Select a browser
@@ -73,6 +74,26 @@ private static void initializeUrl() {
         }
   	}
 }
+/**
+ * give a datas of resources
+ */
+private static void getResource() {
+	try {
+        input = new FileInputStream("properties/resources");
+        url.load(input);
+
+  } catch (IOException ex) {
+        ex.printStackTrace();
+  } finally {
+        if (input != null) {
+              try {
+                    input.close();
+              } catch (IOException e) {
+                    e.printStackTrace();
+              }
+        }
+  	}
+}
 public static String getChromeDriver(){
 	initializeDriver();
     return driver.getProperty("DRIVER-CHROME");
@@ -92,5 +113,13 @@ public static String getUsername(){
 public static String getPassword(){
 	initializeResources();
     return resources.getProperty("PASSWORD");
+	}
+public static String getName(){
+	initializeResources();
+    return resourceValue.getProperty("NAME");
+	}
+public static String getDisplayName(){
+	initializeResources();
+    return resourceValue.getProperty("DISPLAYNAME");
 	}
 }

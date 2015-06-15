@@ -221,3 +221,293 @@
 2015-06-15 10:49:28 INFO  test02CreateResource: verification the datas enter.
 2015-06-15 10:49:28 INFO  ReportNGListener: Test Passed-> CreateResource
 2015-06-15 10:49:28 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-15 11:01:38 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-15 11:01:38 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-15 11:01:41 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 11:01:45 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-15 11:01:45 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-15 11:01:45 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 11:01:45 ERROR ReportNGListener: Test Failed-> CreateResource
+2015-06-15 11:01:46 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-15 11:02:03 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-15 11:02:03 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-15 11:02:06 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 11:02:10 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-15 11:02:10 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-15 11:02:10 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 11:02:12 INFO  test02CreateResource: Resources: press button add
+2015-06-15 11:02:15 INFO  test02CreateResource: press the button save
+2015-06-15 11:02:15 INFO  test02CreateResource: verification the datas enter.
+2015-06-15 11:02:17 INFO  ReportNGListener: Test Passed-> CreateResource
+2015-06-15 11:02:17 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-15 11:41:27 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 11:41:36 INFO  test02CreateResource: verification the datas enter.
+2015-06-15 11:42:34 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 11:42:43 INFO  test02CreateResource: verification the datas enter.
+2015-06-15 12:57:45 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 12:58:08 INFO  test02CreateResource: verification the datas enter.
+2015-06-15 13:44:14 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 13:44:28 INFO  test02CreateResource: Resources: Updating resource
+2015-06-15 13:44:49 INFO  test02CreateResource: press the button save
+2015-06-15 13:44:49 INFO  test02CreateResource: verification the datas enter.
+2015-06-15 13:48:13 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 13:48:23 INFO  test02CreateResource: Resources: Updating resource
+2015-06-15 13:48:38 INFO  test02CreateResource: press the button save
+2015-06-15 13:48:39 INFO  test02CreateResource: verification the datas enter.
+2015-06-15 13:49:42 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 13:49:45 INFO  test02CreateResource: Resources: Updating resource
+2015-06-15 13:50:12 INFO  test02CreateResource: press the button save
+2015-06-15 13:50:13 INFO  test02CreateResource: verification the datas enter.
+2015-06-15 13:56:20 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 13:58:05 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 13:59:30 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 13:59:39 INFO  test02CreateResource: Resources: Updating resource
+2015-06-15 14:00:48 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:01:01 INFO  test02CreateResource: Resources: Updating resource
+2015-06-15 14:01:06 INFO  test02CreateResource: press the button save
+2015-06-15 14:01:06 INFO  test02CreateResource: verification the datas enter.
+2015-06-15 14:02:35 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:02:45 INFO  test02CreateResource: Resources: Updating resource
+2015-06-15 14:02:51 INFO  test02CreateResource: press the button save
+2015-06-15 14:02:51 INFO  test02CreateResource: verification the datas enter.
+2015-06-15 14:04:06 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:04:16 INFO  test02CreateResource: Resources: Updating resource
+2015-06-15 14:05:21 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:05:45 INFO  test02CreateResource: Resources: Updating resource
+2015-06-15 14:06:10 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:06:20 INFO  test02CreateResource: Resources: Updating resource
+2015-06-15 14:09:05 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:09:07 INFO  test02CreateResource: Resources: press button for update resource
+2015-06-15 14:09:07 INFO  test02CreateResource: Resources: Updating resource
+2015-06-15 14:09:22 INFO  test02CreateResource: press the button save
+2015-06-15 14:09:23 INFO  test02CreateResource: verification the datas enter.
+2015-06-15 14:10:12 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:10:13 INFO  test02CreateResource: Resources: press button for update resource
+2015-06-15 14:10:14 INFO  test02CreateResource: Resources: Updating resource
+2015-06-15 14:13:08 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-15 14:13:10 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-15 14:13:11 INFO  test03UpdateResource: Resources: Updating resource
+2015-06-15 14:15:40 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-15 14:15:41 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-15 14:15:42 INFO  test03UpdateResource: Resources: Updating resource
+2015-06-15 14:26:23 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-15 14:26:25 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-15 14:26:25 INFO  test03UpdateResource: Resources: Updating resource
+2015-06-15 14:26:40 INFO  test03UpdateResource: press the button save
+2015-06-15 14:26:40 INFO  test03UpdateResource: verification the datas enter.
+2015-06-15 14:31:29 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-15 14:31:31 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-15 14:31:31 INFO  test03UpdateResource: Resources: Updating resource
+2015-06-15 14:31:33 INFO  test03UpdateResource: press the button save
+2015-06-15 14:31:33 INFO  test03UpdateResource: verification the datas enter.
+2015-06-15 14:34:03 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-15 14:34:03 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-15 14:34:06 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:34:12 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-15 14:34:12 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-15 14:34:12 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:34:13 INFO  test02CreateResource: Resources: press button add
+2015-06-15 14:34:44 ERROR ReportNGListener: Test Failed-> CreateResource
+2015-06-15 14:34:44 INFO  ReportNGListener: Test Started-> UpdateResource
+2015-06-15 14:34:44 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-15 14:34:45 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-15 14:35:16 ERROR ReportNGListener: Test Failed-> UpdateResource
+2015-06-15 14:35:16 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-15 14:36:37 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-15 14:36:37 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-15 14:36:40 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:36:47 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-15 14:36:47 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-15 14:36:47 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:37:02 INFO  test02CreateResource: Resources: press button add
+2015-06-15 14:37:04 INFO  test02CreateResource: press the button save
+2015-06-15 14:37:04 INFO  test02CreateResource: verification the datas enter.
+2015-06-15 14:37:05 ERROR ReportNGListener: Test Failed-> CreateResource
+2015-06-15 14:37:05 INFO  ReportNGListener: Test Started-> UpdateResource
+2015-06-15 14:37:05 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-15 14:37:07 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-15 14:37:07 INFO  test03UpdateResource: Resources: Updating resource
+2015-06-15 14:37:08 INFO  test03UpdateResource: press the button save
+2015-06-15 14:37:08 INFO  test03UpdateResource: verification the datas enter.
+2015-06-15 14:37:09 ERROR ReportNGListener: Test Failed-> UpdateResource
+2015-06-15 14:37:09 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-15 14:40:44 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-15 14:40:44 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-15 14:40:48 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:40:53 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-15 14:40:53 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-15 14:40:53 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:40:54 ERROR ReportNGListener: Test Failed-> CreateResource
+2015-06-15 14:40:54 INFO  ReportNGListener: Test Started-> UpdateResource
+2015-06-15 14:40:55 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-15 14:40:56 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-15 14:41:20 ERROR ReportNGListener: Test Failed-> UpdateResource
+2015-06-15 14:41:20 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-15 14:43:13 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-15 14:43:13 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-15 14:43:16 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:43:19 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-15 14:43:19 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-15 14:43:20 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:43:21 INFO  test02CreateResource: Resources: press button add
+2015-06-15 14:43:24 INFO  test02CreateResource: press the button save
+2015-06-15 14:43:24 INFO  test02CreateResource: verification the datas enter.
+2015-06-15 14:43:25 ERROR ReportNGListener: Test Failed-> CreateResource
+2015-06-15 14:43:25 INFO  ReportNGListener: Test Started-> UpdateResource
+2015-06-15 14:43:25 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-15 14:44:25 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-15 14:44:26 INFO  test03UpdateResource: Resources: Updating resource
+2015-06-15 14:44:27 INFO  test03UpdateResource: press the button save
+2015-06-15 14:44:27 INFO  test03UpdateResource: verification the datas enter.
+2015-06-15 14:44:28 ERROR ReportNGListener: Test Failed-> UpdateResource
+2015-06-15 14:44:28 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-15 14:51:01 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-15 14:51:01 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-15 14:51:04 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:51:08 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-15 14:51:08 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-15 14:51:08 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:51:09 ERROR ReportNGListener: Test Failed-> CreateResource
+2015-06-15 14:51:09 INFO  ReportNGListener: Test Started-> UpdateResource
+2015-06-15 14:51:09 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-15 14:51:24 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-15 14:51:25 INFO  test03UpdateResource: Resources: Updating resource
+2015-06-15 14:51:26 INFO  test03UpdateResource: press the button save
+2015-06-15 14:51:26 INFO  test03UpdateResource: verification the datas enter.
+2015-06-15 14:51:27 ERROR ReportNGListener: Test Failed-> UpdateResource
+2015-06-15 14:51:27 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-15 14:52:08 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-15 14:52:08 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-15 14:52:12 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:52:16 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-15 14:52:16 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-15 14:52:16 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:52:18 INFO  test02CreateResource: Resources: press button add
+2015-06-15 14:52:20 INFO  test02CreateResource: press the button save
+2015-06-15 14:52:20 INFO  test02CreateResource: verification the datas enter.
+2015-06-15 14:52:21 ERROR ReportNGListener: Test Failed-> CreateResource
+2015-06-15 14:52:21 INFO  ReportNGListener: Test Started-> UpdateResource
+2015-06-15 14:52:22 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-15 14:52:22 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-15 14:52:53 ERROR ReportNGListener: Test Failed-> UpdateResource
+2015-06-15 14:52:53 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-15 14:53:29 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-15 14:53:29 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-15 14:53:32 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:53:35 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-15 14:53:35 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-15 14:53:35 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:53:36 ERROR ReportNGListener: Test Failed-> CreateResource
+2015-06-15 14:53:36 INFO  ReportNGListener: Test Started-> UpdateResource
+2015-06-15 14:53:37 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-15 14:53:40 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-15 14:54:22 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-15 14:54:23 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-15 14:54:26 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:54:30 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-15 14:54:30 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-15 14:54:30 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:54:31 ERROR ReportNGListener: Test Failed-> CreateResource
+2015-06-15 14:54:31 INFO  ReportNGListener: Test Started-> UpdateResource
+2015-06-15 14:54:31 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-15 14:54:32 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-15 14:54:33 INFO  test03UpdateResource: Resources: Updating resource
+2015-06-15 14:54:35 INFO  test03UpdateResource: press the button save
+2015-06-15 14:54:35 INFO  test03UpdateResource: verification the datas enter.
+2015-06-15 14:54:35 ERROR ReportNGListener: Test Failed-> UpdateResource
+2015-06-15 14:54:35 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-15 14:57:10 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-15 14:57:10 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-15 14:57:13 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:57:18 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-15 14:57:18 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-15 14:57:18 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 14:57:20 INFO  test02CreateResource: Resources: press button add
+2015-06-15 14:57:22 INFO  test02CreateResource: press the button save
+2015-06-15 14:57:22 INFO  test02CreateResource: verification the datas enter.
+2015-06-15 14:57:24 ERROR ReportNGListener: Test Failed-> CreateResource
+2015-06-15 14:57:24 INFO  ReportNGListener: Test Started-> UpdateResource
+2015-06-15 14:57:24 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-15 14:57:27 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-15 14:57:27 INFO  test03UpdateResource: Resources: Updating resource
+2015-06-15 14:57:29 INFO  test03UpdateResource: press the button save
+2015-06-15 14:57:30 INFO  test03UpdateResource: verification the datas enter.
+2015-06-15 14:57:30 ERROR ReportNGListener: Test Failed-> UpdateResource
+2015-06-15 14:57:30 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-15 15:01:06 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-15 15:01:06 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-15 15:01:09 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 15:01:13 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-15 15:01:13 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-15 15:01:13 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 15:01:14 ERROR ReportNGListener: Test Failed-> CreateResource
+2015-06-15 15:01:14 INFO  ReportNGListener: Test Started-> UpdateResource
+2015-06-15 15:01:15 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-15 15:01:18 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-15 15:01:18 INFO  test03UpdateResource: Resources: Updating resource
+2015-06-15 15:01:21 INFO  test03UpdateResource: press the button save
+2015-06-15 15:01:21 INFO  test03UpdateResource: verification the datas enter.
+2015-06-15 15:01:37 ERROR ReportNGListener: Test Failed-> UpdateResource
+2015-06-15 15:01:37 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-15 15:04:14 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-15 15:04:14 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-15 15:04:17 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 15:04:21 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-15 15:04:21 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-15 15:04:21 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 15:04:22 ERROR ReportNGListener: Test Failed-> CreateResource
+2015-06-15 15:04:22 INFO  ReportNGListener: Test Started-> UpdateResource
+2015-06-15 15:04:23 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-15 15:04:28 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-15 15:04:40 ERROR ReportNGListener: Test Failed-> UpdateResource
+2015-06-15 15:04:40 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-15 15:05:42 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-15 15:05:42 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-15 15:05:46 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 15:05:52 INFO  ReportNGListener: Test Passed-> ResourceWithoutNameIsAdded
+2015-06-15 15:05:52 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-15 15:05:52 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-15 15:05:52 ERROR ReportNGListener: Test Failed-> CreateResource
+2015-06-15 15:05:52 INFO  ReportNGListener: Test Started-> UpdateResource
+2015-06-15 15:05:53 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-15 15:05:58 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-15 15:05:58 INFO  test03UpdateResource: Resources: Updating resource
+2015-06-15 15:06:01 INFO  test03UpdateResource: press the button save
+2015-06-15 15:06:01 INFO  test03UpdateResource: verification the datas enter.
+2015-06-15 15:06:29 ERROR ReportNGListener: Test Failed-> UpdateResource
+2015-06-15 15:06:29 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-15 15:25:37 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-15 15:25:37 INFO  test01AddEmailServer: Open the page
+2015-06-15 15:27:36 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-15 15:27:36 INFO  test01AddEmailServer: Open the page
+2015-06-15 15:27:52 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-15 15:35:08 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-15 15:35:08 INFO  test01AddEmailServer: Open the page
+2015-06-15 15:35:28 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-15 15:39:05 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-15 15:39:05 INFO  test01AddEmailServer: Open the page
+2015-06-15 15:39:28 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-15 15:39:28 INFO  test01AddEmailServer: Open the page
+2015-06-15 15:41:11 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-15 15:41:11 INFO  test01AddEmailServer: Open the page
+2015-06-15 15:41:21 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-15 15:42:53 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-15 15:42:53 INFO  test01AddEmailServer: Open the page
+2015-06-15 15:43:15 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-15 15:45:25 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-15 15:45:25 INFO  test01AddEmailServer: Open the page
+2015-06-15 15:47:02 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-15 15:47:02 INFO  test01AddEmailServer: Open the page
+2015-06-15 15:49:39 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-15 15:49:39 INFO  test01AddEmailServer: Open the page
+2015-06-15 15:49:54 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-15 15:51:10 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-15 15:51:10 INFO  test01AddEmailServer: Open the page
+2015-06-15 15:51:21 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-15 15:52:08 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-15 15:52:08 INFO  test01AddEmailServer: Open the page
+2015-06-15 15:52:21 INFO  test01AddEmailServer: Close the Test: Email Server
+2015-06-15 15:57:09 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-15 15:57:09 INFO  test01AddEmailServer: Open the page
+2015-06-15 17:45:27 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-15 17:45:27 INFO  test01AddEmailServer: Open the page

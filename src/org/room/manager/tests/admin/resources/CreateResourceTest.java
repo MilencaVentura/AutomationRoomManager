@@ -7,6 +7,7 @@ import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.room.manager.managerPage;
 import org.room.manager.pages.admin.HomeAdminPage;
+import org.room.manager.pages.admin.emailserver.EmailServerAddPage;
 import org.room.manager.pages.admin.resources.ResourceCreatePage;
 import org.room.manager.utils.configReader;
 import org.testng.annotations.AfterSuite;
@@ -33,6 +34,8 @@ public class CreateResourceTest {
 		driver.get(configReader.getUrl() + "/admin/#/login");
 		logger.info("Begin the Test: Resource");
 		HomeAdminPage.Execute(driver);
+		EmailServerAddPage emailServer = new EmailServerAddPage(driver);
+		emailServer.Execute();
 		ResourceCreatePage resourcePage = new ResourceCreatePage(driver);
 		driver.navigate().refresh();
 		resourcePage.Execute();

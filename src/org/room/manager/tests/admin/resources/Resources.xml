@@ -12,6 +12,8 @@
         	 	    <class name = "org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded" />
         	<!--TC2-->
         	 	    <class name = "org.room.manager.tests.admin.resources.CreateResourceTest" />
+            <!--TC3-->
+        	 	    <class name = "org.room.manager.tests.admin.resources.VerifyUpdateResource" />
 		</classes>
     </test>
     

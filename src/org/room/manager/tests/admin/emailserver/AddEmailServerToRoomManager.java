@@ -1,17 +1,10 @@
 package org.room.manager.tests.admin.emailserver;
-import static org.junit.Assert.assertEquals;
-
+import org.room.manager.utils.HttpRequest;
 import org.testng.Assert;
-
-import static org.junit.Assert.fail;
-
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.room.manager.pages.admin.HomeAdminPage;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.room.manager.utils.configReader;
 import org.apache.log4j.Logger;
@@ -30,8 +23,9 @@ public class AddEmailServerToRoomManager {
     @BeforeSuite
 	public void setUp() throws Exception {
         driver = automation.getBrowserChrome();
+        HttpRequest.deleteServiceByName("Microsoft Exchange Server 2010 SP2");
 	}
-	@Test (priority = 0)
+	@Test 
 	public void registerEmailService() throws Exception {
 		PropertyConfigurator.configure("Log4j.properties");
 		String expectedResult = configReader.getHostName() + "\nMicrosoft Exchange Server 2010 SP2";
@@ -54,6 +48,7 @@ public class AddEmailServerToRoomManager {
 	
 	@AfterSuite
 	public void tearDown() throws Exception {
+	   HttpRequest.deleteServiceByName("Microsoft Exchange Server 2010 SP2");
 	   driver.quit();
 	}
 }

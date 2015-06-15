@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>RoomManager</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jun 15 10:49:16 BOT 2015</td>
+<td>Started on:</td><td>Mon Jun 15 15:05:42 BOT 2015</td>
 </tr>
-<tr><td>Total time:</td><td>11 seconds (11750 ms)</td>
+<tr><td>Total time:</td><td>46 seconds (46950 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,140 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.room.manager.tests.admin.resources.CreateResourceTest.CreateResource()'><b>CreateResource</b><br>Test class: org.room.manager.tests.admin.resources.CreateResourceTest<br/>
+<a href="#Output-24012960" onClick='toggleBox("Output-24012960", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-24012960" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-24012960">
+<a href="D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/CreateResource.png"><img src="file:///D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/CreateResource.png" alt=""height='100' width='100'/> <br /><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (821, 401). Other element would receive the click: &lt;div class=&quot;modal-backdrop fade  ng-animate in-remove in-remove-active&quot; ng-class=&quot;{in: animate}&quot; ng-style=&quot;{&apos;z-index&apos;: 1040 + (index &amp;amp;&amp;amp; 1 || 0) + index*10}&quot; modal-backdrop=&quot;&quot; style=&quot;z-index: 1031;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=40.0.2214.111)
+  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 92 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;VDQADEV01-NNDUU&apos;, ip: &apos;172.20.200.215&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_80-ea&apos;
+Session ID: c0d696d2fce2895780372a387bc98ce7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\MILENC~1\AppData\Local\Temp\2\scoped_dir13628_25820}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at org.room.manager.pages.admin.HomeAdminPage.Execute(HomeAdminPage.java:16)
+	at org.room.manager.tests.admin.resources.CreateResourceTest.CreateResource(CreateResourceTest.java:36)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace24012960", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace24012960'><pre>org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (821, 401). Other element would receive the click: &lt;div class=&quot;modal-backdrop fade  ng-animate in-remove in-remove-active&quot; ng-class=&quot;{in: animate}&quot; ng-style=&quot;{&apos;z-index&apos;: 1040 + (index &amp;amp;&amp;amp; 1 || 0) + index*10}&quot; modal-backdrop=&quot;&quot; style=&quot;z-index: 1031;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=40.0.2214.111)
+  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 92 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;VDQADEV01-NNDUU&apos;, ip: &apos;172.20.200.215&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_80-ea&apos;
+Session ID: c0d696d2fce2895780372a387bc98ce7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\MILENC~1\AppData\Local\Temp\2\scoped_dir13628_25820}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at org.room.manager.pages.admin.HomeAdminPage.Execute(HomeAdminPage.java:16)
+	at org.room.manager.tests.admin.resources.CreateResourceTest.CreateResource(CreateResourceTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>org.room.manager.tests.admin.resources.CreateResourceTest@1d67cee</td></tr>
+<tr>
+<td title='org.room.manager.tests.admin.resources.VerifyUpdateResource.UpdateResource()'><b>UpdateResource</b><br>Test class: org.room.manager.tests.admin.resources.VerifyUpdateResource<br/>
+<a href="#Output-32373632" onClick='toggleBox("Output-32373632", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32373632" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32373632">
+<a href="D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/UpdateResource.png"><img src="file:///D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/UpdateResource.png" alt=""height='100' width='100'/> <br /><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:227)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$1(ExpectedConditions.java:226)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:130)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at org.room.manager.pages.admin.resources.ResourceCreatePage.AssertUpdateResource(ResourceCreatePage.java:98)
+	at org.room.manager.tests.admin.resources.VerifyUpdateResource.UpdateResource(VerifyUpdateResource.java:44)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace32373632", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace32373632'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:227)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$1(ExpectedConditions.java:226)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:130)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at org.room.manager.pages.admin.resources.ResourceCreatePage.AssertUpdateResource(ResourceCreatePage.java:98)
+	at org.room.manager.tests.admin.resources.VerifyUpdateResource.UpdateResource(VerifyUpdateResource.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>34</td>
+<td>org.room.manager.tests.admin.resources.VerifyUpdateResource@4b72a2</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,15 +209,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='org.room.manager.tests.admin.resources.CreateResourceTest.CreateResource()'><b>CreateResource</b><br>Test class: org.room.manager.tests.admin.resources.CreateResourceTest</td>
-<td></td>
-<td>4</td>
-<td>org.room.manager.tests.admin.resources.CreateResourceTest@1ac539d</td></tr>
-<tr>
 <td title='org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded.ResourceWithoutNameIsAdded()'><b>ResourceWithoutNameIsAdded</b><br>Test class: org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded</td>
 <td></td>
-<td>7</td>
-<td>org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@3cb948</td></tr>
+<td>9</td>
+<td>org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@152fd52</td></tr>
 </table><p>
 </body>
 </html>

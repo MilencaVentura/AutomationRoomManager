@@ -25,9 +25,7 @@ public class AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded {
 	/*Test Case:
 	   * Verify that is possible create a resource without name*/
 	private static WebDriver driver = null;
-	//private managerPage automation=managerPage.getManager();
     Logger logger=Logger.getLogger("test02CreateResource");
-    
     @BeforeSuite
 	public void setUp() throws Exception {
 		
@@ -51,7 +49,6 @@ public class AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded {
 	
     @AfterSuite //(groups = {"ACCEPTANCE"})
 	public void tearDown() throws Exception {
-    	
 	   driver.quit();	  
 	}
 }

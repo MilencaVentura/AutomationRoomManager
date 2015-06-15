@@ -27,7 +27,6 @@ public class EmailServerAddPage {
 		this.driver = driver;
 	}
 	
-	 /*aumentar variables globales*/
     public EmailServerAddPage btn_Add(){
         (new WebDriverWait(driver,20)).until(ExpectedConditions.presenceOfElementLocated(btnAdd));
         WebElement element = driver.findElement(btnAdd);

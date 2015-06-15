@@ -1,37 +1,25 @@
 package org.room.manager.utils;
+
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 
 import org.apache.http.HttpResponse;
-import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpDelete;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
-import org.room.manager.utils.configReader;
-import org.apache.http.NameValuePair;
 
-import java.io.OutputStream;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
+public class HttpRequest {
+	private static void getService(String name) {
 
-public class HttpReader {
-	private static void getResourceByName(String name) {
-
-		String url = configReader.getUrl() + "/resources";
+		String url = configReader.getUrl() + "/services";
 		try (CloseableHttpClient httpClient = HttpClientBuilder.create().build()) {
             HttpGet request = new HttpGet(url);
             request.addHeader("content-type", "application/json");
@@ -45,15 +33,18 @@ public class HttpReader {
                     JSONArray array=(JSONArray)resultObject;
                     for (Object object : array) {
                         JSONObject obj =(JSONObject)object;
+                        System.out.print("objeto:"+obj.get("name").toString());
+                        System.out.print("el nombre es:"+name);
                         if(obj.get("name").toString().equals(name)){
-                        	deleteResourceById(obj.get("_id").toString());
+                        	System.out.print("name:"+name);
+                        	deleteServiceById(obj.get("_id").toString());
                         }
                     }
 
                 }else if (resultObject instanceof JSONObject) {
                     JSONObject obj =(JSONObject)resultObject;
                     if(obj.get("name").toString().equals(name)){
-                    	deleteResourceById(obj.get("_id").toString());
+                    	deleteServiceById(obj.get("_id").toString());
                     }
                 }
 
@@ -63,14 +54,14 @@ public class HttpReader {
         } catch (IOException ex) {
         }
     }
-	public static void deleteResourceByName(String name){
-		getResourceByName(name);
+	public static void deleteServiceByName(String name){
+		getService(name);
 	}
 	
-	private static void deleteResourceById(String id) {
+	private static void deleteServiceById(String id) {
 
-		String url = configReader.getUrl()  + "/resources/" + id;
-		
+		String url = configReader.getUrl()  + "/services/" + id;
+		System.out.print("ID:"+id);
 		try (CloseableHttpClient httpClient = HttpClientBuilder.create().build()) {
             HttpDelete request = new HttpDelete(url);
             request.addHeader("content-type", "application/json");
@@ -78,13 +69,12 @@ public class HttpReader {
         } catch (IOException ex) {
         }
     }
-
-	public static void createResourceJson() throws IOException {
-		createResource();
+	public static void addEmailServerJson() throws IOException {
+		addEmailServer();
 	}
-	private static void createResource()throws IOException{
+	private static void addEmailServer()throws IOException{
 		String url = configReader.getUrl() + "/resources";
-		String body =  "{\"name\":\"tv\",\"customName\":\"TV\",\"fontIcon\":\"fa fa-desktop\",\"description\":\"TV with DVD ready\"}";
+		String body =  "{\"username\":\"Administrator\",\"password\":\"qadev02**\",\"hostname\":\"env01001.unit.com\"}";
 		try(CloseableHttpClient httpClient = HttpClientBuilder.create().build()){
 			HttpPost requestPost = new HttpPost(url);
 			StringEntity params = new StringEntity(body);

@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.room.manager.managerPage;
 import org.room.manager.pages.admin.HomeAdminPage;
 import org.room.manager.pages.admin.emailserver.EmailServerAddPage;
+import org.room.manager.utils.HttpRequest;
 import org.room.manager.utils.configReader;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -26,8 +27,9 @@ public class RemoveEmailServerToRoomManager {
 		@BeforeTest
 		public void setUp() throws Exception {
 		     driver = automation.getBrowserChrome();
+		     HttpRequest.addEmailServerJson();
 		}
-		@Test (priority = 1)
+		@Test 
 		public void registerEmailService() throws Exception {
 			PropertyConfigurator.configure("Log4j.properties");
 			//String expectedResult = configReader.getHostName()+ "\nMicrosoft Exchange Server 2010 SP2";

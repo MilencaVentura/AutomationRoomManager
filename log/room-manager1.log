@@ -1,0 +1,71 @@
+2015-06-15 18:33:18,297 [main] INFO test01AddEmailServer - Begin the Test: Email Server
+2015-06-15 18:33:18,332 [main] INFO test01AddEmailServer - Open the page
+2015-06-15 18:35:24,378 [main] INFO test01AddEmailServer - Begin the Test: Email Server
+2015-06-15 18:35:24,394 [main] INFO test01AddEmailServer - Open the page
+[main] INFO test01AddEmailServer - Begin the Test: Email Server
+[main] INFO test01AddEmailServer - Open the page
+2015-06-15 18:39:21,110 [main] INFO test01AddEmailServer - Begin the Test: Email Server
+2015-06-15 18:39:21,117 [main] INFO test01AddEmailServer - Open the page
+2015-06-15 18:41:56,987 [main] INFO test01AddEmailServer - Begin the Test: Email Server
+2015-06-15 18:41:56,996 [main] INFO test01AddEmailServer - Open the page
+2015-06-15 18:43:55,212 [main] INFO test01AddEmailServer - Begin the Test: Email Server
+2015-06-15 18:43:55,229 [main] INFO test01AddEmailServer - Open the page
+2015-06-15 18:45:49,873 [main] INFO test01AddEmailServer - Begin the Test: Email Server
+2015-06-15 18:45:49,881 [main] INFO test01AddEmailServer - Open the page
+2015-06-15 18:46:58,515 [main] INFO org.room.manager.utils.ReportNGListener - Start Of Execution(TEST)-> RoomManager
+2015-06-15 18:46:58,539 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> ResourceWithoutNameIsAdded
+2015-06-15 18:47:02,065 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-15 18:47:07,391 [main] INFO org.room.manager.utils.ReportNGListener - Test Passed-> ResourceWithoutNameIsAdded
+2015-06-15 18:47:07,397 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> CreateResource
+2015-06-15 18:47:07,537 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-15 18:47:09,070 [main] ERROR org.room.manager.utils.ReportNGListener - Test Failed-> CreateResource
+2015-06-15 18:47:09,073 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> UpdateResource
+2015-06-15 18:47:10,061 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-15 18:47:13,746 [main] INFO test03UpdateResource - Resources: press button for update resource
+2015-06-15 18:47:33,447 [main] INFO test03UpdateResource - Resources: Updating resource
+2015-06-15 18:47:34,911 [main] INFO test03UpdateResource - press the button save
+2015-06-15 18:47:35,082 [main] INFO test03UpdateResource - verification the datas enter.
+2015-06-15 18:48:05,654 [main] ERROR org.room.manager.utils.ReportNGListener - Test Failed-> UpdateResource
+2015-06-15 18:48:05,720 [main] INFO org.room.manager.utils.ReportNGListener - END Of Execution(TEST)-> RoomManager
+2015-06-15 18:50:17,547 [main] INFO org.room.manager.utils.ReportNGListener - Start Of Execution(TEST)-> RoomManager
+2015-06-15 18:50:17,573 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> ResourceWithoutNameIsAdded
+2015-06-15 18:50:20,530 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-15 18:50:32,555 [main] INFO org.room.manager.utils.ReportNGListener - Test Passed-> ResourceWithoutNameIsAdded
+2015-06-15 18:50:32,558 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> CreateResource
+2015-06-15 18:50:32,635 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-15 18:50:33,302 [main] ERROR org.room.manager.utils.ReportNGListener - Test Failed-> CreateResource
+2015-06-15 18:50:33,304 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> UpdateResource
+2015-06-15 18:50:34,245 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-15 18:50:37,717 [main] INFO test03UpdateResource - Resources: press button for update resource
+2015-06-15 18:50:38,584 [main] INFO test03UpdateResource - Resources: Updating resource
+2015-06-15 18:50:40,189 [main] INFO test03UpdateResource - press the button save
+2015-06-15 18:50:40,437 [main] INFO test03UpdateResource - verification the datas enter.
+[main] INFO org.room.manager.utils.ReportNGListener - Start Of Execution(TEST)-> RoomManager
+[main] INFO org.room.manager.utils.ReportNGListener - Test Started-> ResourceWithoutNameIsAdded
+[main] INFO test02CreateResource - Begin the Test: Resource
+[main] INFO org.room.manager.utils.ReportNGListener - Test Passed-> ResourceWithoutNameIsAdded
+[main] INFO org.room.manager.utils.ReportNGListener - Test Started-> CreateResource
+[main] INFO test02CreateResource - Begin the Test: Resource
+[main] ERROR org.room.manager.utils.ReportNGListener - Test Failed-> CreateResource
+[main] INFO org.room.manager.utils.ReportNGListener - Test Started-> UpdateResource
+[main] INFO test03UpdateResource - Begin the Test: Resource
+[main] INFO test03UpdateResource - Resources: press button for update resource
+[main] INFO test03UpdateResource - Resources: Updating resource
+[main] INFO test03UpdateResource - press the button save
+[main] INFO test03UpdateResource - verification the datas enter.
+[main] INFO test01AddEmailServer - Begin the Test: Email Server
+[main] INFO test01AddEmailServer - Open the page
+2015-06-15 18:57:10,122 [main] INFO org.room.manager.utils.ReportNGListener - Start Of Execution(TEST)-> RoomManager
+2015-06-15 18:57:10,148 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> ResourceWithoutNameIsAdded
+2015-06-15 18:57:13,630 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-15 18:57:18,400 [main] INFO org.room.manager.utils.ReportNGListener - Test Passed-> ResourceWithoutNameIsAdded
+2015-06-15 18:57:18,405 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> CreateResource
+2015-06-15 18:57:18,578 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-15 18:57:20,043 [main] INFO test02CreateResource - Resources: press button add
+2015-06-15 18:57:22,161 [main] INFO test02CreateResource - press the button save
+2015-06-15 18:57:22,393 [main] INFO test02CreateResource - verification the datas enter.
+2015-06-15 18:57:23,485 [main] ERROR org.room.manager.utils.ReportNGListener - Test Failed-> CreateResource
+2015-06-15 18:57:23,501 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> UpdateResource
+2015-06-15 18:57:23,664 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-15 18:57:27,237 [main] INFO test03UpdateResource - Resources: press button for update resource
+2015-06-15 18:57:27,847 [main] INFO test03UpdateResource - Resources: Updating resource

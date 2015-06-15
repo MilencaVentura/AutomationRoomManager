@@ -73,7 +73,7 @@ public class HttpRequest {
 		addEmailServer();
 	}
 	private static void addEmailServer()throws IOException{
-		String url = configReader.getUrl() + "/resources";
+		String url = configReader.getUrl() + "/services?type=exchange";
 		String body =  "{\"username\":\"Administrator\",\"password\":\"qadev02**\",\"hostname\":\"env01001.unit.com\"}";
 		try(CloseableHttpClient httpClient = HttpClientBuilder.create().build()){
 			HttpPost requestPost = new HttpPost(url);
@@ -84,7 +84,6 @@ public class HttpRequest {
 			HttpResponse result = httpClient.execute(requestPost);
 			System.out.println("Response Code : " 
 		                + result.getStatusLine().getStatusCode());
-		 
 			BufferedReader rd = new BufferedReader(
 			        new InputStreamReader(result.getEntity().getContent()));
 		 

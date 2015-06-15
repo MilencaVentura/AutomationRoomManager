@@ -32,7 +32,7 @@ public class RemoveEmailServerToRoomManager {
 		@Test 
 		public void registerEmailService() throws Exception {
 			PropertyConfigurator.configure("Log4j.properties");
-			//String expectedResult = configReader.getHostName()+ "\nMicrosoft Exchange Server 2010 SP2";
+			String message = "The email server is not deleted.";
 			driver.get(configReader.getUrl() + "/admin/#/login");
 			logger.info("Begin the Test: Email Server");
 			logger.info("Open the page");
@@ -49,19 +49,14 @@ public class RemoveEmailServerToRoomManager {
 			driver.navigate().refresh();
 			emailServer.btn_Remove();
 			emailServer.btn_Delete();
-			//
-			//Assert.assertEquals(emailServer.getButtonServer(), expectedResult, "The email server is not registered");
-			Assert.assertEquals(emailServer.AssertDeleteEmailServer(), "The email server is not deleted.");
+			Assert.assertEquals(emailServer.AssertDeleteEmailServer(), message);
 			logger.info("Close the Test: Email Server");
 		}
 		
 		@AfterTest
 		public void tearDown() throws Exception {
+			HttpRequest.deleteServiceByName("Microsoft Exchange Server 2010 SP2");
 		   driver.quit();
-		   /*String verificationErrorString = verificationErrors.toString();
-		   if (!"".equals(verificationErrorString)) {
-			   fail(verificationErrorString);
-		   }*/
 		}
 	}
 }

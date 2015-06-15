@@ -14,8 +14,7 @@ import org.room.manager.utils.configReader;
 public class HttpReader {
 	private static void getResourceByName(String name) {
 
-		String url = configReader.getUrl() + "resources";
-		
+		String url = configReader.getUrl() + "/resources";
 		try (CloseableHttpClient httpClient = HttpClientBuilder.create().build()) {
             HttpGet request = new HttpGet(url);
             request.addHeader("content-type", "application/json");
@@ -53,7 +52,7 @@ public class HttpReader {
 	
 	private static void deleteResourceById(String id) {
 
-		String url = configReader.getUrl()  + "resources/" + id;
+		String url = configReader.getUrl()  + "/resources/" + id;
 		
 		try (CloseableHttpClient httpClient = HttpClientBuilder.create().build()) {
             HttpDelete request = new HttpDelete(url);

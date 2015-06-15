@@ -15,18 +15,14 @@ public class managerPage {
 	protected managerPage() {
 		PropertyConfigurator.configure("log4j.properties");
 	}
-	//STATIC CAMBIAR NOMBRE
+
 	public static WebDriver getBrowserChrome(){
 		if(Chrome==null){
-		    //log.info("Initialization of Chrome Explorer driver.");
 		    System.setProperty("webdriver.chrome.driver", configReader.getChromeDriver());
 			driver=new ChromeDriver();
 			Chrome = driver;
 		}
 		driver.manage().window().maximize();
-		return driver;
-	}
-	public WebDriver getDriver() {
 		return driver;
 	}
 	public static managerPage getManager() {

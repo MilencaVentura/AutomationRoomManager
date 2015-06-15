@@ -25,15 +25,15 @@ public class AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded {
 	/*Test Case:
 	   * Verify that is possible create a resource without name*/
 	private static WebDriver driver = null;
-	private managerPage automation=managerPage.getManager();
+	//private managerPage automation=managerPage.getManager();
     Logger logger=Logger.getLogger("test02CreateResource");
     
     @BeforeSuite
 	public void setUp() throws Exception {
 		
-        driver = automation.getBrowserChrome();
+        driver = managerPage.getBrowserChrome();
 	}
-    @Test (priority = 0)
+    @Test 
 	public void ResourceWithoutNameIsAdded() throws Exception {
 		PropertyConfigurator.configure("Log4j.properties");
 		String expectedResult = "Name must not be empty";

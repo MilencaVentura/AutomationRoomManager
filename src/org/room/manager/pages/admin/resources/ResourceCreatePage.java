@@ -36,6 +36,7 @@ public class ResourceCreatePage {
 	    return this;
     }
     public  ResourceCreatePage btn_Close(){
+    	(new WebDriverWait(driver,30)).until(ExpectedConditions.visibilityOfElementLocated(btnClose));
     	WebElement element = driver.findElement(btnClose);
 	    element.click();
 	    return this;
@@ -57,6 +58,7 @@ public class ResourceCreatePage {
     }
     
     public ResourceCreatePage btn_Save(){
+    	(new WebDriverWait(driver,30)).until(ExpectedConditions.visibilityOfElementLocated(btnSave));
     	WebElement element = driver.findElement(btnSave);
 	    element.click();
 	    return this;
@@ -71,6 +73,7 @@ public class ResourceCreatePage {
     	assertEquals("Name must not be empty", driver.findElement(By.cssSelector("small.inline-error.ng-binding")).getText()); 
 	}
     public void AssertCreateResource(String expectedResult){
+    	(new WebDriverWait(driver,30)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[2]/div[3]/div[2]/div/span")));
     	 assertEquals("Resource1", driver.findElement(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[2]/div[3]/div[2]/div/span")).getText());
     }
 }

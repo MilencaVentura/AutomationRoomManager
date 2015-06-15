@@ -14,18 +14,19 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.room.manager.utils.HttpReader;
 
 public class CreateResourceTest {
 	/*Test Case:
 	   * Verify that is possible create a resource*/
-	private StringBuffer verificationErrors = new StringBuffer();
+	//private StringBuffer verificationErrors = new StringBuffer();
 	private static WebDriver driver = null;
 	private managerPage automation=managerPage.getManager();
   Logger logger=Logger.getLogger("test02CreateResource");
   
   @BeforeSuite
 	public void setUp() throws Exception {
-      driver = automation.openBrowser();
+      driver = automation.getBrowserChrome();
 	}
   @Test (priority = 1) //(priority = 1)(groups = {"ACCEPTANCE"})
 	public void CreateResource() throws Exception {
@@ -33,14 +34,18 @@ public class CreateResourceTest {
 		String expectedResult = "Resource1";
 		driver.get(configReader.getUrl() + "/admin/#/login");
 		logger.info("Begin the Test: Resource");
+		System.out.print("ENTRANDO A HOME PAGE********");
 		HomeAdminPage.Execute(driver);
 		ResourceCreatePage resourcePage = new ResourceCreatePage(driver);
 		driver.navigate().refresh();
+		System.out.print("ABRIR PAGINA********");
 		resourcePage.Execute();
 		logger.info("Resources: press button add");
 		resourcePage.btn_Add();		
+		System.out.print("PRESIONAR BOTON ADD");
 		resourcePage.txt_name();
 		resourcePage.txt_displayName();
+		System.out.print("");
 		logger.info("press the button save");
 		resourcePage.btn_Save();
 		logger.info("verification the datas enter.");
@@ -51,6 +56,7 @@ public class CreateResourceTest {
   @AfterSuite //(groups = {"ACCEPTANCE"})
 	public void tearDown() throws Exception {
 	   driver.quit();
+	   HttpReader.deleteResourceByName("Resource1");
 	   /*String verificationErrorString = verificationErrors.toString();
 	   if (!"".equals(verificationErrorString)) {
 		   fail(verificationErrorString);

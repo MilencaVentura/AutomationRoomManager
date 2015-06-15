@@ -31,7 +31,7 @@ public class AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded {
     @BeforeSuite
 	public void setUp() throws Exception {
 		
-        driver = automation.openBrowser();
+        driver = automation.getBrowserChrome();
 	}
     @Test (priority = 0)
 	public void ResourceWithoutNameIsAdded() throws Exception {

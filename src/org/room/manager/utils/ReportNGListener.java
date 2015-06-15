@@ -82,7 +82,7 @@ public class ReportNGListener implements ITestListener{
 	 */ 
 	public static void takeScreenShot(String filePath, String fileName) throws IOException {
 		try { 
-			File scrFile = ((TakesScreenshot)managerPage.getManager().getDriver())
+			File scrFile = ((TakesScreenshot)managerPage.getManager().getBrowserChrome())
 					.getScreenshotAs(OutputType.FILE); 
 			FileUtils.copyFile(scrFile, new File(filePath + fileName)); 
 		} catch (Exception e) { 

@@ -1,49 +1,65 @@
 package org.room.manager.utils;
 import java.io.IOException;
-
 import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.entity.StringEntity;
+import org.apache.http.client.methods.HttpDelete;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.room.manager.utils.configReader;
 
 public class HttpReader {
-	public HttpResponse http(String url, String body) {
+	private static void getResourceByName(String name) {
 
-        try (CloseableHttpClient httpClient = HttpClientBuilder.create().build()) {
-            HttpPost request = new HttpPost(url);
-            StringEntity params = new StringEntity(body);
+		String url = configReader.getUrl() + "resources";
+		
+		try (CloseableHttpClient httpClient = HttpClientBuilder.create().build()) {
+            HttpGet request = new HttpGet(url);
             request.addHeader("content-type", "application/json");
-            request.setEntity(params);
             HttpResponse result = httpClient.execute(request);
             String json = EntityUtils.toString(result.getEntity(), "UTF-8");
-            com.google.gson.Gson gson = new com.google.gson.Gson();
-            Response respuesta = gson.fromJson(json, Response.class);
-            System.out.println(respuesta.getExample());
-            System.out.println(respuesta.getFr());
+            try {
+                JSONParser parser = new JSONParser();
+                Object resultObject = parser.parse(json);
+
+                if (resultObject instanceof JSONArray) {
+                    JSONArray array=(JSONArray)resultObject;
+                    for (Object object : array) {
+                        JSONObject obj =(JSONObject)object;
+                        if(obj.get("name").toString().equals(name)){
+                        	deleteResourceById(obj.get("_id").toString());
+                        }
+                    }
+
+                }else if (resultObject instanceof JSONObject) {
+                    JSONObject obj =(JSONObject)resultObject;
+                    if(obj.get("name").toString().equals(name)){
+                    	deleteResourceById(obj.get("_id").toString());
+                    }
+                }
+
+            } catch (Exception e) {
+            }
 
         } catch (IOException ex) {
         }
-        return null;
     }
+	public static void deleteResourceByName(String name){
+		getResourceByName(name);
+	}
+	
+	private static void deleteResourceById(String id) {
 
-    public class Response{
-
-        private String example;
-        private String fr;
-
-        public String getExample() {
-            return example;
-        }
-        public void setExample(String example) {
-            this.example = example;
-        }
-        public String getFr() {
-            return fr;
-        }
-        public void setFr(String fr) {
-            this.fr = fr;
+		String url = configReader.getUrl()  + "resources/" + id;
+		
+		try (CloseableHttpClient httpClient = HttpClientBuilder.create().build()) {
+            HttpDelete request = new HttpDelete(url);
+            request.addHeader("content-type", "application/json");
+            HttpResponse result = httpClient.execute(request);
+        } catch (IOException ex) {
         }
     }
 }

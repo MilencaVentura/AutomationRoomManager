@@ -8,16 +8,17 @@ import org.room.manager.utils.configReader;
 
 public class managerPage {
 	private static managerPage manager = null;
-	private WebDriver driver;
-	private WebDriver Chrome=null;
+	private static WebDriver driver;
+	private static WebDriver Chrome=null;
 	private WebDriver Mozilla;
 	Logger log = Logger.getLogger(getClass());
 	protected managerPage() {
 		PropertyConfigurator.configure("log4j.properties");
 	}
-	public WebDriver openBrowser(){
+	//STATIC CAMBIAR NOMBRE
+	public static WebDriver getBrowserChrome(){
 		if(Chrome==null){
-		    log.info("Initialization of Chrome Explorer driver.");
+		    //log.info("Initialization of Chrome Explorer driver.");
 		    System.setProperty("webdriver.chrome.driver", configReader.getChromeDriver());
 			driver=new ChromeDriver();
 			Chrome = driver;

@@ -13,12 +13,20 @@ import org.room.manager.pages.admin.HomeAdminPage;
 import org.room.manager.pages.admin.emailserver.EmailServerAddPage;
 import org.room.manager.modules.admin.HomeAdminEnum;
 import org.room.manager.modules.admin.resources.ResourcesEnum;
+import org.testng.Reporter;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
  * This page is needed to create a new resource. 
  * @author Milenca Ventura
  */
 
 public class ResourceCreatePage {
+	
 	private WebDriver driver;
 	By btnAdd = ResourcesEnum.BTNADD.value;
     By txtName = ResourcesEnum.TXTNAME.value;
@@ -26,6 +34,8 @@ public class ResourceCreatePage {
     By btnSave = ResourcesEnum.BTNSAVE.value;
     By btnClose = ResourcesEnum.BTNCLOSE.value;
     By btnResource = ResourcesEnum.BTNRESOURCE.value;
+   
+    
 	public ResourceCreatePage(WebDriver driver){
 		this.driver = driver;
 	}
@@ -76,7 +86,7 @@ public class ResourceCreatePage {
     }
     
     public ResourceCreatePage btn_Save(){
-    	(new WebDriverWait(driver,30)).until(ExpectedConditions.visibilityOfElementLocated(btnSave));
+    	(new WebDriverWait(driver,30)).until(ExpectedConditions.elementToBeClickable(btnSave));
     	WebElement element = driver.findElement(btnSave);
 	    element.click();
 	    return this;
@@ -91,11 +101,28 @@ public class ResourceCreatePage {
     	assertEquals("Name must not be empty", driver.findElement(By.cssSelector("small.inline-error.ng-binding")).getText()); 
 	}
     public void AssertCreateResource(String expectedResult){
-    	(new WebDriverWait(driver,30)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[2]/div[3]/div[2]/div")));
-    	 assertEquals("Resource1", driver.findElement(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[2]/div[3]/div[2]/div")).getText());
-    }
+    	(new WebDriverWait(driver,30)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[3]/div[3]/div[2]/div/span")));
+    	assertEquals("Resource1", driver.findElement(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[3]/div[3]/div[2]/div/span")).getText());
+    	/*try {
+    	   	assertEquals("Resource1", driver.findElement(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[3]/div[3]/div[2]/div/span")).getText());
+		} catch(Throwable e) {
+    		addVerificationFailure(e);
+		}*/
+     }
     public void AssertUpdateResource(String expectedResult){
     	(new WebDriverWait(driver,30)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[3]/div[4]/div[2]/div/span")));
-    	 assertEquals("TV", driver.findElement(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[3]/div[4]/div[2]/div/span")).getText());
+    	 //assertEquals("Calidad", driver.findElement(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[3]/div[4]/div[2]/div/span")).getText());
+       	 assertEquals("tv", driver.findElement(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[3]/div[4]/div[2]/div/span")).getText());
+
     }
+    /*private static void addVerificationFailure(Throwable e) {
+		List verificationFailures = getVerificationFailures();
+		verificationFailuresMap.put(Reporter.getCurrentTestResult(), verificationFailures);
+		verificationFailures.add(e);
+	}
+    public static List getVerificationFailures() {
+		WebDriver verificationFailuresMap;
+		List verificationFailures = verificationFailuresMap.get(Reporter.getCurrentTestResult());
+		return verificationFailures == null ? new ArrayList() : verificationFailures;
+	}*/
 }

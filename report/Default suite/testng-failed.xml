@@ -8,6 +8,7 @@
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="UpdateResource"/>
+          <include name="setUpTest"/>
         </methods>
       </class> <!-- org.room.manager.tests.admin.resources.VerifyUpdateResource -->
     </classes>

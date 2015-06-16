@@ -71,7 +71,7 @@ public class HttpReader {
 	}
 	private static void createResource(String name, String displayName, String icon, String description)throws IOException{
 		String url = configReader.getUrl() + "/resources";
-		String body =  "{\"name\":\""+name+"\",\"customName\":\""+displayName+"\",\"fontIcon\":\""+icon+"\",\"description\":\""+description+"\"}";
+		String body =  "{\"name\":\""+name+"\",\"customName\":\""+displayName+"\",\"fontIcon\":\""+icon+"\",\"from\":\"\",\"description\":\""+description+"\"}";
 		try(CloseableHttpClient httpClient = HttpClientBuilder.create().build()){
 			HttpPost requestPost = new HttpPost(url);
 			StringEntity params = new StringEntity(body);

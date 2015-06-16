@@ -37,12 +37,14 @@ public class EmailServerAddPage {
     public EmailServerAddPage btn_Remove(){
         (new WebDriverWait(driver,20)).until(ExpectedConditions.presenceOfElementLocated(btnRemove));
         WebElement element = driver.findElement(btnRemove);
+        element.click();
 	    return this;
     }
     
     public EmailServerAddPage btn_Delete(){
         (new WebDriverWait(driver,20)).until(ExpectedConditions.presenceOfElementLocated(btnDelete));
         WebElement element = driver.findElement(btnDelete);
+        element.click();
 	    return this;
     }
     public EmailServerAddPage txt_Hostname(String hostname){

@@ -8,9 +8,9 @@ import org.room.manager.utils.configReader;
 
 public class managerPage {
 	private static managerPage manager = new managerPage();
-	private static WebDriver driver = null;
+	private static WebDriver driver;
 	//Logger log = Logger.getLogger(getClass());
-	protected managerPage() {
+	private managerPage() {
 		//PropertyConfigurator.configure("log4j.properties");
 	}
 
@@ -22,14 +22,15 @@ public class managerPage {
 		}
 		return driver;
 	}
-	public static WebDriver getBrowserMozilla(){
-		if(driver == null){
-			driver = new FirefoxDriver();
-			driver.manage().window().maximize();
-		}
-		return driver;
-	}
+
 	public static managerPage getManager(){
+		/*if (manager == null) {
+			manager = new managerPage();
+		}
+		return manager;*/
+		/*driver = null;
+		return manager;*/
+		//driver = null;
 		return manager;
 	}
 	/*public static managerPage getManager() {

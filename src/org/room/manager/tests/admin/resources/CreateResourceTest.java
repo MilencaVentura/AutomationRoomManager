@@ -37,7 +37,7 @@ public class CreateResourceTest {
 		EmailServerAddPage emailServer = new EmailServerAddPage(driver);
 		emailServer.Execute();
 		ResourceCreatePage resourcePage = new ResourceCreatePage(driver);
-		driver.navigate().refresh();
+		//driver.navigate().refresh();
 		resourcePage.Execute();
 		logger.info("Resources: press button add");
 		resourcePage.btn_Add();		

@@ -8,11 +8,13 @@
     <test name = "RoomManager">
         <classes>
         	<!--TC1-->
-        	 	    <class name = "org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded" />
+        		<class name = "org.room.manager.tests.admin.resources.CreateResourceTest" />
         	<!--TC2-->
-        	 	    <class name = "org.room.manager.tests.admin.resources.CreateResourceTest" />
-            <!--TC3-->
-        	 	    <class name = "org.room.manager.tests.admin.resources.VerifyUpdateResource" />
+        			<class name = "org.room.manager.tests.admin.resources.VerifyUpdateResource" />   
+        	<!--TC2-->
+        	 	    <class name = "org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded" />
+        	 <!--TC3-->
+					<class name = "org.room.manager.tests.admin.resources.CreateResourceTest" />
 		</classes>
     </test>
     

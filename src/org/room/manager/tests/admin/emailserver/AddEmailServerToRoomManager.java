@@ -10,6 +10,7 @@ import org.room.manager.utils.configReader;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.room.manager.pages.admin.emailserver.EmailServerAddPage;
+import org.room.manager.pages.admin.resources.ResourceCreatePage;
 import org.room.manager.managerPage;
 
 /**
@@ -34,6 +35,8 @@ public class AddEmailServerToRoomManager {
 		logger.info("Begin the Test: Email Server");
 		logger.info("Open the page");
 		HomeAdminPage.Execute(driver);
+		ResourceCreatePage resourcePage = new ResourceCreatePage(driver);
+		resourcePage.Execute();
 		EmailServerAddPage emailServer = new EmailServerAddPage(driver);
 		emailServer.Execute();
 		emailServer.btn_Add();

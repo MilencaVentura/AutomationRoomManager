@@ -36,19 +36,23 @@ public class AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded {
 		PropertyConfigurator.configure("Log4j.properties");
 		String expectedResult = "Name must not be empty";
 		driver.get(configReader.getUrl() + "/admin/#/login");
-		logger.info("Begin the Test: Resource");
+		logger.info("Begin the Test: Resource without name");
 		HomeAdminPage.Execute(driver);
+		EmailServerAddPage emailServer = new EmailServerAddPage(driver);
+		emailServer.Execute();
 		ResourceCreatePage resourcePage = new ResourceCreatePage(driver);
 		resourcePage.Execute().
 		btn_Add().
 		txt_displayName().
 		btn_Save().AssertWithouName(expectedResult);
-		//post condition
+		logger.info("End test:Resource without name");
 		resourcePage.btn_Close();
 	}
 	
     @AfterSuite //(groups = {"ACCEPTANCE"})
 	public void tearDown() throws Exception {
+    	/*ResourceCreatePage resourcePage = new ResourceCreatePage(driver);
+    	resourcePage.btn_Close();*/
 	   driver.quit();	  
 	}
 }

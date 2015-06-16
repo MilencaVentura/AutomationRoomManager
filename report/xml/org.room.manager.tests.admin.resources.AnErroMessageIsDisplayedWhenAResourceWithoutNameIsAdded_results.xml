@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="8.340">
+           time="3.126">
   <properties />
   
   
-            <testcase name="ResourceWithoutNameIsAdded" time="8.340" classname="org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded" />
+            <testcase name="ResourceWithoutNameIsAdded" time="3.126" classname="org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded" />
       
 </testsuite>

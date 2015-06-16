@@ -11,7 +11,9 @@ import org.room.manager.pages.admin.emailserver.EmailServerAddPage;
 import org.room.manager.utils.HttpRequest;
 import org.room.manager.utils.configReader;
 import org.testng.Assert;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -24,7 +26,7 @@ public class RemoveEmailServerToRoomManager {
 		private WebDriver driver = null;
 		private managerPage automation=managerPage.getManager();
 	    Logger logger=Logger.getLogger("test01AddEmailServer");
-		@BeforeTest
+	    @BeforeSuite
 		public void setUp() throws Exception {
 		     driver = automation.getBrowserChrome();
 		     HttpRequest.addEmailServerJson(configReader.getUsername(),configReader.getPassword(),configReader.getHostName());
@@ -39,21 +41,13 @@ public class RemoveEmailServerToRoomManager {
 			EmailServerAddPage emailServer = new EmailServerAddPage(driver);
 			HomeAdminPage.Execute(driver);
 			emailServer.Execute();
-			/*
-			emailServer.btn_Add();
-			emailServer.txt_Hostname( configReader.getHostName());
-			emailServer.txt_Username( configReader.getUsername());
-			emailServer.txt_Password( configReader.getPassword());
-			emailServer.btn_Save();
-			driver.navigate().refresh();*/
-			driver.navigate().refresh();
 			emailServer.btn_Remove();
 			emailServer.btn_Delete();
-			Assert.assertEquals(emailServer.AssertDeleteEmailServer(), message);
+			Assert.assertTrue(emailServer.AssertDeleteEmailServer(), message);
 			logger.info("Close the Test: Email Server");
 		}
 		
-		@AfterTest
+		@AfterSuite
 		public void tearDown() throws Exception {
 			HttpRequest.deleteServiceByName("Microsoft Exchange Server 2010 SP2");
 		   driver.quit();

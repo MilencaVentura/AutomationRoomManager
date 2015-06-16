@@ -17,7 +17,7 @@ public class HomeAdminPage {
 	}
    
     public static WebElement lnk_EmailServer(WebDriver driver){
-	    (new WebDriverWait(driver,20)).until(ExpectedConditions.presenceOfElementLocated(HomeAdminEnum.LINKEMAILSERVER.value));
+	    (new WebDriverWait(driver,60)).until(ExpectedConditions.presenceOfElementLocated(HomeAdminEnum.LINKEMAILSERVER.value));
 	    element = driver.findElement(HomeAdminEnum.LINKEMAILSERVER.value);
 	    return element;
     }   

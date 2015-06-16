@@ -1,32 +1,19 @@
 package org.room.manager.utils;
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-
 import org.apache.http.HttpResponse;
-import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpDelete;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.room.manager.utils.configReader;
-import org.apache.http.NameValuePair;
-
-import java.io.OutputStream;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
 
 public class HttpReader {
 	private static void getResourceByName(String name) {
@@ -79,12 +66,12 @@ public class HttpReader {
         }
     }
 
-	public static void createResourceJson() throws IOException {
-		createResource();
+	public static void createResourceJson(String name, String displayName, String icon, String description) throws IOException {
+		createResource(name, displayName, icon, description);
 	}
-	private static void createResource()throws IOException{
+	private static void createResource(String name, String displayName, String icon, String description)throws IOException{
 		String url = configReader.getUrl() + "/resources";
-		String body =  "{\"name\":\"tv\",\"customName\":\"TV\",\"fontIcon\":\"fa fa-desktop\",\"description\":\"TV with DVD ready\"}";
+		String body =  "{\"name\":\""+name+"\",\"customName\":\""+displayName+"\",\"fontIcon\":\""+icon+"\",\"description\":\""+description+"\"}";
 		try(CloseableHttpClient httpClient = HttpClientBuilder.create().build()){
 			HttpPost requestPost = new HttpPost(url);
 			StringEntity params = new StringEntity(body);

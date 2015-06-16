@@ -13,7 +13,7 @@ public class configReader {
 	static Properties resources = new Properties();
     static InputStream input = null;
     static Properties resourceValue = new Properties();
-    
+       
 	/**
 	 * Select a browser
 	 */
@@ -79,7 +79,7 @@ private static void initializeUrl() {
  */
 private static void getResource() {
 	try {
-        input = new FileInputStream("properties/resources");
+        input = new FileInputStream("properties/resourcesData.properties");
         url.load(input);
 
   } catch (IOException ex) {
@@ -115,11 +115,19 @@ public static String getPassword(){
     return resources.getProperty("PASSWORD");
 	}
 public static String getName(){
-	initializeResources();
+	getResource();
     return resourceValue.getProperty("NAME");
 	}
 public static String getDisplayName(){
-	initializeResources();
-    return resourceValue.getProperty("DISPLAYNAME");
+	getResource();
+    return resourceValue.getProperty("CUSTOMNAME");
+	}
+public static String getIcon(){
+	getResource();
+    return resourceValue.getProperty("FONTICON");
+	}
+public static String getDescription(){
+	getResource();
+    return resourceValue.getProperty("DESCRIPTION");
 	}
 }

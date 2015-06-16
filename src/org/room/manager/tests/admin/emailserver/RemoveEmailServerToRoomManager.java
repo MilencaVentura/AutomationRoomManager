@@ -27,7 +27,7 @@ public class RemoveEmailServerToRoomManager {
 		@BeforeTest
 		public void setUp() throws Exception {
 		     driver = automation.getBrowserChrome();
-		     HttpRequest.addEmailServerJson();
+		     HttpRequest.addEmailServerJson(configReader.getUsername(),configReader.getPassword(),configReader.getHostName());
 		}
 		@Test 
 		public void registerEmailService() throws Exception {

@@ -13,7 +13,8 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 import java.io.File;
 import java.io.IOException;
-import org.room.manager.utils.configReader;;
+import java.util.Date;
+
 public class ReportNGListener implements ITestListener{
 	Logger log = Logger.getLogger(getClass());
 	private static WebDriver driver= managerPage.getManager().getBrowserChrome();
@@ -21,17 +22,17 @@ public class ReportNGListener implements ITestListener{
 	@Override
 	public void onStart(ITestContext result) {
 		PropertyConfigurator.configure("log4j.properties");
-		log.info("Start Of Execution(TEST)-> " + result.getName());
+		log.info("<-Start Of Execution(TEST)-> " + result.getName());
 	}
 	
 	@Override
 	public void onTestStart(ITestResult result) {
-		log.info("Test Started-> " + result.getName());
+		log.info("<-Test Started-> " + result.getName());
 	}
 	
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		log.info("Test Passed-> " + result.getName());
+		log.info("<-Test Passed-> " + result.getName());
 	}
 	
 	@Override
@@ -54,20 +55,20 @@ public class ReportNGListener implements ITestListener{
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			log.error("Test Failed-> " + result.getName());
+			log.error("<-Test Failed-> " + result.getName());
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		log.warn("Test Skipped-> " + result.getName());
+		log.warn("<-Test Skipped-> " + result.getName());
 	}	
 	@Override
 	public void onFinish(ITestContext context) {
-		log.info("END Of Execution(TEST)-> " + context.getName());
+		log.info("<-END Of Execution(TEST)-> " + context.getName());
 	}
 	@Override
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		log.info("Success percentage failure -> " + result.toString());	
+		log.info("<-Success percentage failure -> " + result.toString());	
 	}
 	/** 
 	 * This method takes screenshots 
@@ -76,10 +77,11 @@ public class ReportNGListener implements ITestListener{
 	 * @throws IOException 
 	 */ 
 	public static void takeScreenShot(String filePath, String fileName) throws IOException {
+		Date date= new Date();
 		try { 
 			File scrFile = ((TakesScreenshot)managerPage.getManager().getBrowserChrome())
 					.getScreenshotAs(OutputType.FILE); 
-			FileUtils.copyFile(scrFile, new File(filePath + fileName)); 
+			FileUtils.copyFile(scrFile, new File(filePath+ date.getTime() + fileName)); 
 		} catch (Exception e) { 
 			e.printStackTrace(); 
 		}  

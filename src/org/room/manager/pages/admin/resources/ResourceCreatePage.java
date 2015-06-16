@@ -91,11 +91,11 @@ public class ResourceCreatePage {
     	assertEquals("Name must not be empty", driver.findElement(By.cssSelector("small.inline-error.ng-binding")).getText()); 
 	}
     public void AssertCreateResource(String expectedResult){
-    	(new WebDriverWait(driver,30)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[2]/div[3]/div[2]/div/span")));
-    	 assertEquals("Resource1", driver.findElement(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[2]/div[3]/div[2]/div/span")).getText());
+    	(new WebDriverWait(driver,30)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[2]/div[3]/div[2]/div")));
+    	 assertEquals("Resource1", driver.findElement(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[2]/div[3]/div[2]/div")).getText());
     }
     public void AssertUpdateResource(String expectedResult){
     	(new WebDriverWait(driver,30)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[3]/div[4]/div[2]/div/span")));
-    	 assertEquals("tv", driver.findElement(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[3]/div[4]/div[2]/div/span")).getText());
+    	 assertEquals("TV", driver.findElement(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[3]/div[4]/div[2]/div/span")).getText());
     }
 }

@@ -3,7 +3,7 @@ package org.room.manager.utils;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
+import javax.ws.rs.core.MediaType;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpDelete;
 import org.apache.http.client.methods.HttpGet;
@@ -15,6 +15,9 @@ import org.apache.http.util.EntityUtils;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.ClientResponse;
+import com.sun.jersey.api.client.WebResource;
 
 public class HttpRequest {
 	private static void getService(String name) {
@@ -69,13 +72,13 @@ public class HttpRequest {
         } catch (IOException ex) {
         }
     }
-	public static void addEmailServerJson() throws IOException {
-		addEmailServer();
+	public static void addEmailServerJson(String username, String password, String hostname) throws IOException {
+		addEmailServer(username, password, hostname);
 	}
-	//pasar como parametros y concatenar dentro del body
-	private static void addEmailServer()throws IOException{
+	
+	private static void addEmailServer(String username, String password, String hostname)throws IOException{
 		String url = configReader.getUrl() + "/services?type=exchange";
-		String body =  "{\"username\":\"Administrator\",\"password\":\"qadev02**\",\"hostname\":\"env01001.unit.com\"}";
+		String body =  "{\"username\":\""+username+"\",\"password\":\""+password+"\",\"hostname\":\""+hostname+"\"}";
 		try(CloseableHttpClient httpClient = HttpClientBuilder.create().build()){
 			HttpPost requestPost = new HttpPost(url);
 			StringEntity params = new StringEntity(body);

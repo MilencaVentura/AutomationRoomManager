@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="org.room.manager.tests.admin.emailserver.RemoveEmailServerToRoomManager$AddEmailServerToRoomManager">
+      <class name="org.room.manager.tests.admin.resources.VerifyUpdateResource">
         <methods>
-          <include name="registerEmailService"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="UpdateResource"/>
         </methods>
-      </class> <!-- org.room.manager.tests.admin.emailserver.RemoveEmailServerToRoomManager$AddEmailServerToRoomManager -->
+      </class> <!-- org.room.manager.tests.admin.resources.VerifyUpdateResource -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

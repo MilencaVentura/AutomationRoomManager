@@ -94,3 +94,269 @@
 2015-06-16 08:46:56,036 [main] INFO test03UpdateResource - verification the datas enter.
 2015-06-16 08:46:56,556 [main] ERROR org.room.manager.utils.ReportNGListener - Test Failed-> UpdateResource
 2015-06-16 08:46:57,134 [main] INFO org.room.manager.utils.ReportNGListener - END Of Execution(TEST)-> RoomManager
+2015-06-16 09:03:04,862 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-16 09:05:16,156 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 09:05:16,168 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 09:07:16,206 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 09:07:16,214 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 09:09:17,740 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 09:09:17,750 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:01:08,506 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-16 12:01:13,878 [main] INFO test03UpdateResource - Resources: press button for update resource
+2015-06-16 12:02:20,077 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-16 12:02:23,443 [main] INFO test03UpdateResource - Resources: press button for update resource
+2015-06-16 12:02:24,231 [main] INFO test03UpdateResource - Resources: Updating resource
+2015-06-16 12:02:27,220 [main] INFO test03UpdateResource - press the button save
+2015-06-16 12:02:27,730 [main] INFO test03UpdateResource - verification the datas enter.
+2015-06-16 12:04:22,058 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-16 12:04:25,801 [main] INFO test03UpdateResource - Resources: press button for update resource
+2015-06-16 12:04:26,892 [main] INFO test03UpdateResource - Resources: Updating resource
+2015-06-16 12:04:29,313 [main] INFO test03UpdateResource - press the button save
+2015-06-16 12:04:29,566 [main] INFO test03UpdateResource - verification the datas enter.
+2015-06-16 12:08:00,954 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-16 12:11:15,465 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-16 12:11:20,313 [main] INFO test03UpdateResource - Resources: press button for update resource
+2015-06-16 12:11:21,971 [main] INFO test03UpdateResource - Resources: Updating resource
+2015-06-16 12:11:23,314 [main] INFO test03UpdateResource - press the button save
+2015-06-16 12:11:23,481 [main] INFO test03UpdateResource - verification the datas enter.
+2015-06-16 12:15:55,475 [main] INFO org.room.manager.utils.ReportNGListener - Start Of Execution(TEST)-> RoomManager
+2015-06-16 12:15:55,520 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 12:15:58,638 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 12:16:59,887 [main] ERROR org.room.manager.utils.ReportNGListener - Test Failed-> ResourceWithoutNameIsAdded
+2015-06-16 12:16:59,896 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> CreateResource
+2015-06-16 12:17:00,877 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 12:17:22,367 [main] ERROR org.room.manager.utils.ReportNGListener - Test Failed-> CreateResource
+2015-06-16 12:17:22,373 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> UpdateResource
+2015-06-16 12:17:23,335 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-16 12:17:44,198 [main] ERROR org.room.manager.utils.ReportNGListener - Test Failed-> UpdateResource
+2015-06-16 12:17:44,252 [main] INFO org.room.manager.utils.ReportNGListener - END Of Execution(TEST)-> RoomManager
+2015-06-16 12:19:49,113 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:19:49,113 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:21:51,234 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:21:51,234 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:23:51,275 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:23:51,278 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:26:09,427 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 12:27:51,317 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:27:51,317 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:28:30,110 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:28:30,111 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:29:17,560 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:29:17,569 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:29:51,481 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:29:51,481 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:30:30,239 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:30:30,249 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:31:17,564 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:31:17,573 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:31:51,502 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:31:51,513 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:33:17,576 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:33:17,588 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:34:12,800 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:34:12,815 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:35:19,206 [main] INFO org.room.manager.utils.ReportNGListener - Start Of Execution(TEST)-> RoomManager
+2015-06-16 12:36:12,843 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:36:12,844 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:36:22,250 [main] INFO test01AddEmailServer - Begin the Test: Email Server
+2015-06-16 12:36:22,258 [main] INFO test01AddEmailServer - Open the page
+2015-06-16 12:37:20,506 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> registerEmailService
+2015-06-16 12:37:26,000 [main] ERROR org.room.manager.utils.ReportNGListener - Test Failed-> registerEmailService
+2015-06-16 12:37:26,004 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> registerEmailService
+2015-06-16 12:37:30,358 [main] ERROR org.room.manager.utils.ReportNGListener - Test Failed-> registerEmailService
+2015-06-16 12:38:12,844 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:38:12,844 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:39:30,389 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:39:30,403 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:40:12,902 [main] INFO org.room.manager.utils.ReportNGListener - Start Of Execution(TEST)-> RoomManager
+2015-06-16 12:41:30,418 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:41:30,419 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:42:13,970 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> registerEmailService
+2015-06-16 12:42:18,358 [main] ERROR org.room.manager.utils.ReportNGListener - Test Failed-> registerEmailService
+2015-06-16 12:42:18,358 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> registerEmailService
+2015-06-16 12:42:22,718 [main] ERROR org.room.manager.utils.ReportNGListener - Test Failed-> registerEmailService
+2015-06-16 12:43:30,493 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:43:30,502 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:44:23,093 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:44:23,093 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:45:31,783 [main] INFO org.room.manager.utils.ReportNGListener - END Of Execution(TEST)-> RoomManager
+2015-06-16 12:46:23,109 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:46:23,109 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:47:32,001 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:47:32,014 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:48:23,138 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:48:23,141 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:49:32,026 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:49:32,027 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:50:46,588 [main] INFO org.room.manager.utils.ReportNGListener - END Of Execution(TEST)-> RoomManager
+2015-06-16 12:51:32,028 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:51:32,042 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:52:52,171 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:52:52,172 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:54:52,186 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:54:52,186 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:56:54,520 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:56:54,520 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 13:30:27,123 [main] INFO org.room.manager.utils.ReportNGListener - Start Of Execution(TEST)-> RoomManager
+2015-06-16 13:30:27,145 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 13:30:46,728 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 13:31:49,478 [main] ERROR org.room.manager.utils.ReportNGListener - Test Failed-> ResourceWithoutNameIsAdded
+2015-06-16 13:31:49,478 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> CreateResource
+2015-06-16 13:31:50,664 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 13:32:11,598 [main] ERROR org.room.manager.utils.ReportNGListener - Test Failed-> CreateResource
+2015-06-16 13:32:11,605 [main] INFO org.room.manager.utils.ReportNGListener - Test Started-> UpdateResource
+2015-06-16 13:32:12,624 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-16 13:32:33,279 [main] ERROR org.room.manager.utils.ReportNGListener - Test Failed-> UpdateResource
+2015-06-16 13:32:33,344 [main] INFO org.room.manager.utils.ReportNGListener - END Of Execution(TEST)-> RoomManager
+2015-06-16 13:34:34,857 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 13:34:34,857 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 13:36:34,890 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 13:36:34,890 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 13:38:34,936 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 13:38:34,936 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 13:42:34,976 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 13:42:34,992 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 13:44:34,993 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 13:44:34,993 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 13:46:35,003 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 13:46:35,019 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 14:54:17,407 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-16 14:54:17,610 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 14:54:40,092 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 14:54:51,210 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-16 14:54:51,212 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-16 14:54:51,411 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 14:54:54,581 [main] INFO test02CreateResource - Resources: press button add
+2015-06-16 14:54:56,729 [main] INFO test02CreateResource - press the button save
+2015-06-16 14:54:56,965 [main] INFO test02CreateResource - verification the datas enter.
+2015-06-16 14:54:59,492 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-16 14:54:59,494 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-16 14:54:59,612 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-16 14:55:03,455 [main] INFO test03UpdateResource - Resources: press button for update resource
+2015-06-16 14:55:04,106 [main] INFO test03UpdateResource - Resources: Updating resource
+2015-06-16 14:55:05,752 [main] INFO test03UpdateResource - press the button save
+2015-06-16 14:55:05,996 [main] INFO test03UpdateResource - verification the datas enter.
+2015-06-16 14:55:06,542 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> UpdateResource
+2015-06-16 14:55:07,125 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-16 14:58:22,768 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-16 14:58:22,784 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 14:58:41,098 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 14:58:57,363 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-16 14:58:57,379 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-16 14:58:57,553 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 14:58:58,378 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-16 14:58:58,378 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-16 14:58:59,069 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-16 14:59:20,354 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> UpdateResource
+2015-06-16 14:59:20,397 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-16 15:01:32,564 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 15:01:32,564 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 15:03:51,366 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-16 15:03:51,423 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 15:03:54,393 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 15:04:00,100 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-16 15:04:00,114 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-16 15:04:01,821 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 15:04:04,366 [main] INFO test02CreateResource - Resources: press button add
+2015-06-16 15:04:06,661 [main] INFO test02CreateResource - press the button save
+2015-06-16 15:04:06,828 [main] INFO test02CreateResource - verification the datas enter.
+2015-06-16 15:04:13,971 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-16 15:04:13,974 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-16 15:04:14,179 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-16 15:04:25,471 [main] INFO test03UpdateResource - Resources: press button for update resource
+2015-06-16 15:04:56,217 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> UpdateResource
+2015-06-16 15:04:57,018 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-16 15:07:35,445 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-16 15:07:35,463 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 15:07:38,464 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 15:07:42,387 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-16 15:07:42,390 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-16 15:07:42,534 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 15:07:45,036 [main] INFO test02CreateResource - Resources: press button add
+2015-06-16 15:07:47,117 [main] INFO test02CreateResource - press the button save
+2015-06-16 15:07:47,374 [main] INFO test02CreateResource - verification the datas enter.
+2015-06-16 15:07:48,551 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-16 15:07:48,553 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-16 15:07:48,701 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-16 15:07:51,402 [main] INFO test03UpdateResource - Resources: press button for update resource
+2015-06-16 15:07:57,404 [main] INFO test03UpdateResource - Resources: Updating resource
+2015-06-16 15:07:58,751 [main] INFO test03UpdateResource - press the button save
+2015-06-16 15:07:58,909 [main] INFO test03UpdateResource - verification the datas enter.
+2015-06-16 15:07:59,456 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> UpdateResource
+2015-06-16 15:07:59,483 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-16 15:13:22,274 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-16 15:13:22,294 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 15:13:30,545 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 15:13:35,006 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-16 15:13:35,013 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-16 15:13:35,227 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 15:13:37,761 [main] INFO test02CreateResource - Resources: press button add
+2015-06-16 15:13:39,910 [main] INFO test02CreateResource - press the button save
+2015-06-16 15:13:40,182 [main] INFO test02CreateResource - verification the datas enter.
+2015-06-16 15:13:40,718 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-16 15:13:40,719 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-16 15:13:40,953 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-16 15:13:41,373 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> UpdateResource
+2015-06-16 15:13:41,414 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-16 15:16:59,594 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-16 15:16:59,623 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 15:17:05,332 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 15:17:11,065 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-16 15:17:11,067 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-16 15:17:11,417 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 15:17:21,053 [main] INFO test02CreateResource - Resources: press button add
+2015-06-16 15:17:23,534 [main] INFO test02CreateResource - press the button save
+2015-06-16 15:17:23,728 [main] INFO test02CreateResource - verification the datas enter.
+2015-06-16 15:17:24,358 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-16 15:17:24,359 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-16 15:17:24,565 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-16 15:17:25,034 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> UpdateResource
+2015-06-16 15:17:25,081 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-16 15:20:08,649 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-16 15:20:08,667 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 15:20:15,955 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 15:20:38,639 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-16 15:20:38,643 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-16 15:20:39,018 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 15:20:41,173 [main] INFO test02CreateResource - Resources: press button add
+2015-06-16 15:20:42,891 [main] INFO test02CreateResource - press the button save
+2015-06-16 15:20:43,061 [main] INFO test02CreateResource - verification the datas enter.
+2015-06-16 15:20:43,294 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> CreateResource
+2015-06-16 15:20:43,295 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-16 15:20:43,399 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-16 15:20:43,973 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> UpdateResource
+2015-06-16 15:20:44,015 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-16 15:24:31,622 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-16 15:24:31,637 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 15:24:35,495 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 15:24:39,964 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-16 15:24:39,966 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-16 15:24:40,213 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 15:24:40,901 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-16 15:24:40,902 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-16 15:24:41,814 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-16 15:24:44,893 [main] INFO test03UpdateResource - Resources: press button for update resource
+2015-06-16 15:24:45,421 [main] INFO test03UpdateResource - Resources: Updating resource
+2015-06-16 15:24:46,778 [main] INFO test03UpdateResource - press the button save
+2015-06-16 15:24:47,190 [main] INFO test03UpdateResource - verification the datas enter.
+2015-06-16 15:25:17,619 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> UpdateResource
+2015-06-16 15:25:17,693 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-16 15:30:27,207 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-16 15:30:27,240 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 15:30:30,273 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 15:31:31,271 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> ResourceWithoutNameIsAdded
+2015-06-16 15:31:31,274 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-16 15:31:32,120 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-16 15:31:53,335 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-16 15:31:53,338 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-16 15:31:53,886 [main] INFO test03UpdateResource - Begin the Test: Resource
+2015-06-16 15:32:14,901 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> UpdateResource
+2015-06-16 15:32:14,969 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-16 15:34:16,714 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 15:34:16,715 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 15:36:17,215 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 15:36:17,226 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 15:38:17,467 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 15:38:17,467 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 15:42:17,904 [main] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 15:42:17,907 [main] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://172.20.208.174:4044

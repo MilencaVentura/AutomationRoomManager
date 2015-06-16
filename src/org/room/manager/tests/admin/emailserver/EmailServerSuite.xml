@@ -1,0 +1,17 @@
+<suite name = "EmailServer_Test_Suite" parallel="false">
+	<listeners>
+	     <listener class-name = "org.uncommons.reportng.HTMLReporter"/>
+         <listener class-name = "org.uncommons.reportng.JUnitXMLReporter"/>
+         <listener class-name = "org.room.manager.utils.ReportNGListener"/>
+		
+    </listeners>
+	
+    <test name = "RoomManager">
+        <classes>
+        		<!--TC1-->
+        		<class name = "org.room.manager.tests.admin.emailserver.AddEmailServerToRoomManager" />
+        		<!--TC2-->
+        		<class name = "org.room.manager.tests.admin.emailserver.RemoveEmailServerToRoomManager" />
+		</classes>
+    </test>
+</suite>

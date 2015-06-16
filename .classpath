@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="D:/Install/Selenium/selenium-server-standalone-2.45.0.jar"/>
 	<classpathentry kind="lib" path="D:/Install/Listerners/apache-logging-log4j.jar"/>
 	<classpathentry kind="lib" path="D:/Install/Listerners/guice-3.0.jar"/>
@@ -12,5 +11,20 @@
 	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/json-simple-1.1.1.jar"/>
 	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/json-simple-1.1.jar"/>
 	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/jsoup-1.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/jersey-client.jar"/>
+	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/fluent-selenium-1.14.5.jar"/>
+	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/joda-time-2.4.jar"/>
+	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/log4j-1.2.9.jar"/>
+	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/mongo-java-driver-2.9.3.jar"/>
+	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/testng-6.8.jar"/>
+	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/jexcelapi/jxl.jar"/>
+	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/reportng-1.1.4/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/selenium-2.44.0/libs/commons-codec-1.9.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/javax.ws.rs-api-2.0-m10-sources.jar"/>
+	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/javax.ws.rs-api-2.0-m02.jar"/>
+	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/guice-3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

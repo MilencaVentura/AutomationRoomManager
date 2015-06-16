@@ -4,29 +4,29 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="22.103">
+           time="2.085">
   <properties />
-            <testcase name="registerEmailService" time="22.103" classname="org.room.manager.tests.admin.emailserver.AddEmailServerToRoomManager">
-                <failure type="org.openqa.selenium.ElementNotVisibleException"
-                  message="element not visible
+            <testcase name="registerEmailService" time="2.085" classname="org.room.manager.tests.admin.emailserver.AddEmailServerToRoomManager">
+                <failure type="org.openqa.selenium.WebDriverException"
+                  message="chrome not reachable
   (Session info: chrome=40.0.2214.111)
   (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 16 milliseconds
+Command duration or timeout: 2.05 seconds
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
 System info: host: &apos;VDQADEV01-NNDUU&apos;, ip: &apos;172.20.200.215&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_80-ea&apos;
-Session ID: 7574b696dc22f6cc9f4d43f4a91f3361
+Session ID: b08ed296a714cc1dfe63b67aea64d724
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\MILENC~1\AppData\Local\Temp\2\scoped_dir8032_11200}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]"
+Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\MILENC~1\AppData\Local\Temp\2\scoped_dir25228_4069}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]"
               >
-<![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+<![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=40.0.2214.111)
   (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 16 milliseconds
+Command duration or timeout: 2.05 seconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'VDQADEV01-NNDUU', ip: '172.20.200.215', os.name: 'Windows Server 2012 R2', os.arch: 'x86', os.version: '6.3', java.version: '1.7.0_80-ea'
-Session ID: 7574b696dc22f6cc9f4d43f4a91f3361
+Session ID: b08ed296a714cc1dfe63b67aea64d724
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\MILENC~1\AppData\Local\Temp\2\scoped_dir8032_11200}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\MILENC~1\AppData\Local\Temp\2\scoped_dir25228_4069}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
   sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
   sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
   sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -34,10 +34,8 @@ Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, bro
   org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
   org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
   org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
-  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-  org.room.manager.pages.admin.emailserver.EmailServerAddPage.btn_Add(EmailServerAddPage.java:33)
-  org.room.manager.tests.admin.emailserver.AddEmailServerToRoomManager.registerEmailService(AddEmailServerToRoomManager.java:39)
+  org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+  org.room.manager.tests.admin.emailserver.AddEmailServerToRoomManager.registerEmailService(AddEmailServerToRoomManager.java:33)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)

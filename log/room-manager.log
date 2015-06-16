@@ -803,3 +803,269 @@ INFO - Open the page
 2015-06-16 08:46:56 INFO  test03UpdateResource: verification the datas enter.
 2015-06-16 08:46:56 ERROR ReportNGListener: Test Failed-> UpdateResource
 2015-06-16 08:46:57 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-16 09:03:04 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-16 09:05:16 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 09:05:16 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 09:07:16 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 09:07:16 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 09:09:17 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 09:09:17 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:01:08 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-16 12:01:13 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-16 12:02:20 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-16 12:02:23 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-16 12:02:24 INFO  test03UpdateResource: Resources: Updating resource
+2015-06-16 12:02:27 INFO  test03UpdateResource: press the button save
+2015-06-16 12:02:27 INFO  test03UpdateResource: verification the datas enter.
+2015-06-16 12:04:22 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-16 12:04:25 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-16 12:04:26 INFO  test03UpdateResource: Resources: Updating resource
+2015-06-16 12:04:29 INFO  test03UpdateResource: press the button save
+2015-06-16 12:04:29 INFO  test03UpdateResource: verification the datas enter.
+2015-06-16 12:08:00 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-16 12:11:15 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-16 12:11:20 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-16 12:11:21 INFO  test03UpdateResource: Resources: Updating resource
+2015-06-16 12:11:23 INFO  test03UpdateResource: press the button save
+2015-06-16 12:11:23 INFO  test03UpdateResource: verification the datas enter.
+2015-06-16 12:15:55 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-16 12:15:55 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 12:15:58 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 12:16:59 ERROR ReportNGListener: Test Failed-> ResourceWithoutNameIsAdded
+2015-06-16 12:16:59 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-16 12:17:00 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 12:17:22 ERROR ReportNGListener: Test Failed-> CreateResource
+2015-06-16 12:17:22 INFO  ReportNGListener: Test Started-> UpdateResource
+2015-06-16 12:17:23 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-16 12:17:44 ERROR ReportNGListener: Test Failed-> UpdateResource
+2015-06-16 12:17:44 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-16 12:19:49 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:19:49 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:21:51 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:21:51 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:23:51 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:23:51 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:26:09 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 12:27:51 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:27:51 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:28:30 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:28:30 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:29:17 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:29:17 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:29:51 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:29:51 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:30:30 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:30:30 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:31:17 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:31:17 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:31:51 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:31:51 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:33:17 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:33:17 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:34:12 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:34:12 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:35:19 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-16 12:36:12 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:36:12 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:36:22 INFO  test01AddEmailServer: Begin the Test: Email Server
+2015-06-16 12:36:22 INFO  test01AddEmailServer: Open the page
+2015-06-16 12:37:20 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-16 12:37:26 ERROR ReportNGListener: Test Failed-> registerEmailService
+2015-06-16 12:37:26 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-16 12:37:30 ERROR ReportNGListener: Test Failed-> registerEmailService
+2015-06-16 12:38:12 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:38:12 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:39:30 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:39:30 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:40:12 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-16 12:41:30 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:41:30 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:42:13 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-16 12:42:18 ERROR ReportNGListener: Test Failed-> registerEmailService
+2015-06-16 12:42:18 INFO  ReportNGListener: Test Started-> registerEmailService
+2015-06-16 12:42:22 ERROR ReportNGListener: Test Failed-> registerEmailService
+2015-06-16 12:43:30 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:43:30 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:44:23 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:44:23 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:45:31 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-16 12:46:23 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:46:23 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:47:32 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:47:32 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:48:23 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:48:23 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:49:32 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:49:32 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:50:46 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-16 12:51:32 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:51:32 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:52:52 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:52:52 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:54:52 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:54:52 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 12:56:54 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 12:56:54 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 13:30:27 INFO  ReportNGListener: Start Of Execution(TEST)-> RoomManager
+2015-06-16 13:30:27 INFO  ReportNGListener: Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 13:30:46 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 13:31:49 ERROR ReportNGListener: Test Failed-> ResourceWithoutNameIsAdded
+2015-06-16 13:31:49 INFO  ReportNGListener: Test Started-> CreateResource
+2015-06-16 13:31:50 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 13:32:11 ERROR ReportNGListener: Test Failed-> CreateResource
+2015-06-16 13:32:11 INFO  ReportNGListener: Test Started-> UpdateResource
+2015-06-16 13:32:12 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-16 13:32:33 ERROR ReportNGListener: Test Failed-> UpdateResource
+2015-06-16 13:32:33 INFO  ReportNGListener: END Of Execution(TEST)-> RoomManager
+2015-06-16 13:34:34 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 13:34:34 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 13:36:34 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 13:36:34 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 13:38:34 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 13:38:34 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 13:42:34 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 13:42:34 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 13:44:34 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 13:44:34 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 13:46:35 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 13:46:35 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 14:54:17 INFO  ReportNGListener: <-Start Of Execution(TEST)-> RoomManager
+2015-06-16 14:54:17 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 14:54:40 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 14:54:51 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-16 14:54:51 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-16 14:54:51 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 14:54:54 INFO  test02CreateResource: Resources: press button add
+2015-06-16 14:54:56 INFO  test02CreateResource: press the button save
+2015-06-16 14:54:56 INFO  test02CreateResource: verification the datas enter.
+2015-06-16 14:54:59 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-16 14:54:59 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-16 14:54:59 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-16 14:55:03 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-16 14:55:04 INFO  test03UpdateResource: Resources: Updating resource
+2015-06-16 14:55:05 INFO  test03UpdateResource: press the button save
+2015-06-16 14:55:05 INFO  test03UpdateResource: verification the datas enter.
+2015-06-16 14:55:06 ERROR ReportNGListener: <-Test Failed-> UpdateResource
+2015-06-16 14:55:07 INFO  ReportNGListener: <-END Of Execution(TEST)-> RoomManager
+2015-06-16 14:58:22 INFO  ReportNGListener: <-Start Of Execution(TEST)-> RoomManager
+2015-06-16 14:58:22 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 14:58:41 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 14:58:57 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-16 14:58:57 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-16 14:58:57 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 14:58:58 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-16 14:58:58 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-16 14:58:59 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-16 14:59:20 ERROR ReportNGListener: <-Test Failed-> UpdateResource
+2015-06-16 14:59:20 INFO  ReportNGListener: <-END Of Execution(TEST)-> RoomManager
+2015-06-16 15:01:32 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 15:01:32 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 15:03:51 INFO  ReportNGListener: <-Start Of Execution(TEST)-> RoomManager
+2015-06-16 15:03:51 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 15:03:54 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 15:04:00 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-16 15:04:00 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-16 15:04:01 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 15:04:04 INFO  test02CreateResource: Resources: press button add
+2015-06-16 15:04:06 INFO  test02CreateResource: press the button save
+2015-06-16 15:04:06 INFO  test02CreateResource: verification the datas enter.
+2015-06-16 15:04:13 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-16 15:04:13 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-16 15:04:14 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-16 15:04:25 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-16 15:04:56 ERROR ReportNGListener: <-Test Failed-> UpdateResource
+2015-06-16 15:04:57 INFO  ReportNGListener: <-END Of Execution(TEST)-> RoomManager
+2015-06-16 15:07:35 INFO  ReportNGListener: <-Start Of Execution(TEST)-> RoomManager
+2015-06-16 15:07:35 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 15:07:38 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 15:07:42 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-16 15:07:42 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-16 15:07:42 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 15:07:45 INFO  test02CreateResource: Resources: press button add
+2015-06-16 15:07:47 INFO  test02CreateResource: press the button save
+2015-06-16 15:07:47 INFO  test02CreateResource: verification the datas enter.
+2015-06-16 15:07:48 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-16 15:07:48 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-16 15:07:48 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-16 15:07:51 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-16 15:07:57 INFO  test03UpdateResource: Resources: Updating resource
+2015-06-16 15:07:58 INFO  test03UpdateResource: press the button save
+2015-06-16 15:07:58 INFO  test03UpdateResource: verification the datas enter.
+2015-06-16 15:07:59 ERROR ReportNGListener: <-Test Failed-> UpdateResource
+2015-06-16 15:07:59 INFO  ReportNGListener: <-END Of Execution(TEST)-> RoomManager
+2015-06-16 15:13:22 INFO  ReportNGListener: <-Start Of Execution(TEST)-> RoomManager
+2015-06-16 15:13:22 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 15:13:30 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 15:13:35 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-16 15:13:35 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-16 15:13:35 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 15:13:37 INFO  test02CreateResource: Resources: press button add
+2015-06-16 15:13:39 INFO  test02CreateResource: press the button save
+2015-06-16 15:13:40 INFO  test02CreateResource: verification the datas enter.
+2015-06-16 15:13:40 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-16 15:13:40 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-16 15:13:40 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-16 15:13:41 ERROR ReportNGListener: <-Test Failed-> UpdateResource
+2015-06-16 15:13:41 INFO  ReportNGListener: <-END Of Execution(TEST)-> RoomManager
+2015-06-16 15:16:59 INFO  ReportNGListener: <-Start Of Execution(TEST)-> RoomManager
+2015-06-16 15:16:59 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 15:17:05 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 15:17:11 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-16 15:17:11 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-16 15:17:11 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 15:17:21 INFO  test02CreateResource: Resources: press button add
+2015-06-16 15:17:23 INFO  test02CreateResource: press the button save
+2015-06-16 15:17:23 INFO  test02CreateResource: verification the datas enter.
+2015-06-16 15:17:24 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-16 15:17:24 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-16 15:17:24 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-16 15:17:25 ERROR ReportNGListener: <-Test Failed-> UpdateResource
+2015-06-16 15:17:25 INFO  ReportNGListener: <-END Of Execution(TEST)-> RoomManager
+2015-06-16 15:20:08 INFO  ReportNGListener: <-Start Of Execution(TEST)-> RoomManager
+2015-06-16 15:20:08 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 15:20:15 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 15:20:38 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-16 15:20:38 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-16 15:20:39 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 15:20:41 INFO  test02CreateResource: Resources: press button add
+2015-06-16 15:20:42 INFO  test02CreateResource: press the button save
+2015-06-16 15:20:43 INFO  test02CreateResource: verification the datas enter.
+2015-06-16 15:20:43 INFO  ReportNGListener: <-Test Passed-> CreateResource
+2015-06-16 15:20:43 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-16 15:20:43 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-16 15:20:43 ERROR ReportNGListener: <-Test Failed-> UpdateResource
+2015-06-16 15:20:44 INFO  ReportNGListener: <-END Of Execution(TEST)-> RoomManager
+2015-06-16 15:24:31 INFO  ReportNGListener: <-Start Of Execution(TEST)-> RoomManager
+2015-06-16 15:24:31 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 15:24:35 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 15:24:39 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-16 15:24:39 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-16 15:24:40 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 15:24:40 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-16 15:24:40 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-16 15:24:41 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-16 15:24:44 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-16 15:24:45 INFO  test03UpdateResource: Resources: Updating resource
+2015-06-16 15:24:46 INFO  test03UpdateResource: press the button save
+2015-06-16 15:24:47 INFO  test03UpdateResource: verification the datas enter.
+2015-06-16 15:25:17 ERROR ReportNGListener: <-Test Failed-> UpdateResource
+2015-06-16 15:25:17 INFO  ReportNGListener: <-END Of Execution(TEST)-> RoomManager
+2015-06-16 15:30:27 INFO  ReportNGListener: <-Start Of Execution(TEST)-> RoomManager
+2015-06-16 15:30:27 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-16 15:30:30 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 15:31:31 ERROR ReportNGListener: <-Test Failed-> ResourceWithoutNameIsAdded
+2015-06-16 15:31:31 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-16 15:31:32 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-16 15:31:53 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-16 15:31:53 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-16 15:31:53 INFO  test03UpdateResource: Begin the Test: Resource
+2015-06-16 15:32:14 ERROR ReportNGListener: <-Test Failed-> UpdateResource
+2015-06-16 15:32:14 INFO  ReportNGListener: <-END Of Execution(TEST)-> RoomManager
+2015-06-16 15:34:16 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 15:34:16 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 15:36:17 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 15:36:17 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 15:38:17 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 15:38:17 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044
+2015-06-16 15:42:17 INFO  RetryExec: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://172.20.208.174:4044: The target server failed to respond
+2015-06-16 15:42:17 INFO  RetryExec: Retrying request to {}->http://172.20.208.174:4044

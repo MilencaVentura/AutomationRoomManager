@@ -27,7 +27,7 @@ public class CreateResourceTest {
 	public void setUp() throws Exception {
       driver = managerPage.getBrowserChrome();
 	}
-  @Test  //(priority = 1)(groups = {"ACCEPTANCE"})
+  @Test  //(groups = {"ACCEPTANCE"})
 	public void CreateResource() throws Exception {
 		PropertyConfigurator.configure("Log4j.properties");
 		String expectedResult = "Resource1";

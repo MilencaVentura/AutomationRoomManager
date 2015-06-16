@@ -72,6 +72,7 @@ public class HttpRequest {
 	public static void addEmailServerJson() throws IOException {
 		addEmailServer();
 	}
+	//pasar como parametros y concatenar dentro del body
 	private static void addEmailServer()throws IOException{
 		String url = configReader.getUrl() + "/services?type=exchange";
 		String body =  "{\"username\":\"Administrator\",\"password\":\"qadev02**\",\"hostname\":\"env01001.unit.com\"}";

@@ -42,7 +42,7 @@ public class AddEmailServerToRoomManager {
 		emailServer.txt_Password( configReader.getPassword());
 		emailServer.btn_Save();
 		
-		Assert.assertEquals(emailServer.getButtonServer(), expectedResult, "The email server is not registered");
+		Assert.assertEquals(emailServer.getButtonServer(), expectedResult, "The ematil server is not registered");
 		logger.info("Close the Test: Email Server");
 	}
 	

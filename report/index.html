@@ -146,41 +146,12 @@
                   <a name="UpdateResource">
                   </a> <!-- UpdateResource -->
                   <span class="method-name">UpdateResource</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.xpath: //div[@id=&apos;resourcesGrid&apos;]/div[2]/div/div[3]/div[4]/div[2]/div/span
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
-System info: host: &apos;VDQADEV01-NNDUU&apos;, ip: &apos;172.20.200.215&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_80-ea&apos;
-Session ID: 4e99f71209f5a8b968a63c0a02d7c341
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\MILENC~1\AppData\Local\Temp\2\scoped_dir9792_11138}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at org.room.manager.pages.admin.resources.ResourceCreatePage.AssertUpdateResource(ResourceCreatePage.java:98)
+                  <div class="stack-trace">org.junit.ComparisonFailure: expected:&lt;[tv]&gt; but was:&lt;[Calidad]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.room.manager.pages.admin.resources.ResourceCreatePage.AssertUpdateResource(ResourceCreatePage.java:99)
 	at org.room.manager.tests.admin.resources.VerifyUpdateResource.UpdateResource(VerifyUpdateResource.java:44)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element
-  (Session info: chrome=40.0.2214.111)
-  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 16 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
-System info: host: &apos;VDQADEV01-NNDUU&apos;, ip: &apos;172.20.200.215&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_80-ea&apos;
-*** Element info: {Using=xpath, value=//div[@id=&apos;resourcesGrid&apos;]/div[2]/div/div[3]/div[4]/div[2]/div/span}
-Session ID: 4e99f71209f5a8b968a63c0a02d7c341
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\MILENC~1\AppData\Local\Temp\2\scoped_dir9792_11138}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:730)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:728)
-	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:130)
-	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:1)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 26 more
-... Removed 27 stack frames
+... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -197,15 +168,15 @@ Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, bro
                   <a name="CreateResource">
                   </a> <!-- CreateResource -->
                   <span class="method-name">CreateResource</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (821, 401). Other element would receive the click: &lt;div class=&quot;modal-backdrop fade  in&quot; ng-class=&quot;{in: animate}&quot; ng-style=&quot;{&apos;z-index&apos;: 1040 + (index &amp;amp;&amp;amp; 1 || 0) + index*10}&quot; modal-backdrop=&quot;&quot; style=&quot;z-index: 1031;&quot;&gt;&lt;/div&gt;
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (821, 401). Other element would receive the click: &lt;div class=&quot;modal-backdrop fade  ng-animate in-remove in-remove-active&quot; ng-class=&quot;{in: animate}&quot; ng-style=&quot;{&apos;z-index&apos;: 1040 + (index &amp;amp;&amp;amp; 1 || 0) + index*10}&quot; modal-backdrop=&quot;&quot; style=&quot;z-index: 1031;&quot;&gt;&lt;/div&gt;
   (Session info: chrome=40.0.2214.111)
   (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 77 milliseconds
+Command duration or timeout: 80 milliseconds
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
 System info: host: &apos;VDQADEV01-NNDUU&apos;, ip: &apos;172.20.200.215&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_80-ea&apos;
-Session ID: 4e99f71209f5a8b968a63c0a02d7c341
+Session ID: 2ad403bbe8a80a30b50996af026e7970
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\MILENC~1\AppData\Local\Temp\2\scoped_dir9792_11138}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\MILENC~1\AppData\Local\Temp\2\scoped_dir29300_21415}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
@@ -295,22 +266,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'UpdateResource')
-data.setCell(0, 2, 'org.room.manager.tests.admin.resources.VerifyUpdateResource')
-data.setCell(0, 3, 56112);
+data.setCell(0, 1, 'ResourceWithoutNameIsAdded')
+data.setCell(0, 2, 'org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded')
+data.setCell(0, 3, 9334);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ResourceWithoutNameIsAdded')
-data.setCell(1, 2, 'org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded')
-data.setCell(1, 3, 8865);
+data.setCell(1, 1, 'UpdateResource')
+data.setCell(1, 2, 'org.room.manager.tests.admin.resources.VerifyUpdateResource')
+data.setCell(1, 3, 7270);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'CreateResource')
 data.setCell(2, 2, 'org.room.manager.tests.admin.resources.CreateResourceTest')
-data.setCell(2, 3, 351);
+data.setCell(2, 3, 479);
 window.suiteTableData['Resources_Test_Suite']= { tableData: data, tableDiv: 'times-div-Resources_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-Resources_Test_Suite">
               </div> <!-- times-div-Resources_Test_Suite -->
             </div> <!-- times-div -->
@@ -358,21 +329,21 @@ return data;
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.CreateResourceTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">29 ms</span>
+                <span class="method-start">139 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.VerifyUpdateResource</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">46 ms</span>
+                <span class="method-start">155 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">ResourceWithoutNameIsAdded</span>
-                <span class="method-start">785 ms</span>
+                <span class="method-start">12470 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -381,7 +352,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">CreateResource</span>
-                <span class="method-start">9656 ms</span>
+                <span class="method-start">21822 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -390,28 +361,28 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">UpdateResource</span>
-                <span class="method-start">11331 ms</span>
+                <span class="method-start">22806 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">67982 ms</span>
+                <span class="method-start">30938 ms</span>
               </div> <!-- configuration-suite after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.CreateResourceTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">69392 ms</span>
+                <span class="method-start">32204 ms</span>
               </div> <!-- configuration-suite after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.VerifyUpdateResource</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">69440 ms</span>
+                <span class="method-start">35675 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

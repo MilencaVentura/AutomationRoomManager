@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Resources_Test_Suite">
-              <span class="suite-name border-failed">Resources_Test_Suite</span>
+              <span class="suite-name border-passed">Resources_Test_Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,21 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Resources_Test_Suite" class="hide-methods failed suite-Resources_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Resources_Test_Suite -->
-                      <a href="#" panel-name="suite-Resources_Test_Suite" class="show-methods failed suite-Resources_Test_Suite"> (show)</a> <!-- show-methods failed suite-Resources_Test_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Resources_Test_Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Resources_Test_Suite" title="org.room.manager.tests.admin.resources.VerifyUpdateResource" hash-for-method="UpdateResource">UpdateResource</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Resources_Test_Suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -123,6 +109,11 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Resources_Test_Suite" title="org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded" hash-for-method="ResourceWithoutNameIsAdded">ResourceWithoutNameIsAdded</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Resources_Test_Suite" title="org.room.manager.tests.admin.resources.VerifyUpdateResource" hash-for-method="UpdateResource">UpdateResource</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Resources_Test_Suite -->
                   </li>
                 </ul>
@@ -135,28 +126,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Resources_Test_Suite" class="panel Resources_Test_Suite">
-          <div class="suite-Resources_Test_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">org.room.manager.tests.admin.resources.VerifyUpdateResource</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="UpdateResource">
-                  </a> <!-- UpdateResource -->
-                  <span class="method-name">UpdateResource</span>
-                  <div class="stack-trace">org.junit.ComparisonFailure: expected:&lt;[tv]&gt; but was:&lt;[Calidad]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at org.room.manager.pages.admin.resources.ResourceCreatePage.AssertUpdateResource(ResourceCreatePage.java:110)
-	at org.room.manager.tests.admin.resources.VerifyUpdateResource.UpdateResource(VerifyUpdateResource.java:46)
-... Removed 24 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Resources_Test_Suite-class-failed -->
           <div class="suite-Resources_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -183,6 +152,21 @@
                   <a name="CreateResource">
                   </a> <!-- CreateResource -->
                   <span class="method-name">CreateResource</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Resources_Test_Suite-class-passed -->
+          <div class="suite-Resources_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.room.manager.tests.admin.resources.VerifyUpdateResource</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateResource">
+                  </a> <!-- UpdateResource -->
+                  <span class="method-name">UpdateResource</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -265,22 +249,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'UpdateResource')
-data.setCell(0, 2, 'org.room.manager.tests.admin.resources.VerifyUpdateResource')
-data.setCell(0, 3, 14080);
+data.setCell(0, 1, 'CreateResource')
+data.setCell(0, 2, 'org.room.manager.tests.admin.resources.CreateResourceTest')
+data.setCell(0, 3, 11393);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'CreateResource')
-data.setCell(1, 2, 'org.room.manager.tests.admin.resources.CreateResourceTest')
-data.setCell(1, 3, 9200);
+data.setCell(1, 1, 'UpdateResource')
+data.setCell(1, 2, 'org.room.manager.tests.admin.resources.VerifyUpdateResource')
+data.setCell(1, 3, 4970);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'ResourceWithoutNameIsAdded')
 data.setCell(2, 2, 'org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded')
-data.setCell(2, 3, 3270);
+data.setCell(2, 3, 3767);
 window.suiteTableData['Resources_Test_Suite']= { tableData: data, tableDiv: 'times-div-Resources_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Resources_Test_Suite">
               </div> <!-- times-div-Resources_Test_Suite -->
             </div> <!-- times-div -->
@@ -291,12 +275,6 @@ return data;
             <span class="header-content">Reporter output for Resources_Test_Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">UpdateResource</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><a href="D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/UpdateResource.png"><img src="file:///D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/UpdateResource.png" alt=""height='100' width='100'/> <br /></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Resources_Test_Suite" class="panel">
@@ -322,55 +300,53 @@ return data;
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.CreateResourceTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">11 ms</span>
+                <span class="method-start">13 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.VerifyUpdateResource</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">11 ms</span>
+                <span class="method-start">13 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.CreateResourceTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">CreateResource</span>
-                <span class="method-start">171 ms</span>
+                <span class="method-start">1173 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.VerifyUpdateResource</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">UpdateResource</span>
-                <span class="method-start">9374 ms</span>
+                <span class="method-start">12566 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">ResourceWithoutNameIsAdded</span>
-                <span class="method-start">23795 ms</span>
+                <span class="method-start">17538 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">27132 ms</span>
+                <span class="method-start">21347 ms</span>
               </div> <!-- configuration-suite after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.CreateResourceTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">28454 ms</span>
+                <span class="method-start">22815 ms</span>
               </div> <!-- configuration-suite after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.VerifyUpdateResource</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">28535 ms</span>
+                <span class="method-start">22893 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

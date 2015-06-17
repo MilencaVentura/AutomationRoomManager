@@ -10,7 +10,8 @@ import org.room.manager.utils.configReader;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.room.manager.pages.admin.emailserver.EmailServerAddPage;
-import org.room.manager.pages.admin.resources.ResourceCreatePage;
+import org.room.manager.pages.admin.emailserver.EmailServerPage;
+import org.room.manager.pages.admin.resources.ResourcePage;
 import org.room.manager.managerPage;
 
 /**
@@ -35,15 +36,16 @@ public class AddEmailServerToRoomManager {
 		logger.info("Begin the Test: Email Server");
 		logger.info("Open the page");
 		HomeAdminPage.Execute(driver);
-		ResourceCreatePage resourcePage = new ResourceCreatePage(driver);
+		ResourcePage resourcePage = new ResourcePage(driver);
 		resourcePage.Execute();
-		EmailServerAddPage emailServer = new EmailServerAddPage(driver);
+		EmailServerPage emailServer = new EmailServerPage(driver);
 		emailServer.Execute();
 		emailServer.btn_Add();
-		emailServer.txt_Hostname( configReader.getHostName());
-		emailServer.txt_Username( configReader.getUsername());
-		emailServer.txt_Password( configReader.getPassword());
-		emailServer.btn_Save();
+		EmailServerAddPage addEmailServer = new EmailServerAddPage(driver);
+		addEmailServer.txt_Hostname( configReader.getHostName());
+		addEmailServer.txt_Username( configReader.getUsername());
+		addEmailServer.txt_Password( configReader.getPassword());
+		addEmailServer.btn_Save();
 		
 		Assert.assertEquals(emailServer.getButtonServer(), expectedResult, "The email server is not registered");
 		logger.info("Close the Test: Email Server");

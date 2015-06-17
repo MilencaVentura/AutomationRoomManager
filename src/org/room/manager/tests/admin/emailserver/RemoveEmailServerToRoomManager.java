@@ -7,7 +7,8 @@ import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.room.manager.managerPage;
 import org.room.manager.pages.admin.HomeAdminPage;
-import org.room.manager.pages.admin.emailserver.EmailServerAddPage;
+import org.room.manager.pages.admin.emailserver.EmailServerConfirmationPage;
+import org.room.manager.pages.admin.emailserver.EmailServerPage;
 import org.room.manager.utils.HttpRequest;
 import org.room.manager.utils.configReader;
 import org.testng.Assert;
@@ -38,11 +39,12 @@ public class RemoveEmailServerToRoomManager {
 			driver.get(configReader.getUrl() + "/admin/#/login");
 			logger.info("Begin the Test: Email Server");
 			logger.info("Open the page");
-			EmailServerAddPage emailServer = new EmailServerAddPage(driver);
+			EmailServerPage emailServer = new EmailServerPage(driver);
 			HomeAdminPage.Execute(driver);
 			emailServer.Execute();
 			emailServer.btn_Remove();
-			emailServer.btn_Delete();
+			EmailServerConfirmationPage emailServerConfirmation = new EmailServerConfirmationPage(driver);
+			emailServerConfirmation.btn_Delete();
 			Assert.assertTrue(emailServer.AssertDeleteEmailServer(), message);
 			logger.info("Close the Test: Email Server");
 		}

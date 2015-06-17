@@ -7,7 +7,7 @@ import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.room.manager.managerPage;
 import org.room.manager.pages.admin.HomeAdminPage;
-import org.room.manager.pages.admin.emailserver.EmailServerAddPage;
+import org.room.manager.pages.admin.emailserver.EmailServerPage;
 import org.room.manager.utils.configReader;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
@@ -15,6 +15,8 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.room.manager.pages.admin.resources.ResourceCreatePage;
+import org.room.manager.pages.admin.resources.ResourcePage;
+
 
 /**
  * This test case is for verify that an error message
@@ -38,21 +40,21 @@ public class AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded {
 		driver.get(configReader.getUrl() + "/admin/#/login");
 		logger.info("Begin the Test: Resource without name");
 		HomeAdminPage.Execute(driver);
-		EmailServerAddPage emailServer = new EmailServerAddPage(driver);
+		EmailServerPage emailServer = new EmailServerPage(driver);
 		emailServer.Execute();
-		ResourceCreatePage resourcePage = new ResourceCreatePage(driver);
-		resourcePage.Execute().
-		btn_Add().
-		txt_displayName().
-		btn_Save().AssertWithouName(expectedResult);
+		ResourceCreatePage resourceAddPage = new ResourceCreatePage(driver);
+		ResourcePage resourcePage = new ResourcePage(driver);
+		resourcePage.Execute();
+		resourcePage.btn_Add();
+		resourceAddPage.txt_displayName();
+		resourceAddPage.btn_Save();
+		resourcePage.AssertWithouName(expectedResult);
 		logger.info("End test:Resource without name");
-		resourcePage.btn_Close();
+		resourceAddPage.btn_Close();
 	}
 	
     @AfterSuite (groups = {"ACCEPTANCE"})
 	public void tearDown() throws Exception {
-    	/*ResourceCreatePage resourcePage = new ResourceCreatePage(driver);
-    	resourcePage.btn_Close();*/
 	   driver.quit();	  
 	}
 }

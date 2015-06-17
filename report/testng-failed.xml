@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Resources_Test_Suite]">
-  <listeners>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-    <listener class-name="org.room.manager.utils.ReportNGListener"/>
-  </listeners>
-  <test name="RoomManager(failed)">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="org.room.manager.tests.admin.resources.VerifyUpdateResource">
         <methods>
@@ -15,18 +10,6 @@
           <include name="UpdateResource"/>
         </methods>
       </class> <!-- org.room.manager.tests.admin.resources.VerifyUpdateResource -->
-      <class name="org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded -->
-      <class name="org.room.manager.tests.admin.resources.CreateResourceTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- org.room.manager.tests.admin.resources.CreateResourceTest -->
     </classes>
-  </test> <!-- RoomManager(failed) -->
-</suite> <!-- Failed suite [Resources_Test_Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -107,6 +107,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Resources_Test_Suite" title="org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded" hash-for-method="ResourceWithoutNameIsAdded">ResourceWithoutNameIsAdded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Resources_Test_Suite" title="org.room.manager.tests.admin.resources.VerifyDeleteResource" hash-for-method="UpdateResource">UpdateResource</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -144,14 +149,14 @@
           <div class="suite-Resources_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">org.room.manager.tests.admin.resources.CreateResourceTest</span>
+              <span class="class-name">org.room.manager.tests.admin.resources.VerifyDeleteResource</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="CreateResource">
-                  </a> <!-- CreateResource -->
-                  <span class="method-name">CreateResource</span>
+                  <a name="UpdateResource">
+                  </a> <!-- UpdateResource -->
+                  <span class="method-name">UpdateResource</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -167,6 +172,21 @@
                   <a name="UpdateResource">
                   </a> <!-- UpdateResource -->
                   <span class="method-name">UpdateResource</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Resources_Test_Suite-class-passed -->
+          <div class="suite-Resources_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.room.manager.tests.admin.resources.CreateResourceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateResource">
+                  </a> <!-- CreateResource -->
+                  <span class="method-name">CreateResource</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,6 +212,7 @@
       &lt;class name=&quot;org.room.manager.tests.admin.resources.VerifyUpdateResource&quot;/&gt;
       &lt;class name=&quot;org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded&quot;/&gt;
       &lt;class name=&quot;org.room.manager.tests.admin.resources.CreateResourceTest&quot;/&gt;
+      &lt;class name=&quot;org.room.manager.tests.admin.resources.VerifyDeleteResource&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- RoomManager --&gt;
 &lt;/suite&gt; &lt;!-- Resources_Test_Suite --&gt;
@@ -205,7 +226,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">RoomManager (4 classes)</span>
+                <span class="test-name">RoomManager (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -247,24 +268,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'CreateResource')
-data.setCell(0, 2, 'org.room.manager.tests.admin.resources.CreateResourceTest')
-data.setCell(0, 3, 11393);
+data.setCell(0, 1, 'UpdateResource')
+data.setCell(0, 2, 'org.room.manager.tests.admin.resources.VerifyDeleteResource')
+data.setCell(0, 3, 45492);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'UpdateResource')
-data.setCell(1, 2, 'org.room.manager.tests.admin.resources.VerifyUpdateResource')
-data.setCell(1, 3, 4970);
+data.setCell(1, 1, 'CreateResource')
+data.setCell(1, 2, 'org.room.manager.tests.admin.resources.CreateResourceTest')
+data.setCell(1, 3, 8041);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ResourceWithoutNameIsAdded')
-data.setCell(2, 2, 'org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded')
-data.setCell(2, 3, 3767);
+data.setCell(2, 1, 'UpdateResource')
+data.setCell(2, 2, 'org.room.manager.tests.admin.resources.VerifyUpdateResource')
+data.setCell(2, 3, 3828);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ResourceWithoutNameIsAdded')
+data.setCell(3, 2, 'org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded')
+data.setCell(3, 3, 3674);
 window.suiteTableData['Resources_Test_Suite']= { tableData: data, tableDiv: 'times-div-Resources_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Resources_Test_Suite">
               </div> <!-- times-div-Resources_Test_Suite -->
             </div> <!-- times-div -->
@@ -300,53 +325,77 @@ return data;
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.CreateResourceTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">13 ms</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.room.manager.tests.admin.resources.VerifyDeleteResource</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.VerifyUpdateResource</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">13 ms</span>
+                <span class="method-start">63 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.CreateResourceTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">CreateResource</span>
-                <span class="method-start">1173 ms</span>
+                <span class="method-start">394 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.VerifyUpdateResource</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">UpdateResource</span>
-                <span class="method-start">12566 ms</span>
+                <span class="method-start">8439 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">ResourceWithoutNameIsAdded</span>
-                <span class="method-start">17538 ms</span>
+                <span class="method-start">12268 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.room.manager.tests.admin.resources.VerifyDeleteResource</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UpdateResource</span>
+                <span class="method-start">15944 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">21347 ms</span>
+                <span class="method-start">61478 ms</span>
               </div> <!-- configuration-suite after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.CreateResourceTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22815 ms</span>
+                <span class="method-start">62946 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.room.manager.tests.admin.resources.VerifyDeleteResource</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63024 ms</span>
               </div> <!-- configuration-suite after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.room.manager.tests.admin.resources.VerifyUpdateResource</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22893 ms</span>
+                <span class="method-start">63024 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

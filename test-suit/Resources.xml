@@ -7,14 +7,16 @@
 	
     <test name = "RoomManager">
         <classes>
-        	<!--TC1-->
+        	 <!--TC1-->
         		<class name = "org.room.manager.tests.admin.resources.CreateResourceTest" />
-        	<!--TC2-->
+        	 <!--TC2-->
         			<class name = "org.room.manager.tests.admin.resources.VerifyUpdateResource" />   
-        	<!--TC2-->
+        	 <!--TC2-->
         	 	    <class name = "org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded" />
         	 <!--TC3-->
 					<class name = "org.room.manager.tests.admin.resources.CreateResourceTest" />
+			 <!--TC4-->
+					<class name = "org.room.manager.tests.admin.resources.VerifyDeleteResource" />
 		</classes>
     </test>
     

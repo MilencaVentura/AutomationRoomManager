@@ -13,17 +13,11 @@ import org.room.manager.utils.configReader;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
-/*
-driver.get(baseUrl + "/tablet/#/home");
-driver.findElement(By.cssSelector("div.tile-button-search")).click();
-driver.findElement(By.xpath("//button[@type='button']")).click();
-driver.findElement(By.id("txtMinimumCapacity")).clear();
-driver.findElement(By.id("txtMinimumCapacity")).sendKeys("40");
-assertEquals("RoomSM-01", driver.findElement(By.id("556ef8fab49dd60c08ec594e")).getText());
-*/
+
 public class SearchByCapacity {
 	private static WebDriver driver = null;
 	 Logger logger=Logger.getLogger("test04SearchByCapacity");
+	 
 	 @Test (groups = {"ACCEPTANCE"})
 	  public void SearchRoomByCapacity() {
 		  PropertyConfigurator.configure("Log4j.properties");

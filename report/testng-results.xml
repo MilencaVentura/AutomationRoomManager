@@ -1,54 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Resources_Test_Suite" duration-ms="20253" started-at="2015-06-17T18:05:49Z" finished-at="2015-06-17T18:06:10Z">
+  <suite name="Resources_Test_Suite" duration-ms="61121" started-at="2015-06-17T22:57:58Z" finished-at="2015-06-17T22:59:00Z">
     <groups>
       <group name="ACCEPTANCE">
-        <method signature="AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded.ResourceWithoutNameIsAdded()[pri:0, instance:org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@15f73e9]" name="ResourceWithoutNameIsAdded" class="org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded"/>
-        <method signature="CreateResourceTest.CreateResource()[pri:0, instance:org.room.manager.tests.admin.resources.CreateResourceTest@caf56b]" name="CreateResource" class="org.room.manager.tests.admin.resources.CreateResourceTest"/>
-        <method signature="VerifyUpdateResource.UpdateResource()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyUpdateResource@b67051]" name="UpdateResource" class="org.room.manager.tests.admin.resources.VerifyUpdateResource"/>
+        <method signature="AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded.ResourceWithoutNameIsAdded()[pri:0, instance:org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@9789ee]" name="ResourceWithoutNameIsAdded" class="org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded"/>
+        <method signature="CreateResourceTest.CreateResource()[pri:0, instance:org.room.manager.tests.admin.resources.CreateResourceTest@67506f]" name="CreateResource" class="org.room.manager.tests.admin.resources.CreateResourceTest"/>
+        <method signature="VerifyDeleteResource.UpdateResource()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyDeleteResource@1293541]" name="UpdateResource" class="org.room.manager.tests.admin.resources.VerifyDeleteResource"/>
+        <method signature="VerifyUpdateResource.UpdateResource()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyUpdateResource@d1dbef]" name="UpdateResource" class="org.room.manager.tests.admin.resources.VerifyUpdateResource"/>
       </group> <!-- ACCEPTANCE -->
     </groups>
-    <test name="RoomManager" duration-ms="20253" started-at="2015-06-17T18:05:49Z" finished-at="2015-06-17T18:06:10Z">
+    <test name="RoomManager" duration-ms="61121" started-at="2015-06-17T22:57:58Z" finished-at="2015-06-17T22:59:00Z">
+      <class name="org.room.manager.tests.admin.resources.VerifyDeleteResource">
+        <test-method status="PASS" signature="UpdateResource()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyDeleteResource@1293541]" name="UpdateResource" duration-ms="45492" started-at="2015-06-17T18:58:14Z" finished-at="2015-06-17T18:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateResource -->
+      </class> <!-- org.room.manager.tests.admin.resources.VerifyDeleteResource -->
       <class name="org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@15f73e9]" name="setUp" is-config="true" duration-ms="13" started-at="2015-06-17T14:05:48Z" finished-at="2015-06-17T14:05:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@9789ee]" name="setUp" is-config="true" duration-ms="16" started-at="2015-06-17T18:57:58Z" finished-at="2015-06-17T18:57:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:org.room.manager.tests.admin.resources.CreateResourceTest@caf56b]" name="setUp" is-config="true" duration-ms="0" started-at="2015-06-17T14:05:48Z" finished-at="2015-06-17T14:05:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.room.manager.tests.admin.resources.CreateResourceTest@67506f]" name="setUp" is-config="true" duration-ms="0" started-at="2015-06-17T18:57:58Z" finished-at="2015-06-17T18:57:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyUpdateResource@b67051]" name="setUp" is-config="true" duration-ms="1040" started-at="2015-06-17T14:05:48Z" finished-at="2015-06-17T14:05:49Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyDeleteResource@1293541]" name="setUp" is-config="true" duration-ms="47" started-at="2015-06-17T18:57:58Z" finished-at="2015-06-17T18:57:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ResourceWithoutNameIsAdded()[pri:0, instance:org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@15f73e9]" name="ResourceWithoutNameIsAdded" duration-ms="3767" started-at="2015-06-17T14:06:06Z" finished-at="2015-06-17T14:06:10Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyUpdateResource@d1dbef]" name="setUp" is-config="true" duration-ms="267" started-at="2015-06-17T18:57:58Z" finished-at="2015-06-17T18:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ResourceWithoutNameIsAdded()[pri:0, instance:org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@9789ee]" name="ResourceWithoutNameIsAdded" duration-ms="3674" started-at="2015-06-17T18:58:10Z" finished-at="2015-06-17T18:58:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ResourceWithoutNameIsAdded -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@15f73e9]" name="tearDown" is-config="true" duration-ms="1468" started-at="2015-06-17T14:06:10Z" finished-at="2015-06-17T14:06:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@9789ee]" name="tearDown" is-config="true" duration-ms="1468" started-at="2015-06-17T18:59:00Z" finished-at="2015-06-17T18:59:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.room.manager.tests.admin.resources.CreateResourceTest@caf56b]" name="tearDown" is-config="true" duration-ms="78" started-at="2015-06-17T14:06:11Z" finished-at="2015-06-17T14:06:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.room.manager.tests.admin.resources.CreateResourceTest@67506f]" name="tearDown" is-config="true" duration-ms="78" started-at="2015-06-17T18:59:01Z" finished-at="2015-06-17T18:59:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyUpdateResource@b67051]" name="tearDown" is-config="true" duration-ms="47" started-at="2015-06-17T14:06:11Z" finished-at="2015-06-17T14:06:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyDeleteResource@1293541]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-06-17T18:59:01Z" finished-at="2015-06-17T18:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyUpdateResource@d1dbef]" name="tearDown" is-config="true" duration-ms="47" started-at="2015-06-17T18:59:01Z" finished-at="2015-06-17T18:59:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded -->
       <class name="org.room.manager.tests.admin.resources.CreateResourceTest">
-        <test-method status="PASS" signature="CreateResource()[pri:0, instance:org.room.manager.tests.admin.resources.CreateResourceTest@caf56b]" name="CreateResource" duration-ms="11393" started-at="2015-06-17T14:05:50Z" finished-at="2015-06-17T14:06:01Z">
+        <test-method status="PASS" signature="CreateResource()[pri:0, instance:org.room.manager.tests.admin.resources.CreateResourceTest@67506f]" name="CreateResource" duration-ms="8041" started-at="2015-06-17T18:57:58Z" finished-at="2015-06-17T18:58:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateResource -->
       </class> <!-- org.room.manager.tests.admin.resources.CreateResourceTest -->
       <class name="org.room.manager.tests.admin.resources.VerifyUpdateResource">
-        <test-method status="PASS" signature="UpdateResource()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyUpdateResource@b67051]" name="UpdateResource" duration-ms="4970" started-at="2015-06-17T14:06:01Z" finished-at="2015-06-17T14:06:06Z">
+        <test-method status="PASS" signature="UpdateResource()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyUpdateResource@d1dbef]" name="UpdateResource" duration-ms="3828" started-at="2015-06-17T18:58:07Z" finished-at="2015-06-17T18:58:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateResource -->

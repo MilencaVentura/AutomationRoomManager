@@ -1,7 +1,5 @@
 package org.room.manager.tests.admin.resources;
 
-import static org.junit.Assert.fail;
-
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
@@ -10,9 +8,7 @@ import org.room.manager.pages.admin.HomeAdminPage;
 import org.room.manager.pages.admin.emailserver.EmailServerPage;
 import org.room.manager.utils.configReader;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.room.manager.pages.admin.resources.ResourceCreatePage;
 import org.room.manager.pages.admin.resources.ResourcePage;

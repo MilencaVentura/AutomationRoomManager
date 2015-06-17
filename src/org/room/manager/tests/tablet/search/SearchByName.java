@@ -7,15 +7,12 @@ import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.room.manager.managerPage;
 import org.room.manager.pages.tablet.Home.HomePage;
-import org.room.manager.pages.tablet.Scheduler.CredentialPage;
-import org.room.manager.pages.tablet.Scheduler.SchedulerPage;
 import org.room.manager.pages.tablet.Settings.SettingsPage;
 import org.room.manager.utils.configReader;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import org.room.manager.pages.tablet.Search.SearchPage;
-import org.seleniumhq.jetty7.util.thread.Timeout;
 
 public class SearchByName {
 

@@ -19,19 +19,19 @@ import org.room.manager.managerPage;
  * @author Milenca Ventura
  */
 public class AddEmailServerToRoomManager {
+	
 	private static WebDriver driver = null;
-	private managerPage automation=managerPage.getManager();
     Logger logger=Logger.getLogger("test01AddEmailServer");
-    @BeforeSuite
+    
+    @BeforeSuite (groups = {"ACCEPTANCE"})
 	public void setUp() throws Exception {
-        driver = automation.getBrowserChrome();
+        driver = managerPage.getBrowserChrome();
         HttpRequest.deleteServiceByName("Microsoft Exchange Server 2010 SP2");
 	}
-	@Test 
+	@Test  (groups = {"ACCEPTANCE"})
 	public void registerEmailService() throws Exception {
 		PropertyConfigurator.configure("Log4j.properties");
 		String expectedResult = configReader.getHostName() + "\nMicrosoft Exchange Server 2010 SP2";
-		System.out.print("expecet:"+expectedResult);
 		driver.get(configReader.getUrl() + "/admin/#/login");
 		logger.info("Begin the Test: Email Server");
 		logger.info("Open the page");
@@ -51,7 +51,7 @@ public class AddEmailServerToRoomManager {
 		logger.info("Close the Test: Email Server");
 	}
 	
-	@AfterSuite
+	@AfterSuite (groups = {"ACCEPTANCE"})
 	public void tearDown() throws Exception {
 	   HttpRequest.deleteServiceByName("Microsoft Exchange Server 2010 SP2");
 	   driver.quit();

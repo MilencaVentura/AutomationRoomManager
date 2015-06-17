@@ -1,7 +1,6 @@
 package org.room.manager.tests.admin.resources;
 
-import static org.junit.Assert.fail;
-
+import static org.junit.Assert.assertEquals;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
@@ -12,9 +11,7 @@ import org.room.manager.pages.admin.resources.ResourceCreatePage;
 import org.room.manager.pages.admin.resources.ResourcePage;
 import org.room.manager.utils.configReader;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.room.manager.utils.HttpReader;
 
@@ -31,7 +28,8 @@ public class CreateResourceTest {
   @Test  (groups = {"ACCEPTANCE"})
 	public void CreateResource() throws Exception {
 		PropertyConfigurator.configure("Log4j.properties");
-		String expectedResult = "Resource1";
+		String nameResource = "Resource1";
+		String message = "The resource cannot be created";
 		driver.get(configReader.getUrl() + "/admin/#/login");
 		logger.info("Begin the Test: Resource");
 		HomeAdminPage.Execute(driver);
@@ -42,13 +40,14 @@ public class CreateResourceTest {
 		logger.info("Resources: press button add");
 		resourcePage.btn_Add();	
 		ResourceCreatePage resourceAddPage = new ResourceCreatePage(driver);
-		//driver.navigate().refresh();
 		resourceAddPage.txt_name();
 		resourceAddPage.txt_displayName();
 		logger.info("press the button save");
 		resourceAddPage.btn_Save();
+		resourcePage.txtSearch("Resource1");
 		logger.info("verification the datas enter.");
-		resourcePage.AssertCreateResource(expectedResult);
+		assertEquals(message, resourcePage.getFirstName(), nameResource);
+		//resourcePage.AssertCreateResource(expectedResult);
 		//resourcePage.Execute().btn_Add().txt_name().txt_displayName().btn_Save().AssertWithouName(expectedResult);;
 	}
 	

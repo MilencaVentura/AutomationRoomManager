@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4.970">
+           time="3.828">
   <properties />
   
   
-            <testcase name="UpdateResource" time="4.970" classname="org.room.manager.tests.admin.resources.VerifyUpdateResource" />
+            <testcase name="UpdateResource" time="3.828" classname="org.room.manager.tests.admin.resources.VerifyUpdateResource" />
       
 </testsuite>

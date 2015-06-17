@@ -50,6 +50,10 @@ public class HttpReader {
         } catch (IOException ex) {
         }
     }
+	
+	
+	
+	
 	public static void deleteResourceByName(String name){
 		getResourceByName(name);
 	}

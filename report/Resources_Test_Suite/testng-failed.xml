@@ -8,11 +8,23 @@
   </listeners>
   <test name="RoomManager(failed)">
     <classes>
-      <class name="org.room.manager.tests.admin.resources.VerifyUpdateResource">
+      <class name="org.room.manager.tests.admin.resources.CreateResourceTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.room.manager.tests.admin.resources.CreateResourceTest -->
+      <class name="org.room.manager.tests.admin.resources.VerifyDeleteResource">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="UpdateResource"/>
+        </methods>
+      </class> <!-- org.room.manager.tests.admin.resources.VerifyDeleteResource -->
+      <class name="org.room.manager.tests.admin.resources.VerifyUpdateResource">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- org.room.manager.tests.admin.resources.VerifyUpdateResource -->
       <class name="org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded">
@@ -21,12 +33,6 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded -->
-      <class name="org.room.manager.tests.admin.resources.CreateResourceTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- org.room.manager.tests.admin.resources.CreateResourceTest -->
     </classes>
   </test> <!-- RoomManager(failed) -->
 </suite> <!-- Failed suite [Resources_Test_Suite] -->

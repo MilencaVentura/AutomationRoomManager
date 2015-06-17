@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="org.room.manager.tests.admin.resources.VerifyUpdateResource">
+      <class name="org.room.manager.tests.admin.resources.VerifyDeleteResource">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="UpdateResource"/>
         </methods>
-      </class> <!-- org.room.manager.tests.admin.resources.VerifyUpdateResource -->
+      </class> <!-- org.room.manager.tests.admin.resources.VerifyDeleteResource -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

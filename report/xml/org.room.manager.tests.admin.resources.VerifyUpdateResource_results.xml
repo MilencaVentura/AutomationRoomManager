@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="4.162">
+           time="6.068">
   <properties />
-            <testcase name="UpdateResource" time="4.162" classname="org.room.manager.tests.admin.resources.VerifyUpdateResource">
+            <testcase name="UpdateResource" time="6.068" classname="org.room.manager.tests.admin.resources.VerifyUpdateResource">
                 <failure type="org.junit.ComparisonFailure"
                   message="expected:&lt;[tv]&gt; but was:&lt;[Calidad]&gt;"
               >

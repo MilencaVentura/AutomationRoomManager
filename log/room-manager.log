@@ -1876,3 +1876,22 @@ INFO - Open the page
 2015-06-16 19:37:25 INFO  test02CreateResource: End test:Resource without name
 2015-06-16 19:37:25 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
 2015-06-16 19:37:25 INFO  ReportNGListener: <-END Of Execution(TEST)-> RoomManager
+2015-06-17 05:54:47 INFO  ReportNGListener: <-Start Of Execution(TEST)-> RoomManager
+2015-06-17 05:54:47 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-17 05:54:58 INFO  test02CreateResource: Begin the Test: Resource
+2015-06-17 05:55:01 INFO  test02CreateResource: Resources: press button add
+2015-06-17 05:55:03 INFO  test02CreateResource: press the button save
+2015-06-17 05:55:04 INFO  test02CreateResource: verification the datas enter.
+2015-06-17 05:55:05 INFO  ReportNGListener: <-Test Passed-> CreateResource
+2015-06-17 05:55:05 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-17 05:55:05 INFO  test03UpdateResource: Begin the Test: Update Resource
+2015-06-17 05:55:09 INFO  test03UpdateResource: Resources: press button for update resource
+2015-06-17 05:55:09 INFO  test03UpdateResource: Resources: Updating resource
+2015-06-17 05:55:11 INFO  test03UpdateResource: press the button save
+2015-06-17 05:55:11 INFO  test03UpdateResource: verification the datas enter.
+2015-06-17 05:55:12 ERROR ReportNGListener: <-Test Failed-> UpdateResource
+2015-06-17 05:55:12 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-17 05:55:12 INFO  test02CreateResource: Begin the Test: Resource without name
+2015-06-17 05:55:15 INFO  test02CreateResource: End test:Resource without name
+2015-06-17 05:55:16 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-17 05:55:16 INFO  ReportNGListener: <-END Of Execution(TEST)-> RoomManager

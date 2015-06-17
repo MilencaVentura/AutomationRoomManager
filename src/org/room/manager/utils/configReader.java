@@ -114,6 +114,14 @@ public static String getPassword(){
 	initializeResources();
     return resources.getProperty("PASSWORD");
 	}
+public static String getDomain(){
+	initializeResources();
+	return resources.getProperty("DOMAIN");
+}
+public static String getTabletURL(){
+	initializeDriver();
+	return resources.getProperty("TABLET_URL");
+}
 public static String getName(){
 	getResource();
     return resourceValue.getProperty("NAME");

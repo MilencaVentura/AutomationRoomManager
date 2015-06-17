@@ -24,10 +24,6 @@ public class VerifyUpdateResource {
 	      //HttpReader.createResourceJson(configReader.getName(), configReader.getDisplayName(),configReader.getIcon(),configReader.getDescription());
 	     HttpReader.createResourceJson("Tv", "tv","fa fa-desktop","TV with DVD ready");
 		}
-	  /*@BeforeTest
-	  public void setUpTest() throws Exception {
-	        HttpReader.createResourceJson("tv", "resoucre","fa fa-desktop","TV with DVD ready");
-		}*/
 	  @Test  //(priority = 1)(groups = {"ACCEPTANCE"})
 		public void UpdateResource() throws Exception {
 		  PropertyConfigurator.configure("Log4j.properties");
@@ -53,7 +49,7 @@ public class VerifyUpdateResource {
 		
 	  @AfterSuite //(groups = {"ACCEPTANCE"})
 		public void tearDown() throws Exception {
-		  HttpReader.deleteResourceByName("tv");
+		  HttpReader.deleteResourceByName("Tv");
 		   driver.quit();
 		}
 }

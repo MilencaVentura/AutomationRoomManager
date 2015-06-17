@@ -103,11 +103,6 @@ public class ResourceCreatePage {
     public void AssertCreateResource(String expectedResult){
     	(new WebDriverWait(driver,30)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[3]/div[3]/div[2]/div/span")));
     	assertEquals("Resource1", driver.findElement(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[3]/div[3]/div[2]/div/span")).getText());
-    	/*try {
-    	   	assertEquals("Resource1", driver.findElement(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[3]/div[3]/div[2]/div/span")).getText());
-		} catch(Throwable e) {
-    		addVerificationFailure(e);
-		}*/
      }
     public void AssertUpdateResource(String expectedResult){
     	(new WebDriverWait(driver,30)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[3]/div[4]/div[2]/div/span")));
@@ -115,14 +110,4 @@ public class ResourceCreatePage {
        	 assertEquals("tv", driver.findElement(By.xpath("//div[@id='resourcesGrid']/div[2]/div/div[3]/div[4]/div[2]/div/span")).getText());
 
     }
-    /*private static void addVerificationFailure(Throwable e) {
-		List verificationFailures = getVerificationFailures();
-		verificationFailuresMap.put(Reporter.getCurrentTestResult(), verificationFailures);
-		verificationFailures.add(e);
-	}
-    public static List getVerificationFailures() {
-		WebDriver verificationFailuresMap;
-		List verificationFailures = verificationFailuresMap.get(Reporter.getCurrentTestResult());
-		return verificationFailures == null ? new ArrayList() : verificationFailures;
-	}*/
 }

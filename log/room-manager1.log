@@ -1167,3 +1167,22 @@
 2015-06-16 19:37:25,454 [main] INFO test02CreateResource - End test:Resource without name
 2015-06-16 19:37:25,765 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
 2015-06-16 19:37:25,798 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-17 05:54:47,321 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-17 05:54:47,415 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-17 05:54:58,935 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-17 05:55:01,049 [main] INFO test02CreateResource - Resources: press button add
+2015-06-17 05:55:03,827 [main] INFO test02CreateResource - press the button save
+2015-06-17 05:55:04,097 [main] INFO test02CreateResource - verification the datas enter.
+2015-06-17 05:55:05,532 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> CreateResource
+2015-06-17 05:55:05,536 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-17 05:55:05,774 [main] INFO test03UpdateResource - Begin the Test: Update Resource
+2015-06-17 05:55:09,112 [main] INFO test03UpdateResource - Resources: press button for update resource
+2015-06-17 05:55:09,870 [main] INFO test03UpdateResource - Resources: Updating resource
+2015-06-17 05:55:11,089 [main] INFO test03UpdateResource - press the button save
+2015-06-17 05:55:11,389 [main] INFO test03UpdateResource - verification the datas enter.
+2015-06-17 05:55:12,376 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> UpdateResource
+2015-06-17 05:55:12,376 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-17 05:55:12,561 [main] INFO test02CreateResource - Begin the Test: Resource without name
+2015-06-17 05:55:15,903 [main] INFO test02CreateResource - End test:Resource without name
+2015-06-17 05:55:16,121 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-17 05:55:16,250 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager

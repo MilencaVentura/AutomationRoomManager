@@ -5,48 +5,48 @@
       <![CDATA[<a href="D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/UpdateResource.png"><img src="file:///D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/UpdateResource.png" alt=""height='100' width='100'/> <br />]]>
     </line>
   </reporter-output>
-  <suite name="Resources_Test_Suite" duration-ms="15741" started-at="2015-06-16T23:37:10Z" finished-at="2015-06-16T23:37:25Z">
+  <suite name="Resources_Test_Suite" duration-ms="29008" started-at="2015-06-17T09:54:47Z" finished-at="2015-06-17T09:55:16Z">
     <groups>
     </groups>
-    <test name="RoomManager" duration-ms="15741" started-at="2015-06-16T23:37:10Z" finished-at="2015-06-16T23:37:25Z">
+    <test name="RoomManager" duration-ms="29008" started-at="2015-06-17T09:54:47Z" finished-at="2015-06-17T09:55:16Z">
       <class name="org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@1b6aea4]" name="setUp" is-config="true" duration-ms="0" started-at="2015-06-16T19:37:09Z" finished-at="2015-06-16T19:37:09Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@470f4f]" name="setUp" is-config="true" duration-ms="29" started-at="2015-06-17T05:54:46Z" finished-at="2015-06-17T05:54:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyUpdateResource@1a37ec1]" name="setUp" is-config="true" duration-ms="62" started-at="2015-06-16T19:37:09Z" finished-at="2015-06-16T19:37:10Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.room.manager.tests.admin.resources.CreateResourceTest@13e10ce]" name="setUp" is-config="true" duration-ms="0" started-at="2015-06-17T05:54:46Z" finished-at="2015-06-17T05:54:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:org.room.manager.tests.admin.resources.CreateResourceTest@10713c7]" name="setUp" is-config="true" duration-ms="0" started-at="2015-06-16T19:37:09Z" finished-at="2015-06-16T19:37:09Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyUpdateResource@1770976]" name="setUp" is-config="true" duration-ms="119" started-at="2015-06-17T05:54:46Z" finished-at="2015-06-17T05:54:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ResourceWithoutNameIsAdded()[pri:0, instance:org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@1b6aea4]" name="ResourceWithoutNameIsAdded" duration-ms="3126" started-at="2015-06-16T19:37:22Z" finished-at="2015-06-16T19:37:25Z">
+        <test-method status="PASS" signature="ResourceWithoutNameIsAdded()[pri:0, instance:org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@470f4f]" name="ResourceWithoutNameIsAdded" duration-ms="3744" started-at="2015-06-17T05:55:12Z" finished-at="2015-06-17T05:55:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ResourceWithoutNameIsAdded -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@1b6aea4]" name="tearDown" is-config="true" duration-ms="1346" started-at="2015-06-16T19:37:25Z" finished-at="2015-06-16T19:37:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@470f4f]" name="tearDown" is-config="true" duration-ms="1839" started-at="2015-06-17T05:55:16Z" finished-at="2015-06-17T05:55:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.room.manager.tests.admin.resources.CreateResourceTest@10713c7]" name="tearDown" is-config="true" duration-ms="74" started-at="2015-06-16T19:37:27Z" finished-at="2015-06-16T19:37:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.room.manager.tests.admin.resources.CreateResourceTest@13e10ce]" name="tearDown" is-config="true" duration-ms="78" started-at="2015-06-17T05:55:18Z" finished-at="2015-06-17T05:55:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyUpdateResource@1a37ec1]" name="tearDown" is-config="true" duration-ms="31" started-at="2015-06-16T19:37:27Z" finished-at="2015-06-16T19:37:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyUpdateResource@1770976]" name="tearDown" is-config="true" duration-ms="15" started-at="2015-06-17T05:55:18Z" finished-at="2015-06-17T05:55:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded -->
       <class name="org.room.manager.tests.admin.resources.CreateResourceTest">
-        <test-method status="PASS" signature="CreateResource()[pri:0, instance:org.room.manager.tests.admin.resources.CreateResourceTest@10713c7]" name="CreateResource" duration-ms="7901" started-at="2015-06-16T19:37:10Z" finished-at="2015-06-16T19:37:18Z">
+        <test-method status="PASS" signature="CreateResource()[pri:0, instance:org.room.manager.tests.admin.resources.CreateResourceTest@13e10ce]" name="CreateResource" duration-ms="18117" started-at="2015-06-17T05:54:47Z" finished-at="2015-06-17T05:55:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateResource -->
       </class> <!-- org.room.manager.tests.admin.resources.CreateResourceTest -->
       <class name="org.room.manager.tests.admin.resources.VerifyUpdateResource">
-        <test-method status="FAIL" signature="UpdateResource()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyUpdateResource@1a37ec1]" name="UpdateResource" duration-ms="4162" started-at="2015-06-16T19:37:18Z" finished-at="2015-06-16T19:37:22Z">
+        <test-method status="FAIL" signature="UpdateResource()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyUpdateResource@1770976]" name="UpdateResource" duration-ms="6068" started-at="2015-06-17T05:55:05Z" finished-at="2015-06-17T05:55:11Z">
           <exception class="org.junit.ComparisonFailure">
             <message>
               <![CDATA[expected:<[tv]> but was:<[Calidad]>]]>

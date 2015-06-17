@@ -43,12 +43,10 @@ public class CreateMeeting {
 		  logger.info("Finish the Test: Create Meeting");
 		  
 	  }
-
 	  @BeforeSuite
 	  public void beforeSuite() {
 		  driver = managerPage.getBrowserChrome();
 	  }
-	  
 	  @AfterSuite
 	  public void afterSuite() {
 		  driver.quit();

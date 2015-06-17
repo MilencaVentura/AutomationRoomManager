@@ -119,7 +119,7 @@ public static String getDomain(){
 	return resources.getProperty("DOMAIN");
 }
 public static String getTabletURL(){
-	initializeDriver();
+	initializeResources();
 	return resources.getProperty("TABLET_URL");
 }
 public static String getName(){

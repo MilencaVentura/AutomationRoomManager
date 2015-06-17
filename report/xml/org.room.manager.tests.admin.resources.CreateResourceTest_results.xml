@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="18.117">
+           time="9.200">
   <properties />
   
   
-            <testcase name="CreateResource" time="18.117" classname="org.room.manager.tests.admin.resources.CreateResourceTest" />
+            <testcase name="CreateResource" time="9.200" classname="org.room.manager.tests.admin.resources.CreateResourceTest" />
       
 </testsuite>

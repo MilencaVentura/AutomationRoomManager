@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Meeting_Test_Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="org.room.manager.utils.ReportNGListener"/>
+  </listeners>
+  <test name="RoomManager(failed)">
+    <classes>
+      <class name="org.room.manager.tests.tablet.search.SearchByName">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="SearchRoomByName"/>
+        </methods>
+      </class> <!-- org.room.manager.tests.tablet.search.SearchByName -->
+    </classes>
+  </test> <!-- RoomManager(failed) -->
+</suite> <!-- Failed suite [Meeting_Test_Suite] -->

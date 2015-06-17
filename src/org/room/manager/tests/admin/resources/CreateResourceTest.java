@@ -23,11 +23,11 @@ public class CreateResourceTest {
 	private static WebDriver driver = null;
   Logger logger=Logger.getLogger("test02CreateResource");
   
-  @BeforeSuite
+  @BeforeSuite (groups = {"ACCEPTANCE"})
 	public void setUp() throws Exception {
       driver = managerPage.getBrowserChrome();
 	}
-  @Test  //(groups = {"ACCEPTANCE"})
+  @Test  (groups = {"ACCEPTANCE"})
 	public void CreateResource() throws Exception {
 		PropertyConfigurator.configure("Log4j.properties");
 		String expectedResult = "Resource1";
@@ -50,7 +50,7 @@ public class CreateResourceTest {
 		//resourcePage.Execute().btn_Add().txt_name().txt_displayName().btn_Save().AssertWithouName(expectedResult);;
 	}
 	
-  @AfterSuite //(groups = {"ACCEPTANCE"})
+  @AfterSuite (groups = {"ACCEPTANCE"})
 	public void tearDown() throws Exception {
 	   HttpReader.deleteResourceByName("Resource1");
 	   driver.quit();

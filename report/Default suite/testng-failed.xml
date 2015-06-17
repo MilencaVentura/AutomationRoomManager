@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="org.room.manager.tests.admin.resources.VerifyUpdateResource">
+      <class name="org.room.manager.tests.tablet.search.SearchByName">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="UpdateResource"/>
-          <include name="setUpTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="SearchRoomByName"/>
         </methods>
-      </class> <!-- org.room.manager.tests.admin.resources.VerifyUpdateResource -->
+      </class> <!-- org.room.manager.tests.tablet.search.SearchByName -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

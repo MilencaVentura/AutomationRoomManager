@@ -4,17 +4,17 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="6.068">
+           time="14.080">
   <properties />
-            <testcase name="UpdateResource" time="6.068" classname="org.room.manager.tests.admin.resources.VerifyUpdateResource">
+            <testcase name="UpdateResource" time="14.080" classname="org.room.manager.tests.admin.resources.VerifyUpdateResource">
                 <failure type="org.junit.ComparisonFailure"
                   message="expected:&lt;[tv]&gt; but was:&lt;[Calidad]&gt;"
               >
 <![CDATA[org.junit.ComparisonFailure: expected:<[tv]> but was:<[Calidad]>
   org.junit.Assert.assertEquals(Assert.java:115)
   org.junit.Assert.assertEquals(Assert.java:144)
-  org.room.manager.pages.admin.resources.ResourceCreatePage.AssertUpdateResource(ResourceCreatePage.java:115)
-  org.room.manager.tests.admin.resources.VerifyUpdateResource.UpdateResource(VerifyUpdateResource.java:50)
+  org.room.manager.pages.admin.resources.ResourceCreatePage.AssertUpdateResource(ResourceCreatePage.java:110)
+  org.room.manager.tests.admin.resources.VerifyUpdateResource.UpdateResource(VerifyUpdateResource.java:46)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)

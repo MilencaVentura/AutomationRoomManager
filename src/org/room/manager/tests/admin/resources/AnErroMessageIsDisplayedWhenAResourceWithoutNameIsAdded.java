@@ -26,12 +26,12 @@ public class AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded {
 	   * Verify that is possible create a resource without name*/
 	private static WebDriver driver = null;
     Logger logger=Logger.getLogger("test02CreateResource");
-    @BeforeSuite
+    @BeforeSuite (groups = {"ACCEPTANCE"})
 	public void setUp() throws Exception {
 		
         driver = managerPage.getBrowserChrome();
 	}
-    @Test 
+    @Test (groups = {"ACCEPTANCE"})
 	public void ResourceWithoutNameIsAdded() throws Exception {
 		PropertyConfigurator.configure("Log4j.properties");
 		String expectedResult = "Name must not be empty";
@@ -49,7 +49,7 @@ public class AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded {
 		resourcePage.btn_Close();
 	}
 	
-    @AfterSuite //(groups = {"ACCEPTANCE"})
+    @AfterSuite (groups = {"ACCEPTANCE"})
 	public void tearDown() throws Exception {
     	/*ResourceCreatePage resourcePage = new ResourceCreatePage(driver);
     	resourcePage.btn_Close();*/

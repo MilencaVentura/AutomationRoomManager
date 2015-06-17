@@ -1186,3 +1186,105 @@
 2015-06-17 05:55:15,903 [main] INFO test02CreateResource - End test:Resource without name
 2015-06-17 05:55:16,121 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
 2015-06-17 05:55:16,250 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-17 11:33:58,521 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-17 11:33:58,547 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> createMeeting
+2015-06-17 11:33:59,065 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> createMeeting
+2015-06-17 11:33:59,093 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-17 11:34:58,311 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-17 11:34:58,337 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> createMeeting
+2015-06-17 11:34:58,926 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> createMeeting
+2015-06-17 11:34:58,950 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-17 11:51:37,850 [main] INFO test04SearchByName - Begin the Test: Search by Name
+2015-06-17 11:51:47,740 [main] INFO test04SearchByName - Set a values for search
+2015-06-17 11:51:48,323 [main] INFO test04SearchByName - Finish the Test: Search by Name
+2015-06-17 11:54:31,265 [main] INFO test04SearchByName - Begin the Test: Search by Name
+2015-06-17 11:54:37,914 [main] INFO test04SearchByName - Set a values for search
+2015-06-17 11:54:38,678 [main] INFO test04SearchByName - Finish the Test: Search by Name
+2015-06-17 11:58:47,419 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-17 11:58:47,437 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> SearchRoomByName
+2015-06-17 11:58:50,172 [main] INFO test04SearchByName - Begin the Test: Search by Name
+2015-06-17 11:58:58,412 [main] INFO test04SearchByName - Set a values for search
+2015-06-17 11:58:59,158 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> SearchRoomByName
+2015-06-17 11:58:59,208 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-17 12:03:11,238 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-17 12:03:11,263 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> SearchRoomByName
+2015-06-17 12:03:15,233 [main] INFO test04SearchByName - Begin the Test: Search by Name
+2015-06-17 12:03:23,779 [main] INFO test04SearchByName - Set a values for search
+2015-06-17 12:03:24,460 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> SearchRoomByName
+2015-06-17 12:03:24,492 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-17 12:03:56,504 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-17 12:03:56,534 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> SearchRoomByName
+2015-06-17 12:04:00,212 [main] INFO test04SearchByName - Begin the Test: Search by Name
+2015-06-17 12:04:07,302 [main] INFO test04SearchByName - Set a values for search
+2015-06-17 12:04:07,908 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> SearchRoomByName
+2015-06-17 12:04:07,949 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-17 12:05:55,107 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-17 12:05:55,127 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> SearchRoomByName
+2015-06-17 12:05:58,104 [main] INFO test04SearchByName - Begin the Test: Search by Name
+2015-06-17 12:06:05,404 [main] INFO test04SearchByName - Set a values for search
+2015-06-17 12:06:06,122 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> SearchRoomByName
+2015-06-17 12:06:06,153 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-17 12:12:11,658 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-17 12:12:11,684 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> SearchRoomByName
+2015-06-17 12:12:14,519 [main] INFO test04SearchByName - Begin the Test: Search by Name
+2015-06-17 12:12:22,276 [main] INFO test04SearchByName - Set a values for search
+2015-06-17 12:12:23,893 [main] INFO test04SearchByName - verification the datas enter.
+2015-06-17 12:13:24,611 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> SearchRoomByName
+2015-06-17 12:13:24,656 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-17 12:18:05,761 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-17 12:18:05,786 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> SearchRoomByName
+2015-06-17 12:18:09,599 [main] INFO test04SearchByName - Begin the Test: Search by Name
+2015-06-17 12:18:18,014 [main] INFO test04SearchByName - Set a values for search
+2015-06-17 12:18:18,658 [main] INFO test04SearchByName - verification the datas enter.
+2015-06-17 12:18:18,782 [main] INFO test04SearchByName - Finish the Test: Search by Name
+2015-06-17 12:18:18,784 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> SearchRoomByName
+2015-06-17 12:18:18,810 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-17 12:19:16,041 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-17 12:19:16,064 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> SearchRoomByName
+2015-06-17 12:19:19,072 [main] INFO test04SearchByName - Begin the Test: Search by Name
+2015-06-17 12:19:26,254 [main] INFO test04SearchByName - Set a values for search
+2015-06-17 12:19:26,931 [main] INFO test04SearchByName - verification the datas enter.
+2015-06-17 12:19:27,103 [main] INFO test04SearchByName - Finish the Test: Search by Name
+2015-06-17 12:19:27,105 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> SearchRoomByName
+2015-06-17 12:19:27,129 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-17 12:31:05,648 [main] INFO test04SearchByCapacity - Begin the Test: Search by Capacity
+2015-06-17 12:31:14,208 [main] INFO test04SearchByCapacity - Set a values for search
+2015-06-17 12:31:14,983 [main] INFO test04SearchByCapacity - verification the datas enter.
+2015-06-17 12:31:15,100 [main] INFO test04SearchByCapacity - Finish the Test: Search by Capacity
+2015-06-17 12:32:21,192 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-17 12:32:21,212 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> SearchRoomByName
+2015-06-17 12:32:24,309 [main] INFO test04SearchByName - Begin the Test: Search by Name
+2015-06-17 12:32:32,654 [main] INFO test04SearchByName - Set a values for search
+2015-06-17 12:32:33,227 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> SearchRoomByName
+2015-06-17 12:32:33,230 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> SearchRoomByCapacity
+2015-06-17 12:32:33,936 [main] INFO test04SearchByCapacity - Begin the Test: Search by Capacity
+2015-06-17 12:33:21,758 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-17 12:33:21,782 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> SearchRoomByName
+2015-06-17 12:33:25,842 [main] INFO test04SearchByName - Begin the Test: Search by Name
+2015-06-17 12:33:33,954 [main] INFO test04SearchByName - Set a values for search
+2015-06-17 12:33:34,745 [main] INFO test04SearchByName - verification the datas enter.
+2015-06-17 12:33:34,869 [main] INFO test04SearchByName - Finish the Test: Search by Name
+2015-06-17 12:33:34,870 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> SearchRoomByName
+2015-06-17 12:33:34,873 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> SearchRoomByCapacity
+2015-06-17 12:33:35,583 [main] INFO test04SearchByCapacity - Begin the Test: Search by Capacity
+2015-06-17 12:34:56,854 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> SearchRoomByCapacity
+2015-06-17 12:34:56,894 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager
+2015-06-17 12:37:46,444 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> RoomManager
+2015-06-17 12:37:46,469 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-17 12:37:50,123 [main] INFO test02CreateResource - Begin the Test: Resource
+2015-06-17 12:37:52,133 [main] INFO test02CreateResource - Resources: press button add
+2015-06-17 12:37:54,881 [main] INFO test02CreateResource - press the button save
+2015-06-17 12:37:55,088 [main] INFO test02CreateResource - verification the datas enter.
+2015-06-17 12:37:55,663 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> CreateResource
+2015-06-17 12:37:55,666 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-17 12:37:55,765 [main] INFO test03UpdateResource - Begin the Test: Update Resource
+2015-06-17 12:37:57,880 [main] INFO test03UpdateResource - Resources: press button for update resource
+2015-06-17 12:38:07,756 [main] INFO test03UpdateResource - Resources: Updating resource
+2015-06-17 12:38:09,030 [main] INFO test03UpdateResource - press the button save
+2015-06-17 12:38:09,422 [main] INFO test03UpdateResource - verification the datas enter.
+2015-06-17 12:38:10,085 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> UpdateResource
+2015-06-17 12:38:10,086 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-17 12:38:10,236 [main] INFO test02CreateResource - Begin the Test: Resource without name
+2015-06-17 12:38:13,012 [main] INFO test02CreateResource - End test:Resource without name
+2015-06-17 12:38:13,356 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-17 12:38:13,421 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> RoomManager

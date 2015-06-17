@@ -18,13 +18,13 @@ public class VerifyUpdateResource {
 	private static WebDriver driver = null;
 	  Logger logger=Logger.getLogger("test03UpdateResource");
 	  
-	  @BeforeSuite
+	  @BeforeSuite (groups = {"ACCEPTANCE"})
 		public void setUp() throws Exception {
 	      driver = managerPage.getBrowserChrome();
 	      //HttpReader.createResourceJson(configReader.getName(), configReader.getDisplayName(),configReader.getIcon(),configReader.getDescription());
 	     HttpReader.createResourceJson("Tv", "tv","fa fa-desktop","TV with DVD ready");
 		}
-	  @Test  //(priority = 1)(groups = {"ACCEPTANCE"})
+	  @Test (groups = {"ACCEPTANCE"}) //(priority = 1)(groups = {"ACCEPTANCE"})
 		public void UpdateResource() throws Exception {
 		  PropertyConfigurator.configure("Log4j.properties");
 			String expectedResult = "Calidad";
@@ -47,7 +47,7 @@ public class VerifyUpdateResource {
 			//resourcePage.Execute().btn_Add().txt_name().txt_displayName().btn_Save().AssertWithouName(expectedResult);;
 		}
 		
-	  @AfterSuite //(groups = {"ACCEPTANCE"})
+	  @AfterSuite (groups = {"ACCEPTANCE"})
 		public void tearDown() throws Exception {
 		  HttpReader.deleteResourceByName("Tv");
 		   driver.quit();

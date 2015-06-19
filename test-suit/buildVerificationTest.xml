@@ -1,5 +1,10 @@
 
 <suite name="Room Manager - All Suites" parallel="false">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="org.room.manager.utils.ReportNGListener"/>
+  	</listeners>
   <suite-files>
     <suite-file path="EmailServer.xml" />
     <suite-file path="Resources.xml" />

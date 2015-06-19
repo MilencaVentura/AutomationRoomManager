@@ -6,7 +6,7 @@
 		
     </listeners>
 	
-    <test name = "RoomManager">
+    <test name = "EmailServer">
         <classes>
         		<!--TC1-->
         		<class name = "org.room.manager.tests.admin.emailserver.RemoveEmailServerToRoomManager" />

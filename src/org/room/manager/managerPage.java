@@ -1,9 +1,6 @@
 package org.room.manager;
-import java.io.IOException;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.room.manager.utils.configReader;
 
 public class managerPage {
@@ -13,7 +10,7 @@ public class managerPage {
 	private managerPage() {
 	}
 	/**
-	 * This method is for get a chorme browser
+	 * This method is for get a Chrome browser
 	 * @return driver 
 	 */
 	public static WebDriver getBrowserChrome(){

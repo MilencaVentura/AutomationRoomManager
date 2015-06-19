@@ -15,7 +15,7 @@ public class configReader {
     static Properties resourceValue = new Properties();
        
 	/**
-	 * Select a browser
+	 * This method initialize the driver
 	 */
 private static void initializeDriver() {
 	try {

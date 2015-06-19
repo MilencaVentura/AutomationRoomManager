@@ -1,10 +1,10 @@
 package org.room.manager.tests.admin.emailserver;
 
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.room.manager.managerPage;
 import org.room.manager.pages.admin.HomeAdminPage;
+import org.room.manager.pages.admin.LoginPage;
 import org.room.manager.pages.admin.emailserver.EmailServerConfirmationPage;
 import org.room.manager.pages.admin.emailserver.EmailServerPage;
 import org.room.manager.utils.HttpRequest;
@@ -21,7 +21,7 @@ public class RemoveEmailServerToRoomManager {
 	 */
 	public class AddEmailServerToRoomManager {
 		private WebDriver driver = null;
-	    Logger logger=Logger.getLogger("test01AddEmailServer");
+	    Logger logger=Logger.getLogger("test02RemoveEmailServer");
 	    
 	    @BeforeSuite (groups = {"ACCEPTANCE"})
 		public void setUp() throws Exception {
@@ -29,20 +29,19 @@ public class RemoveEmailServerToRoomManager {
 		     HttpRequest.addEmailServerJson(configReader.getUsername(),configReader.getPassword(),configReader.getHostName());
 		}
 		@Test (groups = {"ACCEPTANCE"})
-		public void registerEmailService() throws Exception {
-			PropertyConfigurator.configure("Log4j.properties");
+		public void removeEmailService() throws Exception {
 			String message = "The email server is not deleted.";
 			driver.get(configReader.getUrl() + "/admin/#/login");
-			logger.info("Begin the Test: Email Server");
-			logger.info("Open the page");
 			EmailServerPage emailServer = new EmailServerPage(driver);
-			HomeAdminPage.Execute(driver);
-			emailServer.Execute();
+			HomeAdminPage home = new HomeAdminPage(driver);
+			LoginPage login = new LoginPage(driver);
+			login.btn_signIn();
+			home.lnk_EmailServer();
 			emailServer.btn_Remove();
 			EmailServerConfirmationPage emailServerConfirmation = new EmailServerConfirmationPage(driver);
 			emailServerConfirmation.btn_Delete();
 			Assert.assertTrue(emailServer.AssertDeleteEmailServer(), message);
-			logger.info("Close the Test: Email Server");
+			
 		}
 		
 		@AfterSuite (groups = {"ACCEPTANCE"})

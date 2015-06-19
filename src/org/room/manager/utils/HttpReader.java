@@ -16,6 +16,11 @@ import org.json.simple.parser.JSONParser;
 import org.room.manager.utils.configReader;
 
 public class HttpReader {
+	
+	/**
+	 * This is a API method for get a resource by name 
+	 * @param name
+	 */
 	private static void getResourceByName(String name) {
 
 		String url = configReader.getUrl() + "/resources";
@@ -49,15 +54,18 @@ public class HttpReader {
 
         } catch (IOException ex) {
         }
-    }
-	
-	
-	
-	
+    }	
+	/**
+	 * This method delete a resource get a resource by name 
+	 * @param name
+	 */
 	public static void deleteResourceByName(String name){
 		getResourceByName(name);
 	}
-	
+	/**
+	 * This is a API method for delete a resource by id 
+	 * @param id
+	 */
 	private static void deleteResourceById(String id) {
 
 		String url = configReader.getUrl()  + "/resources/" + id;
@@ -69,10 +77,23 @@ public class HttpReader {
         } catch (IOException ex) {
         }
     }
-
+	/**
+	 * This method for create a resource
+	 * @param name
+	 * @param displayname
+	 * @param icon
+	 * @param description
+	 */
 	public static void createResourceJson(String name, String displayName, String icon, String description) throws IOException {
 		createResource(name, displayName, icon, description);
 	}
+	/**
+	 * This is a API method for create a resource
+	 * @param name
+	 * @param displayname
+	 * @param icon
+	 * @param description
+	 */
 	private static void createResource(String name, String displayName, String icon, String description)throws IOException{
 		String url = configReader.getUrl() + "/resources";
 		String body =  "{\"name\":\""+name+"\",\"customName\":\""+displayName+"\",\"fontIcon\":\""+icon+"\",\"from\":\"\",\"description\":\""+description+"\"}";

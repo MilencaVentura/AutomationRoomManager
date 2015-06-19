@@ -3,7 +3,6 @@ package org.room.manager.utils;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import javax.ws.rs.core.MediaType;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpDelete;
 import org.apache.http.client.methods.HttpGet;
@@ -15,11 +14,14 @@ import org.apache.http.util.EntityUtils;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
-import com.sun.jersey.api.client.Client;
-import com.sun.jersey.api.client.ClientResponse;
-import com.sun.jersey.api.client.WebResource;
 
 public class HttpRequest {
+	
+	/**
+	 * This is a API method for get a service
+	 * @param name
+	 * @throws IOException 
+	 */
 	private static void getService(String name) {
 
 		String url = configReader.getUrl() + "/services";
@@ -57,10 +59,18 @@ public class HttpRequest {
         } catch (IOException ex) {
         }
     }
+	/**
+	 * This is a method for delete a service by name
+	 * @param name
+	 */
 	public static void deleteServiceByName(String name){
 		getService(name);
 	}
-	
+	/**
+	 * This is a API method for delete a service
+	 * @param name
+	 * @throws IOException 
+	 */
 	private static void deleteServiceById(String id) {
 
 		String url = configReader.getUrl()  + "/services/" + id;
@@ -72,10 +82,22 @@ public class HttpRequest {
         } catch (IOException ex) {
         }
     }
+	/**
+	 * This is a method for add a email server 
+	 * @param username
+	 * @param hostname
+	 * @param password
+	 */
 	public static void addEmailServerJson(String username, String password, String hostname) throws IOException {
 		addEmailServer(username, password, hostname);
 	}
-	
+	/**
+	 * This is a api method for add a email server 
+	 * @param username
+	 * @param hostname
+	 * @param password
+	 * @throws IOException 
+	 */
 	private static void addEmailServer(String username, String password, String hostname)throws IOException{
 		String url = configReader.getUrl() + "/services?type=exchange";
 		String body =  "{\"username\":\""+username+"\",\"password\":\""+password+"\",\"hostname\":\""+hostname+"\"}";

@@ -12,6 +12,7 @@
         <methods>
           <include name="beforeSuite"/>
           <include name="afterSuite"/>
+          <include name="SearchRoomByName"/>
         </methods>
       </class> <!-- org.room.manager.tests.tablet.search.SearchByName -->
       <class name="org.room.manager.tests.tablet.search.SearchByCapacity">

@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="10.731">
+           time="10.022">
   <properties />
   
   
-            <testcase name="registerEmailService" time="10.731" classname="org.room.manager.tests.admin.emailserver.AddEmailServerToRoomManager" />
+            <testcase name="registerEmailService" time="10.022" classname="org.room.manager.tests.admin.emailserver.AddEmailServerToRoomManager" />
       
 </testsuite>

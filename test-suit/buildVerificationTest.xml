@@ -1,0 +1,7 @@
+
+<suite name="Room Manager - All Suites" parallel="false">
+  <suite-files>
+    <suite-file path="EmailServer.xml" />
+    <suite-file path="Resources.xml" />
+  </suite-files>
+</suite>

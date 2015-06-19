@@ -10,7 +10,11 @@ public enum ResourcesEnum {
 	FIRSTRESOURCE(By.cssSelector("div.ng-scope > span.ng-binding")),
 	BTNREMOVE (By.id("btnRemove")),
 	SELECTRESOURCE (By.cssSelector("input.ngSelectionCheckbox")),
-	ALLRESOURCES(By.cssSelector("div.ngCanvas"));
+	ALLRESOURCES(By.xpath("//div[@id='resourcesGrid']/div[2]/div")),
+	RESOURCECUSTOMNAME(By.xpath("div[4]/div[2]/div/span")),
+	RESOURCESTEXT    (By.xpath("div[3]/div[2]/div/span")),
+	DIVELEMENT (By.xpath("div"));
+	
     public final By value;  
     
     private ResourcesEnum(By value){

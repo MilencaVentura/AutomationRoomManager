@@ -1,6 +1,0 @@
-2015-06-11 13:30:17,817 - org.room.manager.utils.ReportNGListener -INFO - Start Of Execution(TEST)-> RoomManager
-2015-06-11 13:30:26,769 - org.room.manager.utils.ReportNGListener -INFO - Test Started-> registerEmailService
-2015-06-11 13:30:29,950 - test01CreateResource -INFO - Begin the Test: Email Server
-2015-06-11 13:30:29,951 - test01CreateResource -INFO - Open the page
-2015-06-11 13:30:52,139 - org.room.manager.utils.ReportNGListener -ERROR - Test Failed-> registerEmailService
-2015-06-11 13:30:53,465 - org.room.manager.utils.ReportNGListener -INFO - END Of Execution(TEST)-> RoomManager

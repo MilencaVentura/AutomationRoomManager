@@ -18,7 +18,7 @@ import java.util.Date;
 public class ReportNGListener implements ITestListener{
 	Logger log = Logger.getLogger(getClass());
 	private static WebDriver driver= managerPage.getManager().getBrowserChrome();
-	//String filePath = "D:\\MOnitor\\Monitor4\\RoomManagerAutomation\\RoomManagerAutomation\\screenshots";
+	
 	@Override
 	public void onStart(ITestContext result) {
 		PropertyConfigurator.configure("log4j.properties");

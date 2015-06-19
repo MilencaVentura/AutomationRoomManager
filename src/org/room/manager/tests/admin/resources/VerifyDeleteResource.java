@@ -1,13 +1,11 @@
 package org.room.manager.tests.admin.resources;
 
-import static org.junit.Assert.assertEquals;
-
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.room.manager.managerPage;
+import org.room.manager.common.Common;
 import org.room.manager.pages.admin.HomeAdminPage;
-import org.room.manager.pages.admin.emailserver.EmailServerPage;
+import org.room.manager.pages.admin.LoginPage;
 import org.room.manager.pages.admin.resources.ResourceDeletePage;
 import org.room.manager.pages.admin.resources.ResourcePage;
 import org.room.manager.utils.HttpReader;
@@ -19,7 +17,7 @@ import org.testng.Assert;
 
 public class VerifyDeleteResource {
 	private static WebDriver driver = null;
-	  Logger logger=Logger.getLogger("test05DeleteResource");
+	  Logger logger=Logger.getLogger("test03DeleteResource");
 	  
 	  @BeforeSuite (groups = {"ACCEPTANCE"})
 		public void setUp() throws Exception {
@@ -27,28 +25,24 @@ public class VerifyDeleteResource {
 	         HttpReader.createResourceJson("Monitor", "monitor","fa fa-desktop","Monitor with control ready");
 		}
 	  @Test (groups = {"ACCEPTANCE"}) //(priority = 1)(groups = {"ACCEPTANCE"})
-		public void UpdateResource() throws Exception {
-		    PropertyConfigurator.configure("Log4j.properties");
+		public void DeleteResource() throws Exception {
 			String message = "The resource cannot be deleted";
+			String customName= "Calidad";
 			driver.get(configReader.getUrl() + "/admin/#/login");
-			logger.info("Begin the Test: Delete Resource");
-			HomeAdminPage.Execute(driver);
-			EmailServerPage emailServer = new EmailServerPage(driver);
-			emailServer.Execute();
+			HomeAdminPage home = new HomeAdminPage(driver);
+			LoginPage login = new LoginPage(driver);
+			login.btn_signIn();
+			Common refresh = new Common();
+			refresh.Refresh(driver);
+			home.lnk_Resources();
 			ResourcePage resourcePage = new ResourcePage(driver);
-			driver.navigate().refresh();
-			resourcePage.Execute();
-			resourcePage.txtSearch("Monitor");
-			logger.info("Resources: Select resource for delete");
-			resourcePage.checkResource();
-			logger.info("Resources: press button for Delete resource");
+			resourcePage.getAllresource("Monitor");
+			resourcePage.checkResource("Monitor");
 			resourcePage.btnRemoveResource();
 			ResourceDeletePage deletePage = new ResourceDeletePage(driver);
-			logger.info("Resources: press button ok for confirmate for Delete resource");
 			deletePage.btnOkRemoveResource();
-			logger.info("verification if the resources is deleted.");
-			resourcePage.txtSearch("Monitor");
-			boolean resources = resourcePage.getAllresource();
+
+			boolean resources = resourcePage.getAllresource(customName);
 			Assert.assertTrue(resources, message);
 	   }
 		

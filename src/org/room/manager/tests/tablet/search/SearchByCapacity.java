@@ -41,6 +41,9 @@ public class SearchByCapacity {
 	  }
 	  @BeforeSuite (groups = {"ACCEPTANCE"})
 	  public void beforeSuite() {
+		  
+		  
+		  
 		  driver = managerPage.getBrowserChrome();
 	  }
 	  @AfterSuite (groups = {"ACCEPTANCE"})

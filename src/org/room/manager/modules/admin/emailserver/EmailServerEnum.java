@@ -1,7 +1,7 @@
 package org.room.manager.modules.admin.emailserver;
 
 import org.openqa.selenium.By;
-/*//button[2]*/
+
 public enum EmailServerEnum {
 	BTNREMOVE (By.xpath("//button[2]")),
 	BTNADD (By.xpath("//div[2]/button")),

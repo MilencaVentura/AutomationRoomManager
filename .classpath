@@ -26,5 +26,8 @@
 	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/javax.ws.rs-api-2.0-m10-sources.jar"/>
 	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/javax.ws.rs-api-2.0-m02.jar"/>
 	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/java-client-1.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/java-client-2.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/MOnitor/Monitor4/RoomManagerAutomation/RoomManagerAutomation/lib/java-client-1.5.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

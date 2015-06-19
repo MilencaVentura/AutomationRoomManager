@@ -10,7 +10,6 @@ import org.room.manager.managerPage;
 import org.room.manager.pages.tablet.Home.HomePage;
 import org.room.manager.pages.tablet.Settings.SettingsPage;
 import org.room.manager.utils.configReader;
-import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;

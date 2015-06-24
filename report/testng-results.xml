@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="4" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href="D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/CreateResource1435151482127.png"><img src="file:///D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/CreateResource1435151482127.png" alt=""height='100' width='100'/> <br />]]>
+    </line>
+    <line>
+      <![CDATA[<a href="D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/ResourceWithoutNameIsAdded1435151496213.png"><img src="file:///D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/ResourceWithoutNameIsAdded1435151496213.png" alt=""height='100' width='100'/> <br />]]>
+    </line>
+    <line>
+      <![CDATA[<a href="D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/DeleteResource1435151497827.png"><img src="file:///D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/DeleteResource1435151497827.png" alt=""height='100' width='100'/> <br />]]>
+    </line>
+  </reporter-output>
+  <suite name="Resources_Test_Suite" duration-ms="44658" started-at="2015-06-24T13:10:53Z" finished-at="2015-06-24T13:11:38Z">
+    <groups>
+      <group name="ACCEPTANCE">
+        <method signature="AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded.ResourceWithoutNameIsAdded()[pri:0, instance:org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@1829770]" name="ResourceWithoutNameIsAdded" class="org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded"/>
+        <method signature="CreateResourceTest.CreateResource()[pri:0, instance:org.room.manager.tests.admin.resources.CreateResourceTest@1a3a85d]" name="CreateResource" class="org.room.manager.tests.admin.resources.CreateResourceTest"/>
+        <method signature="VerifyDeleteResource.DeleteResource()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyDeleteResource@e53663]" name="DeleteResource" class="org.room.manager.tests.admin.resources.VerifyDeleteResource"/>
+        <method signature="VerifyUpdateResource.UpdateResource()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyUpdateResource@1f46204]" name="UpdateResource" class="org.room.manager.tests.admin.resources.VerifyUpdateResource"/>
+      </group> <!-- ACCEPTANCE -->
+    </groups>
+    <test name="Resource" duration-ms="44658" started-at="2015-06-24T13:10:53Z" finished-at="2015-06-24T13:11:38Z">
+      <class name="org.room.manager.tests.admin.resources.VerifyDeleteResource">
+        <test-method status="FAIL" signature="DeleteResource()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyDeleteResource@e53663]" name="DeleteResource" duration-ms="330" started-at="2015-06-24T09:11:37Z" finished-at="2015-06-24T09:11:37Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element is not clickable at point (820, 401). Other element would receive the click: <textarea ng-model="resource.description" rows="3" class="form-control ng-pristine ng-untouched ng-valid"></textarea>
+  (Session info: chrome=40.0.2214.111)
+  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 69 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'VDQADEV01-NNDUU', ip: '172.20.200.215', os.name: 'Windows Server 2012 R2', os.arch: 'x86', os.version: '6.3', java.version: '1.7.0_80-ea'
+Session ID: f539127f1e3773cc2f38602b0f2410e8
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\MILENC~1\AppData\Local\Temp\2\scoped_dir13692_13146}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (820, 401). Other element would receive the click: <textarea ng-model="resource.description" rows="3" class="form-control ng-pristine ng-untouched ng-valid"></textarea>
+  (Session info: chrome=40.0.2214.111)
+  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 69 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'VDQADEV01-NNDUU', ip: '172.20.200.215', os.name: 'Windows Server 2012 R2', os.arch: 'x86', os.version: '6.3', java.version: '1.7.0_80-ea'
+Session ID: f539127f1e3773cc2f38602b0f2410e8
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\MILENC~1\AppData\Local\Temp\2\scoped_dir13692_13146}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at org.room.manager.pages.admin.LoginPage.btn_signIn(LoginPage.java:27)
+	at org.room.manager.tests.admin.resources.VerifyDeleteResource.DeleteResource(VerifyDeleteResource.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/DeleteResource1435151497827.png"><img src="file:///D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/DeleteResource1435151497827.png" alt=""height='100' width='100'/> <br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DeleteResource -->
+      </class> <!-- org.room.manager.tests.admin.resources.VerifyDeleteResource -->
+      <class name="org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@1829770]" name="setUp" is-config="true" duration-ms="16" started-at="2015-06-24T09:10:53Z" finished-at="2015-06-24T09:10:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyDeleteResource@e53663]" name="setUp" is-config="true" duration-ms="141" started-at="2015-06-24T09:10:53Z" finished-at="2015-06-24T09:10:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.room.manager.tests.admin.resources.CreateResourceTest@1a3a85d]" name="setUp" is-config="true" duration-ms="0" started-at="2015-06-24T09:10:53Z" finished-at="2015-06-24T09:10:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyUpdateResource@1f46204]" name="setUp" is-config="true" duration-ms="126" started-at="2015-06-24T09:10:53Z" finished-at="2015-06-24T09:10:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="ResourceWithoutNameIsAdded()[pri:0, instance:org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@1829770]" name="ResourceWithoutNameIsAdded" duration-ms="3879" started-at="2015-06-24T09:11:32Z" finished-at="2015-06-24T09:11:36Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded.ResourceWithoutNameIsAdded(AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/ResourceWithoutNameIsAdded1435151496213.png"><img src="file:///D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/ResourceWithoutNameIsAdded1435151496213.png" alt=""height='100' width='100'/> <br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ResourceWithoutNameIsAdded -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded@1829770]" name="tearDown" is-config="true" duration-ms="1432" started-at="2015-06-24T09:11:38Z" finished-at="2015-06-24T09:11:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.room.manager.tests.admin.resources.CreateResourceTest@1a3a85d]" name="tearDown" is-config="true" duration-ms="81" started-at="2015-06-24T09:11:39Z" finished-at="2015-06-24T09:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyUpdateResource@1f46204]" name="tearDown" is-config="true" duration-ms="203" started-at="2015-06-24T09:11:40Z" finished-at="2015-06-24T09:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyDeleteResource@e53663]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-06-24T09:11:40Z" finished-at="2015-06-24T09:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded -->
+      <class name="org.room.manager.tests.admin.resources.CreateResourceTest">
+        <test-method status="FAIL" signature="CreateResource()[pri:0, instance:org.room.manager.tests.admin.resources.CreateResourceTest@1a3a85d]" name="CreateResource" duration-ms="26983" started-at="2015-06-24T09:10:55Z" finished-at="2015-06-24T09:11:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at org.room.manager.tests.admin.resources.CreateResourceTest.CreateResource(CreateResourceTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/CreateResource1435151482127.png"><img src="file:///D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/CreateResource1435151482127.png" alt=""height='100' width='100'/> <br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateResource -->
+      </class> <!-- org.room.manager.tests.admin.resources.CreateResourceTest -->
+      <class name="org.room.manager.tests.admin.resources.VerifyUpdateResource">
+        <test-method status="PASS" signature="UpdateResource()[pri:0, instance:org.room.manager.tests.admin.resources.VerifyUpdateResource@1f46204]" name="UpdateResource" duration-ms="9675" started-at="2015-06-24T09:11:22Z" finished-at="2015-06-24T09:11:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateResource -->
+      </class> <!-- org.room.manager.tests.admin.resources.VerifyUpdateResource -->
+    </test> <!-- Resource -->
+  </suite> <!-- Resources_Test_Suite -->
+</testng-results>

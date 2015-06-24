@@ -37,20 +37,18 @@ public class ReportNGListener implements ITestListener{
 	
 	@Override
 	public void onTestFailure(ITestResult result) {
+		Date date= new Date();
 		try {
 			System.setProperty("org.uncommons.reportng.escape-output", "false");
 			String filePath = System.getProperty("user.dir") + "/screenshots/";
 			String failureImageFileName;
-			if(result.getMethod().toString().contains("java.lang")) {	
-				failureImageFileName =  result.getName() + "_" + result.getParameters()[0] + ".png"; 
-			} else { 
-				failureImageFileName =  result.getName() + ".png"; 
-			}
+			failureImageFileName =  result.getName()+date.getTime() + ".png"; 
 			//Taking the screenshot
-			takeScreenShot(filePath, failureImageFileName);	
+			takeScreenShot(filePath, failureImageFileName, date);	
+			//this is for add the screenshot to the report
 			Reporter.log("<a href=\"" + filePath + failureImageFileName 
 					+ "\"><img src=\"file:///" + filePath + failureImageFileName 
-					+ "\" alt=\"\"" + "height='100' width='100'/> " + "<br />"); 
+				+ "\" alt=\"\"" + "height='100' width='100'/> " + "<br />"); 
 			Reporter.setCurrentTestResult(null);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -76,14 +74,15 @@ public class ReportNGListener implements ITestListener{
 	 * @param fileName 
 	 * @throws IOException 
 	 */ 
-	public static void takeScreenShot(String filePath, String fileName) throws IOException {
-		Date date= new Date();
+	public static void takeScreenShot(String filePath, String fileName, Date date) throws IOException {
+
 		try { 
 			File scrFile = ((TakesScreenshot)managerPage.getManager().getBrowserChrome())
 					.getScreenshotAs(OutputType.FILE); 
-			FileUtils.copyFile(scrFile, new File(filePath+ date.getTime() + fileName)); 
+			FileUtils.copyFile(scrFile, new File(filePath + fileName)); 
 		} catch (Exception e) { 
 			e.printStackTrace(); 
+
 		}  
 	} 
 }

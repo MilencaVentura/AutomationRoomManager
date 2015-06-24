@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EmailServer"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="29.448">
+  <properties />
+  
+  
+            <testcase name="registerEmailService" time="29.448" classname="org.room.manager.tests.admin.emailserver.AddEmailServerToRoomManager" />
+      
+</testsuite>

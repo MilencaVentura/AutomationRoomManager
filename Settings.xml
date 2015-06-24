@@ -1,0 +1,12 @@
+<settings>
+                <proxies>
+                                <proxy>
+                                                <active>true</active>
+                                                <protocol>http</protocol>
+                                                <host>172.20.240.5</host>
+                                                <port>8080</port>
+                                                <!--<username>your-username</username>
+                                                <password>your-password</password>-->
+                                </proxy>
+                </proxies>
+</settings>

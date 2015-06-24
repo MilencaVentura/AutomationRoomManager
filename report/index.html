@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Resources_Test_Suite">
+              <span class="suite-name border-failed">Resources_Test_Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Resources_Test_Suite">
+                    <span>D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation\test-suit\Resources.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Resources_Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Resources_Test_Suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Resources_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Resources_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Resources_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Resources_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Resources_Test_Suite" class="hide-methods failed suite-Resources_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Resources_Test_Suite -->
+                      <a href="#" panel-name="suite-Resources_Test_Suite" class="show-methods failed suite-Resources_Test_Suite"> (show)</a> <!-- show-methods failed suite-Resources_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Resources_Test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Resources_Test_Suite" title="org.room.manager.tests.admin.resources.CreateResourceTest" hash-for-method="CreateResource">CreateResource</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Resources_Test_Suite" title="org.room.manager.tests.admin.resources.VerifyDeleteResource" hash-for-method="DeleteResource">DeleteResource</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Resources_Test_Suite" title="org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded" hash-for-method="ResourceWithoutNameIsAdded">ResourceWithoutNameIsAdded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Resources_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Resources_Test_Suite" class="hide-methods passed suite-Resources_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Resources_Test_Suite -->
+                      <a href="#" panel-name="suite-Resources_Test_Suite" class="show-methods passed suite-Resources_Test_Suite"> (show)</a> <!-- show-methods passed suite-Resources_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Resources_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Resources_Test_Suite" title="org.room.manager.tests.admin.resources.VerifyUpdateResource" hash-for-method="UpdateResource">UpdateResource</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Resources_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Resources_Test_Suite" class="panel Resources_Test_Suite">
+          <div class="suite-Resources_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.room.manager.tests.admin.resources.VerifyDeleteResource</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteResource">
+                  </a> <!-- DeleteResource -->
+                  <span class="method-name">DeleteResource</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (820, 401). Other element would receive the click: &lt;textarea ng-model=&quot;resource.description&quot; rows=&quot;3&quot; class=&quot;form-control ng-pristine ng-untouched ng-valid&quot;&gt;&lt;/textarea&gt;
+  (Session info: chrome=40.0.2214.111)
+  (Driver info: chromedriver=2.14.313457 (3d645c400edf2e2c500566c9aa096063e707c9cf),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 69 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;VDQADEV01-NNDUU&apos;, ip: &apos;172.20.200.215&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_80-ea&apos;
+Session ID: f539127f1e3773cc2f38602b0f2410e8
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8_1, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\MILENC~1\AppData\Local\Temp\2\scoped_dir13692_13146}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=40.0.2214.111, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at org.room.manager.pages.admin.LoginPage.btn_signIn(LoginPage.java:27)
+	at org.room.manager.tests.admin.resources.VerifyDeleteResource.DeleteResource(VerifyDeleteResource.java:34)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Resources_Test_Suite-class-failed -->
+          <div class="suite-Resources_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.room.manager.tests.admin.resources.CreateResourceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateResource">
+                  </a> <!-- CreateResource -->
+                  <span class="method-name">CreateResource</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.room.manager.tests.admin.resources.CreateResourceTest.CreateResource(CreateResourceTest.java:40)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Resources_Test_Suite-class-failed -->
+          <div class="suite-Resources_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ResourceWithoutNameIsAdded">
+                  </a> <!-- ResourceWithoutNameIsAdded -->
+                  <span class="method-name">ResourceWithoutNameIsAdded</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded.ResourceWithoutNameIsAdded(AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded.java:46)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Resources_Test_Suite-class-failed -->
+          <div class="suite-Resources_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.room.manager.tests.admin.resources.VerifyUpdateResource</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateResource">
+                  </a> <!-- UpdateResource -->
+                  <span class="method-name">UpdateResource</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Resources_Test_Suite-class-passed -->
+        </div> <!-- panel Resources_Test_Suite -->
+        <div panel-name="test-xml-Resources_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation\test-suit\Resources.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Resources_Test_Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.room.manager.utils.ReportNGListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Resource&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.room.manager.tests.admin.resources.CreateResourceTest&quot;/&gt;
+      &lt;class name=&quot;org.room.manager.tests.admin.resources.VerifyUpdateResource&quot;/&gt;
+      &lt;class name=&quot;org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded&quot;/&gt;
+      &lt;class name=&quot;org.room.manager.tests.admin.resources.CreateResourceTest&quot;/&gt;
+      &lt;class name=&quot;org.room.manager.tests.admin.resources.VerifyDeleteResource&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Resource --&gt;
+&lt;/suite&gt; &lt;!-- Resources_Test_Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Resources_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Resources_Test_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Resource (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Resources_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Resources_Test_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">ACCEPTANCE</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CreateResource</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">DeleteResource</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ResourceWithoutNameIsAdded</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UpdateResource</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Resources_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Resources_Test_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Resources_Test_Suite');
+function tableData_Resources_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CreateResource')
+data.setCell(0, 2, 'org.room.manager.tests.admin.resources.CreateResourceTest')
+data.setCell(0, 3, 26983);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'UpdateResource')
+data.setCell(1, 2, 'org.room.manager.tests.admin.resources.VerifyUpdateResource')
+data.setCell(1, 3, 9675);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ResourceWithoutNameIsAdded')
+data.setCell(2, 2, 'org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded')
+data.setCell(2, 3, 3879);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'DeleteResource')
+data.setCell(3, 2, 'org.room.manager.tests.admin.resources.VerifyDeleteResource')
+data.setCell(3, 3, 330);
+window.suiteTableData['Resources_Test_Suite']= { tableData: data, tableDiv: 'times-div-Resources_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <div id="times-div-Resources_Test_Suite">
+              </div> <!-- times-div-Resources_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Resources_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Resources_Test_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CreateResource</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href="D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/CreateResource1435151482127.png"><img src="file:///D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/CreateResource1435151482127.png" alt=""height='100' width='100'/> <br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ResourceWithoutNameIsAdded</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href="D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/ResourceWithoutNameIsAdded1435151496213.png"><img src="file:///D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/ResourceWithoutNameIsAdded1435151496213.png" alt=""height='100' width='100'/> <br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DeleteResource</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href="D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/DeleteResource1435151497827.png"><img src="file:///D:\MOnitor\Monitor4\RoomManagerAutomation\RoomManagerAutomation/screenshots/DeleteResource1435151497827.png" alt=""height='100' width='100'/> <br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Resources_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Resources_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.room.manager.tests.admin.resources.CreateResourceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.room.manager.tests.admin.resources.VerifyDeleteResource</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.room.manager.tests.admin.resources.VerifyUpdateResource</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">157 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.room.manager.tests.admin.resources.CreateResourceTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CreateResource</span>
+                <span class="method-start">1625 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.room.manager.tests.admin.resources.VerifyUpdateResource</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UpdateResource</span>
+                <span class="method-start">29141 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ResourceWithoutNameIsAdded</span>
+                <span class="method-start">38818 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.room.manager.tests.admin.resources.VerifyDeleteResource</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">DeleteResource</span>
+                <span class="method-start">43975 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.room.manager.tests.admin.resources.AnErroMessageIsDisplayedWhenAResourceWithoutNameIsAdded</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44993 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.room.manager.tests.admin.resources.CreateResourceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46425 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.room.manager.tests.admin.resources.VerifyDeleteResource</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46506 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.room.manager.tests.admin.resources.VerifyUpdateResource</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46506 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

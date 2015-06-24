@@ -1,0 +1,432 @@
+2015-06-22 09:26:27 INFO  ReportNGListener: <-Start Of Execution(TEST)-> EmailServer
+2015-06-22 09:26:27 INFO  ReportNGListener: <-Test Started-> removeEmailService
+2015-06-22 09:26:39 INFO  test EmailServer: Email Server: click on remove button
+2015-06-22 09:26:51 INFO  test EmailServer: Email Server: Click on delete button
+2015-06-22 09:26:51 INFO  test EmailServer: Email Server: verification if the email server was deleted
+2015-06-22 09:26:56 INFO  ReportNGListener: <-Test Passed-> removeEmailService
+2015-06-22 09:26:56 INFO  ReportNGListener: <-Test Started-> registerEmailService
+2015-06-22 09:26:57 INFO  test EmailServer: Email Server: click on add button
+2015-06-22 09:26:59 INFO  Test EmailServer: EmailServer: Set the hotsname
+2015-06-22 09:26:59 INFO  Test EmailServer: EmailServer: Set the username
+2015-06-22 09:27:00 INFO  Test EmailServer: EmailServer: Set the password
+2015-06-22 09:27:00 INFO  Test EmailServer: EmailServer: click on save button
+2015-06-22 09:28:01 ERROR ReportNGListener: <-Test Failed-> registerEmailService
+2015-06-22 09:28:01 INFO  ReportNGListener: <-END Of Execution(TEST)-> EmailServer
+2015-06-22 09:28:06 INFO  ReportNGListener: <-Start Of Execution(TEST)-> Resource
+2015-06-22 09:28:06 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-22 09:28:13 INFO  test Resource: Resource: Click on save button
+2015-06-22 09:28:14 INFO  test Resource: Resource: Set a name of resource
+2015-06-22 09:28:15 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 09:28:15 INFO  test Resource: Resource: Click on save button
+2015-06-22 09:28:16 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-22 09:28:16 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-22 09:28:19 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 09:28:19 INFO  test Resource: Resource: Click on save button
+2015-06-22 09:28:20 INFO  ReportNGListener: <-Test Passed-> UpdateResource
+2015-06-22 09:28:20 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 09:28:21 INFO  test Resource: Resource: Click on save button
+2015-06-22 09:28:23 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 09:28:23 INFO  test Resource: Resource: Click on save button
+2015-06-22 09:28:23 INFO  test Resource: Resource: verification values
+2015-06-22 09:28:23 INFO  test Resource: Resource: Click on close button
+2015-06-22 09:28:23 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 09:28:23 INFO  ReportNGListener: <-Test Started-> DeleteResource
+2015-06-22 09:28:24 ERROR ReportNGListener: <-Test Failed-> DeleteResource
+2015-06-22 09:28:24 INFO  ReportNGListener: <-END Of Execution(TEST)-> Resource
+2015-06-22 11:05:31 INFO  ReportNGListener: <-Start Of Execution(TEST)-> EmailServer
+2015-06-22 11:05:31 INFO  ReportNGListener: <-Test Started-> removeEmailService
+2015-06-22 11:05:45 INFO  test EmailServer: Email Server: click on remove button
+2015-06-22 11:05:46 ERROR ReportNGListener: <-Test Failed-> removeEmailService
+2015-06-22 11:05:46 INFO  ReportNGListener: <-Test Started-> registerEmailService
+2015-06-22 11:05:47 ERROR ReportNGListener: <-Test Failed-> registerEmailService
+2015-06-22 11:05:47 INFO  ReportNGListener: <-END Of Execution(TEST)-> EmailServer
+2015-06-22 11:05:58 INFO  ReportNGListener: <-Start Of Execution(TEST)-> Resource
+2015-06-22 11:05:58 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-22 11:06:05 INFO  test Resource: Resource: Click on save button
+2015-06-22 11:06:06 INFO  test Resource: Resource: Set a name of resource
+2015-06-22 11:06:07 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 11:06:07 INFO  test Resource: Resource: Click on save button
+2015-06-22 11:06:08 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-22 11:06:08 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-22 11:06:11 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 11:06:12 INFO  test Resource: Resource: Click on save button
+2015-06-22 11:06:13 INFO  ReportNGListener: <-Test Passed-> UpdateResource
+2015-06-22 11:06:13 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 11:06:14 INFO  test Resource: Resource: Click on save button
+2015-06-22 11:06:15 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 11:06:16 INFO  test Resource: Resource: Click on save button
+2015-06-22 11:06:16 INFO  test Resource: Resource: verification values
+2015-06-22 11:06:16 INFO  test Resource: Resource: Click on close button
+2015-06-22 11:06:16 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 11:06:16 INFO  ReportNGListener: <-Test Started-> DeleteResource
+2015-06-22 11:06:17 ERROR ReportNGListener: <-Test Failed-> DeleteResource
+2015-06-22 11:06:17 INFO  ReportNGListener: <-END Of Execution(TEST)-> Resource
+2015-06-22 11:08:51 INFO  ReportNGListener: <-Start Of Execution(TEST)-> EmailServer
+2015-06-22 11:08:51 INFO  ReportNGListener: <-Test Started-> removeEmailService
+2015-06-22 11:08:59 INFO  test EmailServer: Email Server: click on remove button
+2015-06-22 11:09:00 INFO  test EmailServer: Email Server: Click on delete button
+2015-06-22 11:09:01 INFO  test EmailServer: Email Server: verification if the email server was deleted
+2015-06-22 11:09:01 INFO  ReportNGListener: <-Test Passed-> removeEmailService
+2015-06-22 11:09:01 INFO  ReportNGListener: <-Test Started-> registerEmailService
+2015-06-22 11:09:03 INFO  test EmailServer: Email Server: click on add button
+2015-06-22 11:09:04 INFO  Test EmailServer: EmailServer: Set the hotsname
+2015-06-22 11:09:05 INFO  Test EmailServer: EmailServer: Set the username
+2015-06-22 11:09:05 INFO  Test EmailServer: EmailServer: Set the password
+2015-06-22 11:09:05 INFO  Test EmailServer: EmailServer: click on save button
+2015-06-22 11:09:27 INFO  test EmailServer: Email Server: verification values
+2015-06-22 11:09:27 INFO  test EmailServer: Email Server: Test add Email server Passed
+2015-06-22 11:09:27 INFO  ReportNGListener: <-Test Passed-> registerEmailService
+2015-06-22 11:09:27 INFO  ReportNGListener: <-END Of Execution(TEST)-> EmailServer
+2015-06-22 11:09:42 INFO  ReportNGListener: <-Start Of Execution(TEST)-> Resource
+2015-06-22 11:09:42 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-22 11:10:02 INFO  test Resource: Resource: Click on save button
+2015-06-22 11:10:03 INFO  test Resource: Resource: Set a name of resource
+2015-06-22 11:10:04 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 11:10:04 INFO  test Resource: Resource: Click on save button
+2015-06-22 11:10:06 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-22 11:10:06 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-22 11:10:09 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 11:10:09 INFO  test Resource: Resource: Click on save button
+2015-06-22 11:10:10 INFO  ReportNGListener: <-Test Passed-> UpdateResource
+2015-06-22 11:10:10 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 11:10:12 INFO  test Resource: Resource: Click on save button
+2015-06-22 11:10:14 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 11:10:14 INFO  test Resource: Resource: Click on save button
+2015-06-22 11:10:14 INFO  test Resource: Resource: verification values
+2015-06-22 11:10:14 INFO  test Resource: Resource: Click on close button
+2015-06-22 11:10:14 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 11:10:14 INFO  ReportNGListener: <-Test Started-> DeleteResource
+2015-06-22 11:10:16 INFO  test Resource: Resource: check in resource
+2015-06-22 11:10:16 INFO  test Resource: Resource: Click on remove button
+2015-06-22 11:10:17 INFO  test Resource: Resource: Click on ok button for remove a resource.
+2015-06-22 11:10:19 INFO  ReportNGListener: <-Test Passed-> DeleteResource
+2015-06-22 11:10:19 INFO  ReportNGListener: <-END Of Execution(TEST)-> Resource
+2015-06-22 12:27:07 INFO  ReportNGListener: <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:27:07 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-22 12:27:26 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:27:27 INFO  test Resource: Resource: Set a name of resource
+2015-06-22 12:27:27 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:27:27 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:27:29 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-22 12:27:29 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-22 12:27:32 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:27:33 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:27:34 INFO  ReportNGListener: <-Test Passed-> UpdateResource
+2015-06-22 12:27:34 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:27:35 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:27:36 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:27:37 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:27:37 INFO  test Resource: Resource: verification values
+2015-06-22 12:27:37 INFO  test Resource: Resource: Click on close button
+2015-06-22 12:27:37 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:27:37 INFO  ReportNGListener: <-Test Started-> DeleteResource
+2015-06-22 12:27:38 ERROR ReportNGListener: <-Test Failed-> DeleteResource
+2015-06-22 12:27:38 INFO  ReportNGListener: <-END Of Execution(TEST)-> Resource
+2015-06-22 12:31:43 INFO  ReportNGListener: <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:31:44 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-22 12:31:56 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:32:02 INFO  test Resource: Resource: Set a name of resource
+2015-06-22 12:32:02 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:32:02 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:32:05 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-22 12:32:05 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-22 12:32:09 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:32:09 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:32:10 INFO  ReportNGListener: <-Test Passed-> UpdateResource
+2015-06-22 12:32:10 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:32:11 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:32:12 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:32:12 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:32:12 INFO  test Resource: Resource: verification values
+2015-06-22 12:32:13 INFO  test Resource: Resource: Click on close button
+2015-06-22 12:32:13 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:32:13 INFO  ReportNGListener: <-Test Started-> DeleteResource
+2015-06-22 12:32:13 ERROR ReportNGListener: <-Test Failed-> DeleteResource
+2015-06-22 12:32:14 INFO  ReportNGListener: <-END Of Execution(TEST)-> Resource
+2015-06-22 12:35:48 INFO  ReportNGListener: <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:35:48 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-22 12:35:57 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:35:58 INFO  test Resource: Resource: Set a name of resource
+2015-06-22 12:35:58 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:35:59 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:36:00 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-22 12:36:00 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-22 12:36:04 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:36:04 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:36:05 INFO  ReportNGListener: <-Test Passed-> UpdateResource
+2015-06-22 12:36:05 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:36:07 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:36:08 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:36:08 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:36:09 INFO  test Resource: Resource: verification values
+2015-06-22 12:36:09 INFO  test Resource: Resource: Click on close button
+2015-06-22 12:36:09 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:36:09 INFO  ReportNGListener: <-Test Started-> DeleteResource
+2015-06-22 12:36:11 INFO  test Resource: Resource: check in resource
+2015-06-22 12:36:11 INFO  test Resource: Resource: Click on remove button
+2015-06-22 12:36:12 INFO  test Resource: Resource: Click on ok button for remove a resource.
+2015-06-22 12:36:22 INFO  ReportNGListener: <-Test Passed-> DeleteResource
+2015-06-22 12:36:22 INFO  ReportNGListener: <-END Of Execution(TEST)-> Resource
+2015-06-22 12:38:34 INFO  ReportNGListener: <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:38:35 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-22 12:38:50 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:38:52 INFO  test Resource: Resource: Set a name of resource
+2015-06-22 12:38:53 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:38:53 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:38:54 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-22 12:38:54 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-22 12:38:58 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:38:58 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:39:00 INFO  ReportNGListener: <-Test Passed-> UpdateResource
+2015-06-22 12:39:00 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:39:02 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:39:03 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:39:03 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:39:03 INFO  test Resource: Resource: verification values
+2015-06-22 12:39:04 INFO  test Resource: Resource: Click on close button
+2015-06-22 12:39:04 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:39:04 INFO  ReportNGListener: <-Test Started-> DeleteResource
+2015-06-22 12:39:04 ERROR ReportNGListener: <-Test Failed-> DeleteResource
+2015-06-22 12:39:04 INFO  ReportNGListener: <-END Of Execution(TEST)-> Resource
+2015-06-22 12:45:35 INFO  ReportNGListener: <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:45:35 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-22 12:45:41 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:45:42 INFO  test Resource: Resource: Set a name of resource
+2015-06-22 12:45:43 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:45:43 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:45:45 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-22 12:45:45 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-22 12:45:48 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:45:48 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:45:49 INFO  ReportNGListener: <-Test Passed-> UpdateResource
+2015-06-22 12:45:49 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:45:51 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:45:52 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:45:52 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:45:52 INFO  test Resource: Resource: verification values
+2015-06-22 12:45:52 INFO  test Resource: Resource: Click on close button
+2015-06-22 12:45:52 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:45:52 INFO  ReportNGListener: <-Test Started-> DeleteResource
+2015-06-22 12:45:54 INFO  test Resource: Resource: check in resource
+2015-06-22 12:45:55 INFO  test Resource: Resource: Click on remove button
+2015-06-22 12:45:56 INFO  test Resource: Resource: Click on ok button for remove a resource.
+2015-06-22 12:45:57 INFO  ReportNGListener: <-Test Passed-> DeleteResource
+2015-06-22 12:45:57 INFO  ReportNGListener: <-END Of Execution(TEST)-> Resource
+2015-06-22 12:47:57 INFO  ReportNGListener: <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:47:57 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-22 12:48:06 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:48:07 INFO  test Resource: Resource: Set a name of resource
+2015-06-22 12:48:08 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:48:08 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:48:09 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-22 12:48:09 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-22 12:48:15 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:48:15 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:48:19 INFO  ReportNGListener: <-Test Passed-> UpdateResource
+2015-06-22 12:48:19 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:48:21 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:48:22 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:48:22 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:48:22 INFO  test Resource: Resource: verification values
+2015-06-22 12:48:23 INFO  test Resource: Resource: Click on close button
+2015-06-22 12:48:23 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:48:23 INFO  ReportNGListener: <-Test Started-> DeleteResource
+2015-06-22 12:48:25 INFO  test Resource: Resource: check in resource
+2015-06-22 12:48:25 INFO  test Resource: Resource: Click on remove button
+2015-06-22 12:48:26 INFO  test Resource: Resource: Click on ok button for remove a resource.
+2015-06-22 12:48:27 INFO  ReportNGListener: <-Test Passed-> DeleteResource
+2015-06-22 12:48:27 INFO  ReportNGListener: <-END Of Execution(TEST)-> Resource
+2015-06-22 12:49:37 INFO  ReportNGListener: <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:49:37 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-22 12:49:52 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:49:53 INFO  test Resource: Resource: Set a name of resource
+2015-06-22 12:49:53 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:49:53 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:49:54 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-22 12:49:54 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-22 12:49:58 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:49:58 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:50:00 INFO  ReportNGListener: <-Test Passed-> UpdateResource
+2015-06-22 12:50:00 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:50:02 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:50:03 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:50:04 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:50:04 INFO  test Resource: Resource: verification values
+2015-06-22 12:50:04 INFO  test Resource: Resource: Click on close button
+2015-06-22 12:50:04 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:50:04 INFO  ReportNGListener: <-Test Started-> DeleteResource
+2015-06-22 12:50:07 INFO  test Resource: Resource: check in resource
+2015-06-22 12:50:07 INFO  test Resource: Resource: Click on remove button
+2015-06-22 12:50:08 INFO  test Resource: Resource: Click on ok button for remove a resource.
+2015-06-22 12:50:09 INFO  ReportNGListener: <-Test Passed-> DeleteResource
+2015-06-22 12:50:09 INFO  ReportNGListener: <-END Of Execution(TEST)-> Resource
+2015-06-22 12:52:26 INFO  ReportNGListener: <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:52:26 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-22 12:52:34 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:52:35 INFO  test Resource: Resource: Set a name of resource
+2015-06-22 12:52:36 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:52:36 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:52:37 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-22 12:52:37 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-22 12:52:40 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:52:40 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:52:41 INFO  ReportNGListener: <-Test Passed-> UpdateResource
+2015-06-22 12:52:41 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:52:43 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:52:44 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:52:45 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:52:45 INFO  test Resource: Resource: verification values
+2015-06-22 12:52:45 INFO  test Resource: Resource: Click on close button
+2015-06-22 12:52:45 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:52:45 INFO  ReportNGListener: <-Test Started-> DeleteResource
+2015-06-22 12:52:47 INFO  test Resource: Resource: check in resource
+2015-06-22 12:52:47 INFO  test Resource: Resource: Click on remove button
+2015-06-22 12:52:48 INFO  test Resource: Resource: Click on ok button for remove a resource.
+2015-06-22 12:52:49 INFO  ReportNGListener: <-Test Passed-> DeleteResource
+2015-06-22 12:52:49 INFO  ReportNGListener: <-END Of Execution(TEST)-> Resource
+2015-06-22 12:54:45 INFO  ReportNGListener: <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:54:45 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-22 12:54:52 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:54:53 INFO  test Resource: Resource: Set a name of resource
+2015-06-22 12:54:53 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:54:53 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:54:55 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-22 12:54:55 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-22 12:54:58 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:54:58 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:54:59 INFO  ReportNGListener: <-Test Passed-> UpdateResource
+2015-06-22 12:54:59 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:55:01 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:55:03 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:55:03 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:55:03 INFO  test Resource: Resource: verification values
+2015-06-22 12:55:03 INFO  test Resource: Resource: Click on close button
+2015-06-22 12:55:03 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:55:03 INFO  ReportNGListener: <-Test Started-> DeleteResource
+2015-06-22 12:55:04 ERROR ReportNGListener: <-Test Failed-> DeleteResource
+2015-06-22 12:55:04 INFO  ReportNGListener: <-END Of Execution(TEST)-> Resource
+2015-06-22 12:56:34 INFO  ReportNGListener: <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:56:34 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-22 12:56:40 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:56:45 INFO  test Resource: Resource: Set a name of resource
+2015-06-22 12:56:46 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:56:46 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:56:47 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-22 12:56:47 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-22 12:56:50 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:56:51 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:56:52 INFO  ReportNGListener: <-Test Passed-> UpdateResource
+2015-06-22 12:56:52 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:56:53 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:56:54 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:56:54 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:56:55 INFO  test Resource: Resource: verification values
+2015-06-22 12:56:55 INFO  test Resource: Resource: Click on close button
+2015-06-22 12:56:55 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:56:55 INFO  ReportNGListener: <-Test Started-> DeleteResource
+2015-06-22 12:56:57 INFO  test Resource: Resource: check in resource
+2015-06-22 12:56:57 INFO  test Resource: Resource: Click on remove button
+2015-06-22 12:56:58 INFO  test Resource: Resource: Click on ok button for remove a resource.
+2015-06-22 12:57:06 INFO  ReportNGListener: <-Test Passed-> DeleteResource
+2015-06-22 12:57:06 INFO  ReportNGListener: <-END Of Execution(TEST)-> Resource
+2015-06-22 12:58:39 INFO  ReportNGListener: <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:58:39 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-22 12:58:48 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:58:49 INFO  test Resource: Resource: Set a name of resource
+2015-06-22 12:58:49 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:58:50 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:58:51 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-22 12:58:51 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-22 12:58:53 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:58:53 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:58:54 INFO  ReportNGListener: <-Test Passed-> UpdateResource
+2015-06-22 12:58:54 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:58:56 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:58:57 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 12:58:58 INFO  test Resource: Resource: Click on save button
+2015-06-22 12:58:58 INFO  test Resource: Resource: verification values
+2015-06-22 12:58:58 INFO  test Resource: Resource: Click on close button
+2015-06-22 12:58:58 INFO  ReportNGListener: <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:58:58 INFO  ReportNGListener: <-Test Started-> DeleteResource
+2015-06-22 12:59:08 INFO  test Resource: Resource: check in resource
+2015-06-22 12:59:08 INFO  test Resource: Resource: Click on remove button
+2015-06-22 12:59:09 INFO  test Resource: Resource: Click on ok button for remove a resource.
+2015-06-22 12:59:12 INFO  ReportNGListener: <-Test Passed-> DeleteResource
+2015-06-22 12:59:12 INFO  ReportNGListener: <-END Of Execution(TEST)-> Resource
+2015-06-22 13:00:39 INFO  ReportNGListener: <-Start Of Execution(TEST)-> EmailServer
+2015-06-22 13:00:39 INFO  ReportNGListener: <-Test Started-> removeEmailService
+2015-06-22 13:00:47 INFO  test EmailServer: Email Server: click on remove button
+2015-06-22 13:00:47 INFO  test EmailServer: Email Server: Click on delete button
+2015-06-22 13:00:48 INFO  test EmailServer: Email Server: verification if the email server was deleted
+2015-06-22 13:00:48 INFO  ReportNGListener: <-Test Passed-> removeEmailService
+2015-06-22 13:00:48 INFO  ReportNGListener: <-Test Started-> registerEmailService
+2015-06-22 13:00:50 INFO  test EmailServer: Email Server: click on add button
+2015-06-22 13:00:52 INFO  Test EmailServer: EmailServer: Set the hotsname
+2015-06-22 13:00:52 INFO  Test EmailServer: EmailServer: Set the username
+2015-06-22 13:00:53 INFO  Test EmailServer: EmailServer: Set the password
+2015-06-22 13:00:53 INFO  Test EmailServer: EmailServer: click on save button
+2015-06-22 13:01:17 INFO  test EmailServer: Email Server: verification values
+2015-06-22 13:01:17 INFO  test EmailServer: Email Server: Test add Email server Passed
+2015-06-22 13:01:17 INFO  ReportNGListener: <-Test Passed-> registerEmailService
+2015-06-22 13:01:17 INFO  ReportNGListener: <-END Of Execution(TEST)-> EmailServer
+2015-06-22 13:01:28 INFO  ReportNGListener: <-Start Of Execution(TEST)-> Resource
+2015-06-22 13:01:28 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-22 13:01:38 INFO  test Resource: Resource: Click on save button
+2015-06-22 13:01:39 INFO  test Resource: Resource: Set a name of resource
+2015-06-22 13:01:40 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 13:01:40 INFO  test Resource: Resource: Click on save button
+2015-06-22 13:01:42 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-22 13:01:42 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-22 13:01:45 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 13:01:45 INFO  test Resource: Resource: Click on save button
+2015-06-22 13:01:46 INFO  ReportNGListener: <-Test Passed-> UpdateResource
+2015-06-22 13:01:46 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 13:01:48 INFO  test Resource: Resource: Click on save button
+2015-06-22 13:01:49 INFO  test Resource: Resource: Set a display name of resource
+2015-06-22 13:01:49 INFO  test Resource: Resource: Click on save button
+2015-06-22 13:01:49 ERROR ReportNGListener: <-Test Failed-> ResourceWithoutNameIsAdded
+2015-06-22 13:01:49 INFO  ReportNGListener: <-Test Started-> DeleteResource
+2015-06-22 13:01:50 ERROR ReportNGListener: <-Test Failed-> DeleteResource
+2015-06-22 13:01:50 INFO  ReportNGListener: <-END Of Execution(TEST)-> Resource
+2015-06-23 05:56:19 INFO  ReportNGListener: <-Start Of Execution(TEST)-> Resource
+2015-06-23 05:56:19 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-23 05:57:22 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-23 05:57:22 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-23 05:58:20 ERROR ReportNGListener: <-Test Failed-> UpdateResource
+2015-06-23 05:58:20 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-23 05:58:46 INFO  test Resource: Resource: Click on save button
+2015-06-23 05:59:15 INFO  test Resource: Resource: Set a display name of resource
+2015-06-23 05:59:15 INFO  test Resource: Resource: Click on save button
+2015-06-23 05:59:16 ERROR ReportNGListener: <-Test Failed-> ResourceWithoutNameIsAdded
+2015-06-23 05:59:16 INFO  ReportNGListener: <-Test Started-> DeleteResource
+2015-06-23 05:59:17 ERROR ReportNGListener: <-Test Failed-> DeleteResource
+2015-06-23 05:59:17 INFO  ReportNGListener: <-END Of Execution(TEST)-> Resource
+2015-06-24 09:05:28 INFO  ReportNGListener: <-Start Of Execution(TEST)-> Resource
+2015-06-24 09:05:28 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-24 09:06:06 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-24 09:06:06 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-24 09:07:09 ERROR ReportNGListener: <-Test Failed-> UpdateResource
+2015-06-24 09:07:09 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-24 09:07:09 ERROR ReportNGListener: <-Test Failed-> ResourceWithoutNameIsAdded
+2015-06-24 09:07:09 INFO  ReportNGListener: <-Test Started-> DeleteResource
+2015-06-24 09:07:09 ERROR ReportNGListener: <-Test Failed-> DeleteResource
+2015-06-24 09:07:10 INFO  ReportNGListener: <-END Of Execution(TEST)-> Resource
+2015-06-24 09:10:55 INFO  ReportNGListener: <-Start Of Execution(TEST)-> Resource
+2015-06-24 09:10:55 INFO  ReportNGListener: <-Test Started-> CreateResource
+2015-06-24 09:11:18 INFO  test Resource: Resource: Click on save button
+2015-06-24 09:11:20 INFO  test Resource: Resource: Set a name of resource
+2015-06-24 09:11:20 INFO  test Resource: Resource: Set a display name of resource
+2015-06-24 09:11:21 INFO  test Resource: Resource: Click on save button
+2015-06-24 09:11:22 ERROR ReportNGListener: <-Test Failed-> CreateResource
+2015-06-24 09:11:22 INFO  ReportNGListener: <-Test Started-> UpdateResource
+2015-06-24 09:11:28 INFO  test Resource: Resource: Set a display name of resource
+2015-06-24 09:11:28 INFO  test Resource: Resource: Click on save button
+2015-06-24 09:11:32 INFO  ReportNGListener: <-Test Passed-> UpdateResource
+2015-06-24 09:11:32 INFO  ReportNGListener: <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-24 09:11:34 INFO  test Resource: Resource: Click on save button
+2015-06-24 09:11:36 INFO  test Resource: Resource: Set a display name of resource
+2015-06-24 09:11:36 INFO  test Resource: Resource: Click on save button
+2015-06-24 09:11:36 ERROR ReportNGListener: <-Test Failed-> ResourceWithoutNameIsAdded
+2015-06-24 09:11:37 INFO  ReportNGListener: <-Test Started-> DeleteResource
+2015-06-24 09:11:38 ERROR ReportNGListener: <-Test Failed-> DeleteResource
+2015-06-24 09:11:38 INFO  ReportNGListener: <-END Of Execution(TEST)-> Resource

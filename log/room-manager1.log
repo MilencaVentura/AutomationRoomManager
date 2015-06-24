@@ -1,0 +1,432 @@
+2015-06-22 09:26:27,810 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> EmailServer
+2015-06-22 09:26:27,860 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> removeEmailService
+2015-06-22 09:26:39,449 [main] INFO test EmailServer - Email Server: click on remove button
+2015-06-22 09:26:51,155 [main] INFO test EmailServer - Email Server: Click on delete button
+2015-06-22 09:26:51,744 [main] INFO test EmailServer - Email Server: verification if the email server was deleted
+2015-06-22 09:26:56,132 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> removeEmailService
+2015-06-22 09:26:56,134 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> registerEmailService
+2015-06-22 09:26:57,874 [main] INFO test EmailServer - Email Server: click on add button
+2015-06-22 09:26:59,234 [main] INFO Test EmailServer - EmailServer: Set the hotsname
+2015-06-22 09:26:59,675 [main] INFO Test EmailServer - EmailServer: Set the username
+2015-06-22 09:27:00,023 [main] INFO Test EmailServer - EmailServer: Set the password
+2015-06-22 09:27:00,203 [main] INFO Test EmailServer - EmailServer: click on save button
+2015-06-22 09:28:01,910 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> registerEmailService
+2015-06-22 09:28:01,952 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> EmailServer
+2015-06-22 09:28:06,841 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> Resource
+2015-06-22 09:28:06,846 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-22 09:28:13,813 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 09:28:14,780 [main] INFO test Resource - Resource: Set a name of resource
+2015-06-22 09:28:15,260 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 09:28:15,412 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 09:28:16,309 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-22 09:28:16,310 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-22 09:28:19,241 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 09:28:19,475 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 09:28:20,415 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> UpdateResource
+2015-06-22 09:28:20,418 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 09:28:21,985 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 09:28:23,159 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 09:28:23,314 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 09:28:23,409 [main] INFO test Resource - Resource: verification values
+2015-06-22 09:28:23,710 [main] INFO test Resource - Resource: Click on close button
+2015-06-22 09:28:23,711 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 09:28:23,712 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> DeleteResource
+2015-06-22 09:28:24,339 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> DeleteResource
+2015-06-22 09:28:24,361 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> Resource
+2015-06-22 11:05:31,735 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> EmailServer
+2015-06-22 11:05:31,782 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> removeEmailService
+2015-06-22 11:05:45,390 [main] INFO test EmailServer - Email Server: click on remove button
+2015-06-22 11:05:46,659 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> removeEmailService
+2015-06-22 11:05:46,662 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> registerEmailService
+2015-06-22 11:05:47,362 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> registerEmailService
+2015-06-22 11:05:47,428 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> EmailServer
+2015-06-22 11:05:58,846 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> Resource
+2015-06-22 11:05:58,848 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-22 11:06:05,479 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 11:06:06,916 [main] INFO test Resource - Resource: Set a name of resource
+2015-06-22 11:06:07,553 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 11:06:07,714 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 11:06:08,788 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-22 11:06:08,790 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-22 11:06:11,941 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 11:06:12,094 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 11:06:13,105 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> UpdateResource
+2015-06-22 11:06:13,107 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 11:06:14,885 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 11:06:15,993 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 11:06:16,186 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 11:06:16,299 [main] INFO test Resource - Resource: verification values
+2015-06-22 11:06:16,495 [main] INFO test Resource - Resource: Click on close button
+2015-06-22 11:06:16,497 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 11:06:16,498 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> DeleteResource
+2015-06-22 11:06:17,100 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> DeleteResource
+2015-06-22 11:06:17,128 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> Resource
+2015-06-22 11:08:51,320 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> EmailServer
+2015-06-22 11:08:51,354 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> removeEmailService
+2015-06-22 11:08:59,794 [main] INFO test EmailServer - Email Server: click on remove button
+2015-06-22 11:09:00,618 [main] INFO test EmailServer - Email Server: Click on delete button
+2015-06-22 11:09:01,221 [main] INFO test EmailServer - Email Server: verification if the email server was deleted
+2015-06-22 11:09:01,301 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> removeEmailService
+2015-06-22 11:09:01,302 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> registerEmailService
+2015-06-22 11:09:03,078 [main] INFO test EmailServer - Email Server: click on add button
+2015-06-22 11:09:04,620 [main] INFO Test EmailServer - EmailServer: Set the hotsname
+2015-06-22 11:09:05,058 [main] INFO Test EmailServer - EmailServer: Set the username
+2015-06-22 11:09:05,549 [main] INFO Test EmailServer - EmailServer: Set the password
+2015-06-22 11:09:05,687 [main] INFO Test EmailServer - EmailServer: click on save button
+2015-06-22 11:09:27,083 [main] INFO test EmailServer - Email Server: verification values
+2015-06-22 11:09:27,084 [main] INFO test EmailServer - Email Server: Test add Email server Passed
+2015-06-22 11:09:27,125 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> registerEmailService
+2015-06-22 11:09:27,151 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> EmailServer
+2015-06-22 11:09:42,558 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> Resource
+2015-06-22 11:09:42,560 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-22 11:10:02,497 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 11:10:03,828 [main] INFO test Resource - Resource: Set a name of resource
+2015-06-22 11:10:04,481 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 11:10:04,743 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 11:10:06,234 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-22 11:10:06,235 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-22 11:10:09,612 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 11:10:09,823 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 11:10:10,821 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> UpdateResource
+2015-06-22 11:10:10,823 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 11:10:12,963 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 11:10:14,097 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 11:10:14,279 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 11:10:14,413 [main] INFO test Resource - Resource: verification values
+2015-06-22 11:10:14,589 [main] INFO test Resource - Resource: Click on close button
+2015-06-22 11:10:14,591 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 11:10:14,592 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> DeleteResource
+2015-06-22 11:10:16,655 [main] INFO test Resource - Resource: check in resource
+2015-06-22 11:10:16,968 [main] INFO test Resource - Resource: Click on remove button
+2015-06-22 11:10:17,564 [main] INFO test Resource - Resource: Click on ok button for remove a resource.
+2015-06-22 11:10:19,387 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> DeleteResource
+2015-06-22 11:10:19,408 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> Resource
+2015-06-22 12:27:07,887 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:27:07,922 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-22 12:27:26,219 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:27:27,242 [main] INFO test Resource - Resource: Set a name of resource
+2015-06-22 12:27:27,730 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:27:27,856 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:27:29,425 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-22 12:27:29,428 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-22 12:27:32,933 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:27:33,148 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:27:34,184 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> UpdateResource
+2015-06-22 12:27:34,185 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:27:35,716 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:27:36,892 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:27:37,040 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:27:37,151 [main] INFO test Resource - Resource: verification values
+2015-06-22 12:27:37,454 [main] INFO test Resource - Resource: Click on close button
+2015-06-22 12:27:37,455 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:27:37,456 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> DeleteResource
+2015-06-22 12:27:38,363 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> DeleteResource
+2015-06-22 12:27:38,452 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> Resource
+2015-06-22 12:31:43,979 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:31:44,004 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-22 12:31:56,701 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:32:02,102 [main] INFO test Resource - Resource: Set a name of resource
+2015-06-22 12:32:02,759 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:32:02,993 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:32:05,736 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-22 12:32:05,739 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-22 12:32:09,016 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:32:09,225 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:32:10,240 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> UpdateResource
+2015-06-22 12:32:10,242 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:32:11,498 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:32:12,551 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:32:12,824 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:32:12,973 [main] INFO test Resource - Resource: verification values
+2015-06-22 12:32:13,155 [main] INFO test Resource - Resource: Click on close button
+2015-06-22 12:32:13,164 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:32:13,165 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> DeleteResource
+2015-06-22 12:32:13,956 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> DeleteResource
+2015-06-22 12:32:14,005 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> Resource
+2015-06-22 12:35:48,656 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:35:48,683 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-22 12:35:57,159 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:35:58,243 [main] INFO test Resource - Resource: Set a name of resource
+2015-06-22 12:35:58,930 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:35:59,165 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:36:00,452 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-22 12:36:00,456 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-22 12:36:04,059 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:36:04,259 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:36:05,983 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> UpdateResource
+2015-06-22 12:36:05,985 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:36:07,624 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:36:08,771 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:36:08,947 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:36:09,131 [main] INFO test Resource - Resource: verification values
+2015-06-22 12:36:09,402 [main] INFO test Resource - Resource: Click on close button
+2015-06-22 12:36:09,406 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:36:09,407 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> DeleteResource
+2015-06-22 12:36:11,279 [main] INFO test Resource - Resource: check in resource
+2015-06-22 12:36:11,512 [main] INFO test Resource - Resource: Click on remove button
+2015-06-22 12:36:12,096 [main] INFO test Resource - Resource: Click on ok button for remove a resource.
+2015-06-22 12:36:22,032 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> DeleteResource
+2015-06-22 12:36:22,129 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> Resource
+2015-06-22 12:38:34,979 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:38:35,004 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-22 12:38:50,990 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:38:52,867 [main] INFO test Resource - Resource: Set a name of resource
+2015-06-22 12:38:53,378 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:38:53,595 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:38:54,883 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-22 12:38:54,886 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-22 12:38:58,295 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:38:58,486 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:39:00,647 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> UpdateResource
+2015-06-22 12:39:00,648 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:39:02,441 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:39:03,539 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:39:03,709 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:39:03,798 [main] INFO test Resource - Resource: verification values
+2015-06-22 12:39:04,053 [main] INFO test Resource - Resource: Click on close button
+2015-06-22 12:39:04,054 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:39:04,055 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> DeleteResource
+2015-06-22 12:39:04,775 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> DeleteResource
+2015-06-22 12:39:04,818 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> Resource
+2015-06-22 12:45:35,134 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:45:35,159 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-22 12:45:41,911 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:45:42,980 [main] INFO test Resource - Resource: Set a name of resource
+2015-06-22 12:45:43,436 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:45:43,615 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:45:45,073 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-22 12:45:45,078 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-22 12:45:48,234 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:45:48,412 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:45:49,419 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> UpdateResource
+2015-06-22 12:45:49,420 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:45:51,156 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:45:52,324 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:45:52,473 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:45:52,662 [main] INFO test Resource - Resource: verification values
+2015-06-22 12:45:52,942 [main] INFO test Resource - Resource: Click on close button
+2015-06-22 12:45:52,943 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:45:52,946 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> DeleteResource
+2015-06-22 12:45:54,972 [main] INFO test Resource - Resource: check in resource
+2015-06-22 12:45:55,281 [main] INFO test Resource - Resource: Click on remove button
+2015-06-22 12:45:56,257 [main] INFO test Resource - Resource: Click on ok button for remove a resource.
+2015-06-22 12:45:57,262 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> DeleteResource
+2015-06-22 12:45:57,298 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> Resource
+2015-06-22 12:47:57,946 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:47:57,978 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-22 12:48:06,707 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:48:07,749 [main] INFO test Resource - Resource: Set a name of resource
+2015-06-22 12:48:08,306 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:48:08,553 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:48:09,811 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-22 12:48:09,814 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-22 12:48:15,217 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:48:15,423 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:48:19,212 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> UpdateResource
+2015-06-22 12:48:19,214 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:48:21,182 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:48:22,414 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:48:22,652 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:48:22,832 [main] INFO test Resource - Resource: verification values
+2015-06-22 12:48:23,121 [main] INFO test Resource - Resource: Click on close button
+2015-06-22 12:48:23,123 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:48:23,125 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> DeleteResource
+2015-06-22 12:48:25,522 [main] INFO test Resource - Resource: check in resource
+2015-06-22 12:48:25,884 [main] INFO test Resource - Resource: Click on remove button
+2015-06-22 12:48:26,701 [main] INFO test Resource - Resource: Click on ok button for remove a resource.
+2015-06-22 12:48:27,733 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> DeleteResource
+2015-06-22 12:48:27,766 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> Resource
+2015-06-22 12:49:37,690 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:49:37,722 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-22 12:49:52,073 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:49:53,140 [main] INFO test Resource - Resource: Set a name of resource
+2015-06-22 12:49:53,694 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:49:53,845 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:49:54,958 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-22 12:49:54,962 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-22 12:49:58,117 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:49:58,284 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:50:00,469 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> UpdateResource
+2015-06-22 12:50:00,472 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:50:02,665 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:50:03,886 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:50:04,037 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:50:04,131 [main] INFO test Resource - Resource: verification values
+2015-06-22 12:50:04,372 [main] INFO test Resource - Resource: Click on close button
+2015-06-22 12:50:04,374 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:50:04,374 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> DeleteResource
+2015-06-22 12:50:07,485 [main] INFO test Resource - Resource: check in resource
+2015-06-22 12:50:07,773 [main] INFO test Resource - Resource: Click on remove button
+2015-06-22 12:50:08,547 [main] INFO test Resource - Resource: Click on ok button for remove a resource.
+2015-06-22 12:50:09,642 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> DeleteResource
+2015-06-22 12:50:09,681 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> Resource
+2015-06-22 12:52:26,492 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:52:26,516 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-22 12:52:34,713 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:52:35,765 [main] INFO test Resource - Resource: Set a name of resource
+2015-06-22 12:52:36,404 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:52:36,593 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:52:37,919 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-22 12:52:37,922 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-22 12:52:40,817 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:52:40,980 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:52:41,977 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> UpdateResource
+2015-06-22 12:52:41,978 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:52:43,600 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:52:44,875 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:52:45,075 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:52:45,213 [main] INFO test Resource - Resource: verification values
+2015-06-22 12:52:45,464 [main] INFO test Resource - Resource: Click on close button
+2015-06-22 12:52:45,466 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:52:45,468 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> DeleteResource
+2015-06-22 12:52:47,624 [main] INFO test Resource - Resource: check in resource
+2015-06-22 12:52:47,898 [main] INFO test Resource - Resource: Click on remove button
+2015-06-22 12:52:48,668 [main] INFO test Resource - Resource: Click on ok button for remove a resource.
+2015-06-22 12:52:49,945 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> DeleteResource
+2015-06-22 12:52:49,972 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> Resource
+2015-06-22 12:54:45,274 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:54:45,304 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-22 12:54:52,075 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:54:53,037 [main] INFO test Resource - Resource: Set a name of resource
+2015-06-22 12:54:53,601 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:54:53,743 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:54:55,021 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-22 12:54:55,024 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-22 12:54:58,339 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:54:58,491 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:54:59,540 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> UpdateResource
+2015-06-22 12:54:59,542 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:55:01,901 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:55:03,051 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:55:03,226 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:55:03,300 [main] INFO test Resource - Resource: verification values
+2015-06-22 12:55:03,543 [main] INFO test Resource - Resource: Click on close button
+2015-06-22 12:55:03,545 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:55:03,547 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> DeleteResource
+2015-06-22 12:55:04,228 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> DeleteResource
+2015-06-22 12:55:04,269 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> Resource
+2015-06-22 12:56:34,119 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:56:34,142 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-22 12:56:40,848 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:56:45,868 [main] INFO test Resource - Resource: Set a name of resource
+2015-06-22 12:56:46,308 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:56:46,448 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:56:47,611 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-22 12:56:47,615 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-22 12:56:50,890 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:56:51,100 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:56:52,123 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> UpdateResource
+2015-06-22 12:56:52,125 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:56:53,636 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:56:54,748 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:56:54,981 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:56:55,123 [main] INFO test Resource - Resource: verification values
+2015-06-22 12:56:55,361 [main] INFO test Resource - Resource: Click on close button
+2015-06-22 12:56:55,363 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:56:55,376 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> DeleteResource
+2015-06-22 12:56:57,671 [main] INFO test Resource - Resource: check in resource
+2015-06-22 12:56:57,982 [main] INFO test Resource - Resource: Click on remove button
+2015-06-22 12:56:58,699 [main] INFO test Resource - Resource: Click on ok button for remove a resource.
+2015-06-22 12:57:06,487 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> DeleteResource
+2015-06-22 12:57:06,524 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> Resource
+2015-06-22 12:58:39,591 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> Resource
+2015-06-22 12:58:39,618 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-22 12:58:48,354 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:58:49,344 [main] INFO test Resource - Resource: Set a name of resource
+2015-06-22 12:58:49,944 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:58:50,150 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:58:51,116 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-22 12:58:51,119 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-22 12:58:53,693 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:58:53,827 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:58:54,989 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> UpdateResource
+2015-06-22 12:58:54,993 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 12:58:56,779 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:58:57,939 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 12:58:58,122 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 12:58:58,284 [main] INFO test Resource - Resource: verification values
+2015-06-22 12:58:58,576 [main] INFO test Resource - Resource: Click on close button
+2015-06-22 12:58:58,578 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> ResourceWithoutNameIsAdded
+2015-06-22 12:58:58,580 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> DeleteResource
+2015-06-22 12:59:08,643 [main] INFO test Resource - Resource: check in resource
+2015-06-22 12:59:08,905 [main] INFO test Resource - Resource: Click on remove button
+2015-06-22 12:59:09,747 [main] INFO test Resource - Resource: Click on ok button for remove a resource.
+2015-06-22 12:59:12,208 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> DeleteResource
+2015-06-22 12:59:12,249 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> Resource
+2015-06-22 13:00:39,331 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> EmailServer
+2015-06-22 13:00:39,370 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> removeEmailService
+2015-06-22 13:00:47,035 [main] INFO test EmailServer - Email Server: click on remove button
+2015-06-22 13:00:47,739 [main] INFO test EmailServer - Email Server: Click on delete button
+2015-06-22 13:00:48,339 [main] INFO test EmailServer - Email Server: verification if the email server was deleted
+2015-06-22 13:00:48,431 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> removeEmailService
+2015-06-22 13:00:48,433 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> registerEmailService
+2015-06-22 13:00:50,230 [main] INFO test EmailServer - Email Server: click on add button
+2015-06-22 13:00:52,042 [main] INFO Test EmailServer - EmailServer: Set the hotsname
+2015-06-22 13:00:52,563 [main] INFO Test EmailServer - EmailServer: Set the username
+2015-06-22 13:00:53,011 [main] INFO Test EmailServer - EmailServer: Set the password
+2015-06-22 13:00:53,174 [main] INFO Test EmailServer - EmailServer: click on save button
+2015-06-22 13:01:17,799 [main] INFO test EmailServer - Email Server: verification values
+2015-06-22 13:01:17,800 [main] INFO test EmailServer - Email Server: Test add Email server Passed
+2015-06-22 13:01:17,881 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> registerEmailService
+2015-06-22 13:01:17,925 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> EmailServer
+2015-06-22 13:01:28,195 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> Resource
+2015-06-22 13:01:28,198 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-22 13:01:38,738 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 13:01:39,854 [main] INFO test Resource - Resource: Set a name of resource
+2015-06-22 13:01:40,426 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 13:01:40,619 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 13:01:42,053 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-22 13:01:42,056 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-22 13:01:45,429 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 13:01:45,545 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 13:01:46,563 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> UpdateResource
+2015-06-22 13:01:46,565 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-22 13:01:48,154 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 13:01:49,361 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-22 13:01:49,486 [main] INFO test Resource - Resource: Click on save button
+2015-06-22 13:01:49,843 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> ResourceWithoutNameIsAdded
+2015-06-22 13:01:49,845 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> DeleteResource
+2015-06-22 13:01:50,528 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> DeleteResource
+2015-06-22 13:01:50,572 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> Resource
+2015-06-23 05:56:19,447 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> Resource
+2015-06-23 05:56:19,596 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-23 05:57:22,231 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-23 05:57:22,234 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-23 05:58:20,070 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> UpdateResource
+2015-06-23 05:58:20,071 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-23 05:58:46,971 [main] INFO test Resource - Resource: Click on save button
+2015-06-23 05:59:15,593 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-23 05:59:15,883 [main] INFO test Resource - Resource: Click on save button
+2015-06-23 05:59:16,377 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> ResourceWithoutNameIsAdded
+2015-06-23 05:59:16,378 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> DeleteResource
+2015-06-23 05:59:17,136 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> DeleteResource
+2015-06-23 05:59:17,515 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> Resource
+2015-06-24 09:05:28,366 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> Resource
+2015-06-24 09:05:28,458 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-24 09:06:06,794 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-24 09:06:06,799 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-24 09:07:09,668 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> UpdateResource
+2015-06-24 09:07:09,676 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-24 09:07:09,699 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> ResourceWithoutNameIsAdded
+2015-06-24 09:07:09,700 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> DeleteResource
+2015-06-24 09:07:09,716 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> DeleteResource
+2015-06-24 09:07:10,117 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> Resource
+2015-06-24 09:10:55,121 [main] INFO org.room.manager.utils.ReportNGListener - <-Start Of Execution(TEST)-> Resource
+2015-06-24 09:10:55,146 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> CreateResource
+2015-06-24 09:11:18,475 [main] INFO test Resource - Resource: Click on save button
+2015-06-24 09:11:20,155 [main] INFO test Resource - Resource: Set a name of resource
+2015-06-24 09:11:20,976 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-24 09:11:21,220 [main] INFO test Resource - Resource: Click on save button
+2015-06-24 09:11:22,653 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> CreateResource
+2015-06-24 09:11:22,657 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> UpdateResource
+2015-06-24 09:11:28,448 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-24 09:11:28,644 [main] INFO test Resource - Resource: Click on save button
+2015-06-24 09:11:32,331 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Passed-> UpdateResource
+2015-06-24 09:11:32,332 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> ResourceWithoutNameIsAdded
+2015-06-24 09:11:34,676 [main] INFO test Resource - Resource: Click on save button
+2015-06-24 09:11:36,028 [main] INFO test Resource - Resource: Set a display name of resource
+2015-06-24 09:11:36,211 [main] INFO test Resource - Resource: Click on save button
+2015-06-24 09:11:36,622 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> ResourceWithoutNameIsAdded
+2015-06-24 09:11:37,489 [main] INFO org.room.manager.utils.ReportNGListener - <-Test Started-> DeleteResource
+2015-06-24 09:11:38,425 [main] ERROR org.room.manager.utils.ReportNGListener - <-Test Failed-> DeleteResource
+2015-06-24 09:11:38,505 [main] INFO org.room.manager.utils.ReportNGListener - <-END Of Execution(TEST)-> Resource
